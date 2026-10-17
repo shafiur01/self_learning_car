@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 models/*.task
+gesture_commands/data/
+gesture_commands/runs/
+research/experiments/runs/
+research/experiments/data/
