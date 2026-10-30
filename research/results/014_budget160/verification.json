@@ -1,0 +1,8 @@
+{
+  "checkpoints_verified": 65,
+  "prediction_vectors_verified": 7440,
+  "selector_seed_bundles_reproduced": 5,
+  "raw_feature_arrays_reextracted": 549,
+  "pairing_verified": true,
+  "scope": "Fixed-data retrospective single-user mechanism pilot; not untouched testing or label/compute saving evidence."
+}

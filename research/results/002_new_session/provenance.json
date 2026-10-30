@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment": "002_new_session",
+  "original_archive": "research/experiments/runs/20261008T005037258990Z/session_evaluations/20261008T013739665513Z",
+  "finding": "research/findings/002_new_session_01.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "summary.json": "865e0dd3f0d4d5d12cad5eb75b2a1d64cb94bb00f0bd4a594035720b9b04c0f8",
+    "trials.json": "61661f116c361418625fd61198f5f2765ee6f66813d578a0ec55a1e008c77f90",
+    "environment.json": "57d65789cb2cf54136bb302b180cc10f97068baff043ab056f9ef504110a5134",
+    "status.json": "d94c2dcd76d4c30d573c9adb6b332060c31afc9f1e37668013db36037579e3a4",
+    "evaluation_plan.json": "4dbebedd59e22d0a29aad72180127a707bf01f830073b0ed8c86869cd8e274b6"
+  },
+  "private_reference_sha256": {
+    "manifest.json": "4b0d6cb32c88761d39e15a511ca12e6d165e27a56fb374ad87a535461d59ad43"
+  },
+  "export_sha256": {
+    "summary.json": "865e0dd3f0d4d5d12cad5eb75b2a1d64cb94bb00f0bd4a594035720b9b04c0f8",
+    "trials.json": "61661f116c361418625fd61198f5f2765ee6f66813d578a0ec55a1e008c77f90",
+    "environment.json": "57d65789cb2cf54136bb302b180cc10f97068baff043ab056f9ef504110a5134",
+    "status.json": "d94c2dcd76d4c30d573c9adb6b332060c31afc9f1e37668013db36037579e3a4",
+    "evaluation_plan.json": "4dbebedd59e22d0a29aad72180127a707bf01f830073b0ed8c86869cd8e274b6"
+  }
+}

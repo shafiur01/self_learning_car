@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "experiment": "006_commands_v3",
+  "original_archive": "research/experiments/runs/commands_v3/20261012T205727638067Z",
+  "finding": "research/findings/006_commands_v3.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "config.json": "73bbc02d87e2969caf2c7b1ad674e2be5242250a7020dade5a8e48b37ad260c6",
+    "summary.json": "f494059a13e42b675e329a6372bb03b1ffdf016cda00022488e578486c33ede3",
+    "trials.json": "2e8f3dfb5db94eec51e3666db536f3c28119dc80c6309c1a6c34080ec63e5411",
+    "environment.json": "2d030854bf800849112903d47481392e5460a4091927c349974873b11a1fcd95",
+    "costs.json": "7708224cb48d499ab3b0ea255a5979349b47cb3bc9ffe00722e16fd257949158",
+    "status.json": "8de76f5e952de43d158427958e29e36c6d7769b0b5cc5603f48ad21e8656ff9b",
+    "verification.json": "434d15d03d9a07cf52faaa9e837eed8316b9260eeafa4184d0536a752179053f",
+    "contract.json": "cf20d8e0186874ad3856aeca564012312e1024263e13eceea74503a2ffdd94f0",
+    "seed_11/history.json": "48d7923dd0810dacde2c72831d9d5c4d7673f4d8ffe97c7c0e7b360421030c72",
+    "seed_22/history.json": "5fa7a7bc7df12320f8dfb8f2f4d337285f319e85fe25693167e2794c0090d7c6",
+    "seed_33/history.json": "5be716457cacc6f9ab42e6ef12efdb44751f8f38a73b7a3e69f847ddaf5c056e",
+    "seed_44/history.json": "d7199e0633b2e0ac9fb936d589951092f3f8762ddc622f76f0c3420f51cb821a",
+    "seed_55/history.json": "3b79ce9f3b6b6cedcfd5c6205636ead9a9804f7197de2e87609f51a7907a633f"
+  },
+  "private_reference_sha256": {
+    "manifest.json": "529f6c1fe9ac5429c65aad8dae717ac1e14ff3e37b12ddaf8e5ec68356b09259"
+  },
+  "export_sha256": {
+    "config.json": "73bbc02d87e2969caf2c7b1ad674e2be5242250a7020dade5a8e48b37ad260c6",
+    "summary.json": "f494059a13e42b675e329a6372bb03b1ffdf016cda00022488e578486c33ede3",
+    "trials.json": "2e8f3dfb5db94eec51e3666db536f3c28119dc80c6309c1a6c34080ec63e5411",
+    "environment.json": "2d030854bf800849112903d47481392e5460a4091927c349974873b11a1fcd95",
+    "costs.json": "7708224cb48d499ab3b0ea255a5979349b47cb3bc9ffe00722e16fd257949158",
+    "status.json": "8de76f5e952de43d158427958e29e36c6d7769b0b5cc5603f48ad21e8656ff9b",
+    "verification.json": "434d15d03d9a07cf52faaa9e837eed8316b9260eeafa4184d0536a752179053f",
+    "contract.json": "cf20d8e0186874ad3856aeca564012312e1024263e13eceea74503a2ffdd94f0",
+    "histories/seed_11/history.json": "48d7923dd0810dacde2c72831d9d5c4d7673f4d8ffe97c7c0e7b360421030c72",
+    "histories/seed_22/history.json": "5fa7a7bc7df12320f8dfb8f2f4d337285f319e85fe25693167e2794c0090d7c6",
+    "histories/seed_33/history.json": "5be716457cacc6f9ab42e6ef12efdb44751f8f38a73b7a3e69f847ddaf5c056e",
+    "histories/seed_44/history.json": "d7199e0633b2e0ac9fb936d589951092f3f8762ddc622f76f0c3420f51cb821a",
+    "histories/seed_55/history.json": "3b79ce9f3b6b6cedcfd5c6205636ead9a9804f7197de2e87609f51a7907a633f"
+  }
+}

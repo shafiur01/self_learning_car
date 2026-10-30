@@ -1,0 +1,8 @@
+{
+  "new_human_labels": 0,
+  "reused_training_labels": 538,
+  "reused_development_labels": 48,
+  "fit_loop_seconds": 47.800488000095356,
+  "worker_wall_seconds": 75.54351087100804,
+  "scope": "Reusing already labeled data is not demonstrated annotation saving; historical costs remain."
+}

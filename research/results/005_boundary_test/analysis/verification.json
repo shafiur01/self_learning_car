@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-08T18:00:40.829453+00:00",
+  "checkpoints": 15,
+  "saved_score_vectors_reproduced": 1200,
+  "raw_recording_hashes_verified": 80,
+  "original_artifacts_sha256_verified": true,
+  "all_candidate_pooled_and_sitting_metrics_verified": true,
+  "scope": "Reproduction of archived results/features, no raw landmark re-access, fitting, tuning or new test pool."
+}

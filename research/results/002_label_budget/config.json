@@ -1,0 +1,26 @@
+{
+  "experiment_id": "002_label_budget",
+  "question": "How does supervised temporal gesture recognition change with 5, 10, or 15 original recordings per class at matched optimization and validation budgets?",
+  "data": "gesture_commands/data",
+  "labels_per_class": [
+    5,
+    10,
+    15
+  ],
+  "include_all_original_reference": true,
+  "eligible_source": "recording",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "optimizer_steps": 560,
+  "validation_every_steps": 20,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "threads": 2,
+  "sampling": "uniform_with_replacement",
+  "augmentation": "none"
+}

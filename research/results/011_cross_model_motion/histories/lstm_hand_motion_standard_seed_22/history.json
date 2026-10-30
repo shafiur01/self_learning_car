@@ -1,0 +1,114 @@
+[
+  {
+    "step": 20,
+    "selection_loss": 1.8944000005722046
+  },
+  {
+    "step": 40,
+    "selection_loss": 1.2939835786819458
+  },
+  {
+    "step": 60,
+    "selection_loss": 0.984834611415863
+  },
+  {
+    "step": 80,
+    "selection_loss": 0.7625455856323242
+  },
+  {
+    "step": 100,
+    "selection_loss": 0.7206364274024963
+  },
+  {
+    "step": 120,
+    "selection_loss": 0.5141586661338806
+  },
+  {
+    "step": 140,
+    "selection_loss": 0.5633653998374939
+  },
+  {
+    "step": 160,
+    "selection_loss": 0.421007364988327
+  },
+  {
+    "step": 180,
+    "selection_loss": 0.4013303816318512
+  },
+  {
+    "step": 200,
+    "selection_loss": 0.4350433647632599
+  },
+  {
+    "step": 220,
+    "selection_loss": 0.4928025007247925
+  },
+  {
+    "step": 240,
+    "selection_loss": 0.5065741539001465
+  },
+  {
+    "step": 260,
+    "selection_loss": 0.5554665327072144
+  },
+  {
+    "step": 280,
+    "selection_loss": 0.48238083720207214
+  },
+  {
+    "step": 300,
+    "selection_loss": 0.8342524170875549
+  },
+  {
+    "step": 320,
+    "selection_loss": 0.7968296408653259
+  },
+  {
+    "step": 340,
+    "selection_loss": 0.598016083240509
+  },
+  {
+    "step": 360,
+    "selection_loss": 0.5951232314109802
+  },
+  {
+    "step": 380,
+    "selection_loss": 0.8780868649482727
+  },
+  {
+    "step": 400,
+    "selection_loss": 0.7848374247550964
+  },
+  {
+    "step": 420,
+    "selection_loss": 0.790360152721405
+  },
+  {
+    "step": 440,
+    "selection_loss": 0.7886114716529846
+  },
+  {
+    "step": 460,
+    "selection_loss": 1.019872784614563
+  },
+  {
+    "step": 480,
+    "selection_loss": 0.842770516872406
+  },
+  {
+    "step": 500,
+    "selection_loss": 0.6125710606575012
+  },
+  {
+    "step": 520,
+    "selection_loss": 0.8384415507316589
+  },
+  {
+    "step": 540,
+    "selection_loss": 0.6502397060394287
+  },
+  {
+    "step": 560,
+    "selection_loss": 0.9925238490104675
+  }
+]

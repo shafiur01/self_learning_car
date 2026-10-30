@@ -1,0 +1,30 @@
+{
+  "experiment_id": "018_online_softmatch",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "methods": [
+    "supervised160",
+    "online_confidence",
+    "online_softmatch"
+  ],
+  "steps": 560,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "threads": 2,
+  "warmup_steps": 140,
+  "ramp_steps": 140,
+  "validation_interval": 20,
+  "momentum": 0.9134437245304771,
+  "parameters": 49840,
+  "parent": "research/experiments/runs/evidence_profile_budget160/20261016T133936682213Z",
+  "planned_fits": 15,
+  "views": "identical inputs; deterministic weak, classifier dropout .2 strong",
+  "model_ema": false,
+  "statistics_order": "raw mean/variance, UA weight, raw target",
+  "scope": "Retrospective development; published-method adaptation, no untouched test."
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_hashes_verified": true,
+  "archived_sources_verified": true,
+  "checkpoint_hashes_verified": true,
+  "new_input_files_verified": 41,
+  "saved_predictions_verified": 205,
+  "original_prediction_vectors_reproduced": 235,
+  "no_weights_changed": true,
+  "scope": "Artifact/software integrity, not robot or population reliability."
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "method": "original_dual95",
+    "pairs": 1225,
+    "positive_weight_pairs": 89,
+    "mass": 89.0,
+    "wrong_mass": 5.0,
+    "wrong_fraction": 0.056179775280898875,
+    "correct_student_error_mass": 1.0,
+    "none_pairs": 105,
+    "none_mass": 4.0,
+    "none_to_movement_mass": 4.0,
+    "none_to_movement_fraction": 1.0
+  },
+  {
+    "method": "ensemble95",
+    "pairs": 1225,
+    "positive_weight_pairs": 135,
+    "mass": 135.0,
+    "wrong_mass": 8.0,
+    "wrong_fraction": 0.05925925925925926,
+    "correct_student_error_mass": 1.0,
+    "none_pairs": 105,
+    "none_mass": 4.0,
+    "none_to_movement_mass": 4.0,
+    "none_to_movement_fraction": 1.0
+  },
+  {
+    "method": "global_snapshot",
+    "pairs": 1225,
+    "positive_weight_pairs": 656,
+    "mass": 656.0,
+    "wrong_mass": 56.0,
+    "wrong_fraction": 0.08536585365853659,
+    "correct_student_error_mass": 15.0,
+    "none_pairs": 105,
+    "none_mass": 25.0,
+    "none_to_movement_mass": 21.0,
+    "none_to_movement_fraction": 0.84
+  },
+  {
+    "method": "class_snapshot",
+    "pairs": 1225,
+    "positive_weight_pairs": 984,
+    "mass": 984.0,
+    "wrong_mass": 184.0,
+    "wrong_fraction": 0.18699186991869918,
+    "correct_student_error_mass": 45.0,
+    "none_pairs": 105,
+    "none_mass": 90.0,
+    "none_to_movement_mass": 58.0,
+    "none_to_movement_fraction": 0.6444444444444445
+  },
+  {
+    "method": "gaussian_snapshot",
+    "pairs": 1225,
+    "positive_weight_pairs": 1225,
+    "mass": 878.7332892807874,
+    "wrong_mass": 112.14760015051505,
+    "wrong_fraction": 0.12762416255141984,
+    "correct_student_error_mass": 32.28035073829738,
+    "none_pairs": 105,
+    "none_mass": 43.83689869844358,
+    "none_to_movement_mass": 33.982812408937804,
+    "none_to_movement_fraction": 0.7752102319716417
+  },
+  {
+    "method": "gaussian_ua_snapshot",
+    "pairs": 1225,
+    "positive_weight_pairs": 1225,
+    "mass": 796.6432285339082,
+    "wrong_mass": 107.2234725571627,
+    "wrong_fraction": 0.1345940927088403,
+    "correct_student_error_mass": 27.32104902772991,
+    "none_pairs": 105,
+    "none_mass": 51.86609297864898,
+    "none_to_movement_mass": 34.54165903510654,
+    "none_to_movement_fraction": 0.6659776561408981
+  }
+]

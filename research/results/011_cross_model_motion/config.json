@@ -1,0 +1,84 @@
+{
+  "experiment_id": "011_cross_model_motion",
+  "training": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "optimizer_steps": 560,
+    "validation_every_steps": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "threads": 2,
+    "augmentation": "none"
+  },
+  "modes": [
+    "camera_pose",
+    "camera_motion",
+    "hand_pose",
+    "hand_motion"
+  ],
+  "prefix_deadlines_seconds": {
+    "p050": 0.5,
+    "p100": 1.0,
+    "p150": 1.5
+  },
+  "feature_version": 2,
+  "features": 146,
+  "parameters": 49276,
+  "source_study": "research/experiments/runs/motion_representation/20261015T051753816210Z",
+  "families": [
+    "cnn",
+    "lstm",
+    "bilstm",
+    "local_set",
+    "feature_set"
+  ],
+  "parameter_counts": {
+    "cnn": 49484,
+    "lstm": 49276,
+    "bilstm": 49656,
+    "local_set": 49163,
+    "feature_set": 49163,
+    "causal_cnn": 49632
+  },
+  "reference_checkpoints": {
+    "camera_pose_seed_11/model.pt": "1719275dce14524ff9b291b7265356a2c6c5657989bf5215b2ae934af2dd983e",
+    "camera_pose_seed_22/model.pt": "793bd54e96f9dc5762d2501a76081968c2f1909962d4711b65427a68090f0c50",
+    "camera_pose_seed_33/model.pt": "c2e265a5e5b70bba73d36bb4315471682f8a88d114f8978dd6fcc4674866ef67",
+    "camera_pose_seed_44/model.pt": "a8f1e1a2ed907043aa52a04e3fa2cf8ef54d12609cc55e1683d2989c221eb619",
+    "camera_pose_seed_55/model.pt": "7acc6b5a8740fcdf0f18b7562d56c620579dbddeb11817d299a6138d355dc98a",
+    "camera_motion_seed_11/model.pt": "1b5266ab3a51849780540a1d1211c6fe1b84cd677cd85b9c1b7dd395550d86d9",
+    "camera_motion_seed_22/model.pt": "bd638497f4ae62e59598c29f433c39a72ffbe0669a1913497fb3ba0506dde467",
+    "camera_motion_seed_33/model.pt": "c89af42aa2cc3c46a8992bc7512e1d64ee0a15f0910d77ae54e0417b7c12a5b1",
+    "camera_motion_seed_44/model.pt": "c8af2f0a1ad3f136059169fd08a0781aff68f499d6607735a9c71edc4231db7e",
+    "camera_motion_seed_55/model.pt": "fea105bf10faf8207f3cba0a35b1bb6251c60818a440ea23f381ef951fd9f05a",
+    "hand_pose_seed_11/model.pt": "035bb96a758f97ffe8e184b967be829d292043b10f6d80d2a38075fd5c2d0630",
+    "hand_pose_seed_22/model.pt": "f6e4d39db95456904995f7f2d1c0ae14c201547fb76fb983e9a5bbcfc790e2d7",
+    "hand_pose_seed_33/model.pt": "0575263b979be33b73705019e90f09036199ff5ad07457648a5dac5e1bcd2d70",
+    "hand_pose_seed_44/model.pt": "6c7d0d246bfc6ae153d0a7b875365d151eb5120a8582a478e58bcc2be97f5a64",
+    "hand_pose_seed_55/model.pt": "92b5bc4ff73b94728a55f284536850c165b06b64e9730cbc0a4792ee75155fc6",
+    "hand_motion_seed_11/model.pt": "40ebe93d5443735b5b82173fee514d075a7d6d8f6cf2606ff43cb1b8a8d3bc7d",
+    "hand_motion_seed_22/model.pt": "e989219e1bd30c5499315ff2865fc4d2c3416763566a291e3c704e391834fe1d",
+    "hand_motion_seed_33/model.pt": "4e717f92f748c7a61fb2b924730eaaec104fe95011746f9fa90c1b202eddf9ee",
+    "hand_motion_seed_44/model.pt": "2f52ae3b6968a2729ba7948729616750f0ce7f90d6869641aa529a59ffa0bf60",
+    "hand_motion_seed_55/model.pt": "a44be3d0b3f2215545bcb8cbd129e1486ba718827d366d07a9f9cb56b3e929f6"
+  },
+  "controls": [
+    [
+      "causal_cnn",
+      "standard"
+    ],
+    [
+      "feature_set",
+      "no_elapsed"
+    ],
+    [
+      "lstm",
+      "no_elapsed"
+    ]
+  ]
+}

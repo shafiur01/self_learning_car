@@ -1,0 +1,17 @@
+{
+  "experiment_id": "001_augmentation",
+  "question": "Does mild landmark or timing augmentation improve the existing temporal classifier on held-out validation sessions?",
+  "data": "gesture_commands/data",
+  "epochs": 80,
+  "seeds": [11, 22, 33, 44, 55],
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "threads": 2,
+  "variants": ["baseline", "jitter", "time_warp", "combined"],
+  "augmentation": {
+    "jitter_std": 0.01,
+    "jitter_anchors": 5,
+    "time_segments": 4,
+    "time_increment_range": [0.8, 1.2]
+  }
+}

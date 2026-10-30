@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "studies": [
+    {
+      "experiment": "001_augmentation",
+      "archive": "research/experiments/runs/20261007T050900637997Z",
+      "finding": "research/findings/001_augmentation.md",
+      "exported_files": 27,
+      "exported_bytes": 263334,
+      "provenance_sha256": "66c32ed240d061c9c31356d467e9c0b9022ef6eea3c7c4d178aea7eb8aa5322c"
+    },
+    {
+      "experiment": "002_label_budget",
+      "archive": "research/experiments/runs/20261008T005037258990Z",
+      "finding": "research/findings/002_label_budget.md",
+      "exported_files": 30,
+      "exported_bytes": 431083,
+      "provenance_sha256": "2d0712de11e95d55443ac5f86acba4101cac84b9fc8b64e7051af6a28659ed10"
+    },
+    {
+      "experiment": "002_new_session",
+      "archive": "research/experiments/runs/20261008T005037258990Z/session_evaluations/20261008T013739665513Z",
+      "finding": "research/findings/002_new_session_01.md",
+      "exported_files": 7,
+      "exported_bytes": 117724,
+      "provenance_sha256": "87cdf39cbe8ee1692cb0646e771bc6619398b9f2cc67a40741b7a74d3407e036"
+    },
+    {
+      "experiment": "003_commands_v2",
+      "archive": "research/experiments/runs/commands_v2/20261008T025353704748Z",
+      "finding": "research/findings/003_commands_v2.md",
+      "exported_files": 14,
+      "exported_bytes": 44868,
+      "provenance_sha256": "0c6ba287852d578e75fbe51b586111c1895ab65082a38740f83ac120674a4940"
+    },
+    {
+      "experiment": "003_second_session",
+      "archive": "research/experiments/runs/commands_v2/20261008T025353704748Z/session_evaluations/20261008T052213777935Z",
+      "finding": "research/findings/003_commands_v2_session_02.md",
+      "exported_files": 8,
+      "exported_bytes": 108950,
+      "provenance_sha256": "65c395830778552fe4608c0bca36cbb9132d797b1de2d97765350961e2aceeaf"
+    },
+    {
+      "experiment": "004_boundary_data",
+      "archive": "research/experiments/runs/boundary_data/20261008T072040903427Z",
+      "finding": "research/findings/004_boundary_data.md",
+      "exported_files": 19,
+      "exported_bytes": 138129,
+      "provenance_sha256": "81183d96e9e43da811f9d5bdd86e523ef07a0117d503ae2eb0c42932a5ff8d2d"
+    },
+    {
+      "experiment": "005_boundary_test",
+      "archive": "research/experiments/data/boundary_test/evaluation",
+      "finding": "research/findings/005_boundary_test.md",
+      "exported_files": 6,
+      "exported_bytes": 145071,
+      "provenance_sha256": "acfc15db848c76f0db8c46f83ed158f59b5fa5d30b20d09b960fa59f14a0d770"
+    },
+    {
+      "experiment": "006_commands_v3",
+      "archive": "research/experiments/runs/commands_v3/20261012T205727638067Z",
+      "finding": "research/findings/006_commands_v3.md",
+      "exported_files": 15,
+      "exported_bytes": 58500,
+      "provenance_sha256": "0728be3a07a2be2881be7e7731e10c694100d53688360bc4362d1c09d07627c5"
+    },
+    {
+      "experiment": "007_motion_probe",
+      "archive": "research/experiments/runs/motion_probes/20261012T221029684780Z",
+      "finding": "research/findings/007_motion_sensitivity.md",
+      "exported_files": 7,
+      "exported_bytes": 115152,
+      "provenance_sha256": "afd8d3d1bd53b7318e01b778a8c6893089b5258f6183199bf48faec1dda3c105"
+    },
+    {
+      "experiment": "008_temporal_architectures",
+      "archive": "research/experiments/runs/temporal_comparison/20261014T011524632211Z",
+      "finding": "research/findings/008_temporal_architectures.md",
+      "exported_files": 36,
+      "exported_bytes": 483314,
+      "provenance_sha256": "82ae1c23fe155f38a2a0f73e036654a50d503dff88f00a14c30a5fd0e7d5ac86"
+    },
+    {
+      "experiment": "009_failure_review",
+      "archive": "research/experiments/runs/failure_review/20261014T053532241062Z",
+      "finding": "research/findings/009_failure_review.md",
+      "exported_files": 5,
+      "exported_bytes": 7440,
+      "provenance_sha256": "7f415b8f00a74c720f8baef50769c8cad4d02e4b40698adb60881b67abccdcf1"
+    },
+    {
+      "experiment": "010_motion_representation",
+      "archive": "research/experiments/runs/motion_representation/20261015T051753816210Z",
+      "finding": "research/findings/010_motion_representation.md",
+      "exported_files": 31,
+      "exported_bytes": 561742,
+      "provenance_sha256": "bdd9c96c59fffbfb202e0124f89b9935c9bd9227950dd2ae3885dec07d573e43"
+    },
+    {
+      "experiment": "011_cross_model_motion",
+      "archive": "research/experiments/runs/cross_model_motion/20261015T164901242592Z",
+      "finding": "research/findings/011_cross_model_motion.md",
+      "exported_files": 129,
+      "exported_bytes": 2327987,
+      "provenance_sha256": "9272729c0445274ff6510fb159a15c4348137ebd74e44239f468d726b73c2bc0"
+    },
+    {
+      "experiment": "012_later_sessions",
+      "archive": "research/experiments/data/prospective_motion_011/analysis",
+      "finding": "research/findings/012_prospective_motion_sessions.md",
+      "exported_files": 10,
+      "exported_bytes": 652988,
+      "provenance_sha256": "671e15d8130dd1741e6147688f4f6776ff7274a6cab42f5e94e1c0c7e49395e0"
+    },
+    {
+      "experiment": "013_evidence_profile",
+      "archive": "research/experiments/runs/evidence_profile/20261016T030844123147Z",
+      "finding": "research/findings/013_evidence_profile.md",
+      "exported_files": 81,
+      "exported_bytes": 797227,
+      "provenance_sha256": "0bbe15907677ac35c1e941f02124be8aa8935f41f02680df85d0a99f176ce303"
+    },
+    {
+      "experiment": "014_budget160",
+      "archive": "research/experiments/runs/evidence_profile_budget160/20261016T133936682213Z",
+      "finding": "research/findings/014_evidence_profile_budget160.md",
+      "exported_files": 83,
+      "exported_bytes": 807509,
+      "provenance_sha256": "ac2038851ceb6788716fad55b3ae927235c4389b934a405e8f3a2c44f4617cdc"
+    },
+    {
+      "experiment": "015_profile_diagnostic",
+      "archive": "research/experiments/runs/evidence_profile_diagnostic/20261016T142255449351Z",
+      "finding": "research/findings/015_evidence_profile_diagnostic.md",
+      "exported_files": 15,
+      "exported_bytes": 366353,
+      "provenance_sha256": "07c9673d3c24b181c72c73510844ae1df5b3311338879ea3515e30da11eb593b"
+    },
+    {
+      "experiment": "016_input_conditioning",
+      "archive": "research/experiments/runs/input_conditioning/20261017T063852365459Z",
+      "finding": "research/findings/016_input_conditioning.md",
+      "exported_files": 75,
+      "exported_bytes": 689490,
+      "provenance_sha256": "59e48ee313db0b21fdc5874dc668df47d952c5e4fad8c8cf5fee7ae3b1f7ecfe"
+    },
+    {
+      "experiment": "017_selector_replay",
+      "archive": "research/experiments/runs/published_selector_replay/20261017T072612284949Z",
+      "finding": "research/findings/017_literature_grounded_decision.md",
+      "exported_files": 7,
+      "exported_bytes": 52625,
+      "provenance_sha256": "ed8f97894579dea5bb5ba7a471c48e6c32a7d8a93e12558c9b4d861159afc8a4"
+    },
+    {
+      "experiment": "018_online_softmatch",
+      "archive": "research/experiments/runs/online_softmatch/20261020T205543410735Z",
+      "finding": "research/findings/018_online_softmatch.md",
+      "exported_files": 29,
+      "exported_bytes": 501534,
+      "provenance_sha256": "e7fdbe43db36fffa5e77b24e9f337cb82ae84f9ee8a51e1d381b8381da3698cf"
+    }
+  ]
+}

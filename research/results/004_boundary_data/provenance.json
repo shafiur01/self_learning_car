@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "experiment": "004_boundary_data",
+  "original_archive": "research/experiments/runs/boundary_data/20261008T072040903427Z",
+  "finding": "research/findings/004_boundary_data.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "config.json": "87e4e505d6115f40af11e023e230aceee31442788476c70c84d3c9d27013faef",
+    "summary.json": "d2d6566b11245fb6a869e358e86ba7f7fa4ea6b1a1ff3a1a2a8347613e8ba07d",
+    "trials.json": "6b0f2a1ec6ac937c73fa96140d4abd198a285c90a7a75e3f3d1a7a8b68fa5db1",
+    "environment.json": "b612fc360bdc465c448ef9a6601a3169555d7c938a77fae110d0f6c3168757f2",
+    "status.json": "3fe2f6c40ccadf1101dc3b79a35eea455fb2cb8586cff5320fca758931522eeb",
+    "verification.json": "2b07ce79b927ad61bcd070d09d22e1cf9fab8fbdcc2bae3f1da7d30a46de5376",
+    "contract.json": "38e38c55920e1acaec9d129bcd258eea5004c67b93fd7d8336ccedc74bea157d",
+    "routine/seed_11/history.json": "278c96f3405ad48bf04fd01f3d173e46dd0b89d3b4b6f7a580f3f803f5bb7834",
+    "routine/seed_22/history.json": "e21dbb389d242bd92097c0071f54b21207bce8e08e11290ef3f8be3642e2276b",
+    "routine/seed_33/history.json": "3109e8dd22e5cebb3ec60866f0e1bc3d240cf3a54f645720155915142c33b9db",
+    "routine/seed_44/history.json": "5a685ca21f1815862081a14d5fffd874310e07fea4b3d9b764f9cfc51cf16013",
+    "routine/seed_55/history.json": "eb16aa84ec06088133f791ae6fdc37d9b5e71260496a07c1eb7d86eb72fa6c9c",
+    "targeted/seed_11/history.json": "95eb2db2237c896093c55ed7a7b7d10d3f90805f439b31b1bcdf122bb8368999",
+    "targeted/seed_22/history.json": "89623dde352ad6ebaaf8aa820c91055f5bcc6b19804a5b5b4c78443530d0a289",
+    "targeted/seed_33/history.json": "fbe6bab20aab82e4351069fd11a83b05e9277c077802c3a41a935b5a0135253b",
+    "targeted/seed_44/history.json": "18b32070d8448143f92865024a8430ffe711fc0ef79e824c897e1307e6bc05e4",
+    "targeted/seed_55/history.json": "91c663090679c543b26beee4052b5e6c88b3cbcb430f06cdd522b77cd0feed54"
+  },
+  "private_reference_sha256": {
+    "manifest.json": "72692813baa4fcae5e92d4601e4cfe7869fa2275577c2746d536f104704abe01"
+  },
+  "export_sha256": {
+    "config.json": "87e4e505d6115f40af11e023e230aceee31442788476c70c84d3c9d27013faef",
+    "summary.json": "d2d6566b11245fb6a869e358e86ba7f7fa4ea6b1a1ff3a1a2a8347613e8ba07d",
+    "trials.json": "6b0f2a1ec6ac937c73fa96140d4abd198a285c90a7a75e3f3d1a7a8b68fa5db1",
+    "environment.json": "b612fc360bdc465c448ef9a6601a3169555d7c938a77fae110d0f6c3168757f2",
+    "status.json": "3fe2f6c40ccadf1101dc3b79a35eea455fb2cb8586cff5320fca758931522eeb",
+    "verification.json": "2b07ce79b927ad61bcd070d09d22e1cf9fab8fbdcc2bae3f1da7d30a46de5376",
+    "contract.json": "38e38c55920e1acaec9d129bcd258eea5004c67b93fd7d8336ccedc74bea157d",
+    "histories/routine/seed_11/history.json": "278c96f3405ad48bf04fd01f3d173e46dd0b89d3b4b6f7a580f3f803f5bb7834",
+    "histories/routine/seed_22/history.json": "e21dbb389d242bd92097c0071f54b21207bce8e08e11290ef3f8be3642e2276b",
+    "histories/routine/seed_33/history.json": "3109e8dd22e5cebb3ec60866f0e1bc3d240cf3a54f645720155915142c33b9db",
+    "histories/routine/seed_44/history.json": "5a685ca21f1815862081a14d5fffd874310e07fea4b3d9b764f9cfc51cf16013",
+    "histories/routine/seed_55/history.json": "eb16aa84ec06088133f791ae6fdc37d9b5e71260496a07c1eb7d86eb72fa6c9c",
+    "histories/targeted/seed_11/history.json": "95eb2db2237c896093c55ed7a7b7d10d3f90805f439b31b1bcdf122bb8368999",
+    "histories/targeted/seed_22/history.json": "89623dde352ad6ebaaf8aa820c91055f5bcc6b19804a5b5b4c78443530d0a289",
+    "histories/targeted/seed_33/history.json": "fbe6bab20aab82e4351069fd11a83b05e9277c077802c3a41a935b5a0135253b",
+    "histories/targeted/seed_44/history.json": "18b32070d8448143f92865024a8430ffe711fc0ef79e824c897e1307e6bc05e4",
+    "histories/targeted/seed_55/history.json": "91c663090679c543b26beee4052b5e6c88b3cbcb430f06cdd522b77cd0feed54"
+  }
+}

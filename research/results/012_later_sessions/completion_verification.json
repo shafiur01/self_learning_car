@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-15T23:48:16.329317+00:00",
+  "new_recordings_unchanged": 96,
+  "reextracted_feature_arrays_verified": 384,
+  "new_saved_prediction_vectors_verified": 11040,
+  "frozen_models_verified": 115,
+  "original_study_input_files_verified": 586,
+  "original_study_prediction_vectors_verified": 22080,
+  "browser_checks_passed": 19,
+  "missing_document_links": 0,
+  "csv_counts": {
+    "models_by_scope": 345,
+    "classes_by_scope": 2760,
+    "error_instances": 730,
+    "unique_clips": 96
+  },
+  "one_time_evaluation_state": {
+    "state": "complete",
+    "ended_utc": "2026-10-15T23:36:44.466360+00:00",
+    "models": 115,
+    "clips": 96,
+    "scope": "Joint prospective same-user development check now inspected; no future untouched reuse."
+  },
+  "freeze_sha256": "1ac7a481e651f0130038945218d16dd34ffcdab23397367a55585e6ca1e79127",
+  "access_ledger_sha256": "e7c8dc282419018ba198debfc0ecb7522fdfa6e7a24923f1b6ecf8782a13f056",
+  "artifact_manifest_sha256": "7646388b1fc7db01416824a46a393fc24e628f686ef46276816db2346db7eaff",
+  "interpretation": "Same user, two sittings on one evening, now inspected development; no refit, seed/threshold selection, label mutation or app activation. Human review pending."
+}

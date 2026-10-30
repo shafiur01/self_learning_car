@@ -1,0 +1,38 @@
+{
+  "taxonomy": "commands_v3",
+  "schema_version": 3,
+  "feature_version": 1,
+  "labels": [
+    "FORWARD",
+    "BACKWARD",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "NO_COMMAND",
+    "UP",
+    "DOWN"
+  ],
+  "convention": "mirrored_preview_v1",
+  "meanings": {
+    "FORWARD": "Beckon toward yourself using one, several, or all fingers.",
+    "BACKWARD": "Push your hand outward to signal go away.",
+    "LEFT": "Point toward the left side of the mirrored preview.",
+    "RIGHT": "Point toward the right side of the mirrored preview.",
+    "STOP": "Hold a still open palm facing the camera, fingers extended; no closed fist.",
+    "NO_COMMAND": "No intended command: resting, unrelated motion, transitions, or no hand.",
+    "UP": "Signal UP using one index finger, index and middle fingers, or the thumb pointing upward, with the remaining fingers folded. Hold the deliberate pose for about two seconds. No open-palm UP.",
+    "DOWN": "Deliberately point downward or move the hand downward to request DOWN; varied styles allowed."
+  },
+  "up_style": "three_shapes",
+  "up_motion_requirement": "static deliberate pose; incidental motion allowed",
+  "allowed_up_shapes": [
+    "index_up",
+    "two_fingers_up",
+    "thumbs_up"
+  ],
+  "down_styles": [
+    "pointing",
+    "whole_hand_motion"
+  ],
+  "robot_mapping": "unassigned; screen-only labels"
+}

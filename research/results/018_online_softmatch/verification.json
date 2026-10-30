@@ -1,0 +1,10 @@
+{
+  "models": 30,
+  "development_probability_vectors_reproduced": 1440,
+  "online_trace_targets_weights_reproduced": 134400,
+  "supervised_parent_states_match": 5,
+  "paired_initial_warmup_labeled_streams": true,
+  "training_payload_allowlists_verified": true,
+  "parent_artifacts_intact": true,
+  "no_endpoint_payload": true
+}

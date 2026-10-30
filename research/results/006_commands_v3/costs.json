@@ -1,0 +1,45 @@
+{
+  "reused_training_labels": 488,
+  "new_up_training_labels": 50,
+  "new_validation_labels": 48,
+  "attempts": {
+    "up_training": [
+      {
+        "started_utc": "2026-10-12T17:40:43.501220+00:00",
+        "ended_utc": "2026-10-12T17:48:12.497593+00:00",
+        "wall_seconds": 449.01776283298386,
+        "sitting": 1,
+        "saved_before": 0,
+        "saved_after": 25,
+        "state": "complete",
+        "scope": "camera/replay/preparation/pause interval; not pure annotation time"
+      },
+      {
+        "started_utc": "2026-10-12T17:58:09.249393+00:00",
+        "ended_utc": "2026-10-12T18:14:42.437802+00:00",
+        "wall_seconds": 993.2483189590275,
+        "sitting": 2,
+        "saved_before": 0,
+        "saved_after": 25,
+        "state": "complete",
+        "scope": "camera/replay/preparation/pause interval; not pure annotation time"
+      }
+    ],
+    "validation": [
+      {
+        "started_utc": "2026-10-12T20:33:43.652542+00:00",
+        "ended_utc": "2026-10-12T20:51:10.788671+00:00",
+        "wall_seconds": 1047.1962011249852,
+        "saved_before": 0,
+        "saved_after": 48,
+        "state": "complete",
+        "scope": "camera/replay/preparation/pause interval; not pure annotation time"
+      }
+    ]
+  },
+  "logged_camera_seconds": {
+    "up_training": 1442.2660817920114,
+    "validation": 1047.1962011249852
+  },
+  "scope": "Camera/replay/preparation/pause intervals, not pure labeling; historical collection/corrections/upstream pretraining not zero-cost."
+}

@@ -1,0 +1,31 @@
+{
+  "taxonomy": "commands_v2",
+  "schema_version": 2,
+  "feature_version": 1,
+  "labels": [
+    "FORWARD",
+    "BACKWARD",
+    "LEFT",
+    "RIGHT",
+    "STOP",
+    "NO_COMMAND",
+    "UP",
+    "DOWN"
+  ],
+  "convention": "mirrored_preview_v1",
+  "meanings": {
+    "FORWARD": "Beckon toward yourself using one, several, or all fingers.",
+    "BACKWARD": "Push your hand outward to signal go away.",
+    "LEFT": "Point toward the left side of the mirrored preview.",
+    "RIGHT": "Point toward the right side of the mirrored preview.",
+    "STOP": "Hold a closed fist still, distinct from beckoning.",
+    "NO_COMMAND": "No intended command: resting, unrelated motion, transitions, or no hand.",
+    "UP": "Deliberately point upward or move the hand upward to request UP; varied styles allowed.",
+    "DOWN": "Deliberately point downward or move the hand downward to request DOWN; varied styles allowed."
+  },
+  "vertical_styles": [
+    "pointing",
+    "whole_hand_motion"
+  ],
+  "robot_mapping": "unassigned; screen-only labels; controller-specific actions"
+}

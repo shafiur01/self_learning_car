@@ -1,9 +1,38 @@
+# Local environments and generated caches
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .DS_Store
-models/*.task
+
+# Credentials and machine-local settings; an example template may be shared.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Recordings, feature tensors, weights and downloaded detector binaries.
+# Portable JSON/CSV summaries belong in research/results/ instead.
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.task
 gesture_commands/data/
 gesture_commands/runs/
 research/experiments/runs/
 research/experiments/data/
+
+# Personal review notes, local inventory/reports and backup archives.
+research/notes/
+research/private/
+backups/
+
+# Local convenience links into excluded recording/run directories.
+# The reusable viewer source in review_assets/ remains versioned.
+research/experiments/gesture_failure_review.html
+research/experiments/prospective_motion_review.html

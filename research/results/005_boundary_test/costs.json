@@ -1,0 +1,37 @@
+{
+  "evaluation_labels": 80,
+  "recording_attempts": [
+    {
+      "started_utc": "2026-10-08T17:13:01.431440+00:00",
+      "ended_utc": "2026-10-08T17:30:31.557825+00:00",
+      "wall_seconds": 1050.1231282909866,
+      "sitting": 1,
+      "saved_before": 20,
+      "saved_after": 40,
+      "state": "complete",
+      "scope": "camera/replay/preparation/pause interval, not pure labeling time"
+    },
+    {
+      "started_utc": "2026-10-08T17:33:15.202460+00:00",
+      "ended_utc": "2026-10-08T17:57:41.036771+00:00",
+      "wall_seconds": 1465.8489783749683,
+      "sitting": 2,
+      "saved_before": 0,
+      "saved_after": 40,
+      "state": "complete",
+      "scope": "camera/replay/preparation/pause interval, not pure labeling time"
+    },
+    {
+      "started_utc": "2026-10-08T16:46:36.322109+00:00",
+      "ended_utc": "2026-10-08T17:07:11.635623+00:00",
+      "wall_seconds": 1235.2978549159598,
+      "sitting": 1,
+      "saved_before": 0,
+      "saved_after": 20,
+      "state": "paused",
+      "scope": "camera/replay/preparation/pause interval, not pure labeling time"
+    }
+  ],
+  "logged_camera_seconds": 3751.2699615819147,
+  "training_this_phase": "none"
+}

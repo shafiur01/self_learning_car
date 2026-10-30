@@ -1,0 +1,7 @@
+{
+  "training_only_scale_fits": 15,
+  "all8_commands_in_all_roles": true,
+  "label_budget160_unchanged": true,
+  "software_checks_passed": 7,
+  "endpoint_not_accessed": true
+}

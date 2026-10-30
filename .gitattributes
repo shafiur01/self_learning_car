@@ -1,0 +1,8 @@
+# Keep source hashes stable across checkout platforms.
+* text=auto eol=lf
+*.png -text
+*.pdf -text
+
+# Export hashes refer to exact bytes. Disable line-ending conversion without
+# disabling normal text diffs for JSON/CSV/Markdown records.
+research/results/** -text

@@ -1,0 +1,162 @@
+{
+  "study": "research/experiments/runs/20261008T005037258990Z",
+  "checkpoints": [
+    {
+      "condition": "labels_5_per_class",
+      "seed": 11,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_5_per_class_seed_11/model.pt",
+      "sha256": "a30e88c20125982017a583e086568d739438e8300812a2b8b75943fab70212b3",
+      "training_clips": 30
+    },
+    {
+      "condition": "labels_10_per_class",
+      "seed": 11,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_10_per_class_seed_11/model.pt",
+      "sha256": "db1fe25b03e44a231692398a25cd1b48f641a1f1780d937516b838865dfce9b3",
+      "training_clips": 60
+    },
+    {
+      "condition": "labels_15_per_class",
+      "seed": 11,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_15_per_class_seed_11/model.pt",
+      "sha256": "2a6bdb15a38c081f12bee7cb8ea8b1f9c66a81550d8b8a402f0cb7c353cdef43",
+      "training_clips": 90
+    },
+    {
+      "condition": "all_original",
+      "seed": 11,
+      "file": "research/experiments/runs/20261008T005037258990Z/all_original_seed_11/model.pt",
+      "sha256": "bb03dbe4f537a43066ccce44943a6a4fd80aafbc013bccce0632973cfe796998",
+      "training_clips": 201
+    },
+    {
+      "condition": "labels_5_per_class",
+      "seed": 22,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_5_per_class_seed_22/model.pt",
+      "sha256": "469bbdd8a67c44085f09d9727739ee4730b09af8ddc3926d7fd1a606fd447c75",
+      "training_clips": 30
+    },
+    {
+      "condition": "labels_10_per_class",
+      "seed": 22,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_10_per_class_seed_22/model.pt",
+      "sha256": "24ed67b4bb63832a31dacf2e2cd98d439e184477c1f3455da813b9c08c66f958",
+      "training_clips": 60
+    },
+    {
+      "condition": "labels_15_per_class",
+      "seed": 22,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_15_per_class_seed_22/model.pt",
+      "sha256": "0f6aa07d6a80f392981fa59fc57672892bbf46a622d14f1d7bd2c87b31be2964",
+      "training_clips": 90
+    },
+    {
+      "condition": "all_original",
+      "seed": 22,
+      "file": "research/experiments/runs/20261008T005037258990Z/all_original_seed_22/model.pt",
+      "sha256": "f97a466d9a9539d021374ffd81bffabe2a2e875cbd40ab0e076b481bc8928c04",
+      "training_clips": 201
+    },
+    {
+      "condition": "labels_5_per_class",
+      "seed": 33,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_5_per_class_seed_33/model.pt",
+      "sha256": "81cb7237126a3add873380d8a74384adc97910a9baf54be927f6475554d34f11",
+      "training_clips": 30
+    },
+    {
+      "condition": "labels_10_per_class",
+      "seed": 33,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_10_per_class_seed_33/model.pt",
+      "sha256": "94a9fc94d4dfeea13880d039111fda8ca88f753318ac853459cfe71087f79127",
+      "training_clips": 60
+    },
+    {
+      "condition": "labels_15_per_class",
+      "seed": 33,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_15_per_class_seed_33/model.pt",
+      "sha256": "e7b5d0fa09cba5e742c6957a9e9868855ef4f5fab718ccd6403a8841b0a4b8c9",
+      "training_clips": 90
+    },
+    {
+      "condition": "all_original",
+      "seed": 33,
+      "file": "research/experiments/runs/20261008T005037258990Z/all_original_seed_33/model.pt",
+      "sha256": "583709f9d26e925fdd6ece64c94bcd4dffc1c556f9cd43b5d8d374d714433425",
+      "training_clips": 201
+    },
+    {
+      "condition": "labels_5_per_class",
+      "seed": 44,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_5_per_class_seed_44/model.pt",
+      "sha256": "b5a3dfd277c198c3050ac9518389793b090e3790100f192b6871c4b690628fee",
+      "training_clips": 30
+    },
+    {
+      "condition": "labels_10_per_class",
+      "seed": 44,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_10_per_class_seed_44/model.pt",
+      "sha256": "ac6664592fea83b096d27d2622342835d5115267e8fc7a2c3ef43dc90c42df10",
+      "training_clips": 60
+    },
+    {
+      "condition": "labels_15_per_class",
+      "seed": 44,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_15_per_class_seed_44/model.pt",
+      "sha256": "9f1f1a3d44fc14ed285ee343867b7563533d9411e221c4e3ae6f9a05426dca34",
+      "training_clips": 90
+    },
+    {
+      "condition": "all_original",
+      "seed": 44,
+      "file": "research/experiments/runs/20261008T005037258990Z/all_original_seed_44/model.pt",
+      "sha256": "042ce9343e60bb215dc42b412d925fe19e6fd0e8f0adbab7184e538d35191647",
+      "training_clips": 201
+    },
+    {
+      "condition": "labels_5_per_class",
+      "seed": 55,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_5_per_class_seed_55/model.pt",
+      "sha256": "8cb37ee8e1da4bae05a05dda316d3a260671eb2396839889178d1609c7f5119b",
+      "training_clips": 30
+    },
+    {
+      "condition": "labels_10_per_class",
+      "seed": 55,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_10_per_class_seed_55/model.pt",
+      "sha256": "a7e36f797f4380392a2c7221c02db5c31d4d71298f2dcf752d4a404970caed01",
+      "training_clips": 60
+    },
+    {
+      "condition": "labels_15_per_class",
+      "seed": 55,
+      "file": "research/experiments/runs/20261008T005037258990Z/labels_15_per_class_seed_55/model.pt",
+      "sha256": "384e43fce9fbfca68071ad3cf25b0a66fba4d39c62619ee237f3b3f899e0aa12",
+      "training_clips": 90
+    },
+    {
+      "condition": "all_original",
+      "seed": 55,
+      "file": "research/experiments/runs/20261008T005037258990Z/all_original_seed_55/model.pt",
+      "sha256": "80147f7b576d02eb7dae9ed510fe7de826da0a4466570fa379452520011485dd",
+      "training_clips": 201
+    }
+  ],
+  "conditions": [
+    "labels_5_per_class",
+    "labels_10_per_class",
+    "labels_15_per_class",
+    "all_original"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "retraining": false,
+  "checkpoint_selection": false,
+  "evaluation": "raw classification; new validation only",
+  "primary_comparison": "macro F1 paired difference from all_original"
+}

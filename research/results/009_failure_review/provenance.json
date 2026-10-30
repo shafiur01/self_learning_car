@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "experiment": "009_failure_review",
+  "original_archive": "research/experiments/runs/failure_review/20261014T053532241062Z",
+  "finding": "research/findings/009_failure_review.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "status.json": "9187c40eabad32fdb70e6cc6cb780a3158abc774dc4826033f845f10371f8278",
+    "verification.json": "4d4ceb79404daeb73535e83dc36c57b5927c749b7a04fc5d29b3d4e4060e225f",
+    "analysis.json": "4eb4706e25555dbfc3e8d670e95f319d687a238f99cbc4ec8a9df5c89db0852f"
+  },
+  "private_reference_sha256": {},
+  "export_sha256": {
+    "status.json": "9187c40eabad32fdb70e6cc6cb780a3158abc774dc4826033f845f10371f8278",
+    "verification.json": "4d4ceb79404daeb73535e83dc36c57b5927c749b7a04fc5d29b3d4e4060e225f",
+    "review_summary.json": "86c6caa141e061e7b64e31a83eb6aa475a6be8c60bba7d8251af1ec738c2cb7e"
+  }
+}

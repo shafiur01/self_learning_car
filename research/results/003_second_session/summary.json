@@ -1,0 +1,3364 @@
+{
+  "trials": [
+    {
+      "clips": 41,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9024390243902439,
+      "macro_f1": 0.8956876456876457,
+      "nll": 0.3770754635334015,
+      "no_command_to_motion_count": 2,
+      "no_command_to_motion_rate": 0.4,
+      "stop_to_motion_count": 0,
+      "stop_recall": 1.0,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.7499999999999999
+        },
+        "BACKWARD": {
+          "support": 5,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        },
+        "LEFT": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "STOP": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "NO_COMMAND": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.7499999999999999
+        },
+        "UP": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 5,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091
+        }
+      },
+      "seed": 11,
+      "checkpoint_sha256": "090adc1dcd624d5dca372fdca32ac52784ac9af3b3feda98688a5278d1ba426d",
+      "sessions": {
+        "20261008T050854-92265627": {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.9024390243902439,
+          "macro_f1": 0.8956876456876457,
+          "nll": 0.3770754635334015,
+          "no_command_to_motion_count": 2,
+          "no_command_to_motion_rate": 0.4,
+          "stop_to_motion_count": 0,
+          "stop_recall": 1.0,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              3,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 0.8571428571428571,
+              "recall": 1.0,
+              "f1": 0.923076923076923
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999
+            },
+            "UP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        }
+      }
+    },
+    {
+      "clips": 41,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9024390243902439,
+      "macro_f1": 0.8983585858585859,
+      "nll": 0.48204612731933594,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.2,
+      "stop_to_motion_count": 1,
+      "stop_recall": 0.8,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 5,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665
+        },
+        "BACKWARD": {
+          "support": 5,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        },
+        "LEFT": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889
+        },
+        "NO_COMMAND": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889
+        },
+        "UP": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 5,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091
+        }
+      },
+      "seed": 22,
+      "checkpoint_sha256": "f331f99d56196ef7fa14a19f4eb050b6d6fa7f484095af2da4bf0515109bf0d8",
+      "sessions": {
+        "20261008T050854-92265627": {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.9024390243902439,
+          "macro_f1": 0.8983585858585859,
+          "nll": 0.48204612731933594,
+          "no_command_to_motion_count": 1,
+          "no_command_to_motion_rate": 0.2,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.8,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "UP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        }
+      }
+    },
+    {
+      "clips": 41,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8292682926829268,
+      "macro_f1": 0.8231060606060606,
+      "nll": 0.4423159658908844,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.2,
+      "stop_to_motion_count": 1,
+      "stop_recall": 0.8,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 5,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665
+        },
+        "BACKWARD": {
+          "support": 5,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        },
+        "LEFT": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "STOP": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "NO_COMMAND": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "UP": {
+          "support": 5,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665
+        },
+        "DOWN": {
+          "support": 5,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091
+        }
+      },
+      "seed": 33,
+      "checkpoint_sha256": "0ef1f8108f74983560945014bc00c8eb3853e5f6838cfcdd906be0eb8144aff7",
+      "sessions": {
+        "20261008T050854-92265627": {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.8292682926829268,
+          "macro_f1": 0.8231060606060606,
+          "nll": 0.4423159658908844,
+          "no_command_to_motion_count": 1,
+          "no_command_to_motion_rate": 0.2,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.8,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "UP": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        }
+      }
+    },
+    {
+      "clips": 41,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8780487804878049,
+      "macro_f1": 0.8726641414141414,
+      "nll": 0.41531306505203247,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.2,
+      "stop_to_motion_count": 1,
+      "stop_recall": 0.8,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          3,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.7499999999999999
+        },
+        "BACKWARD": {
+          "support": 5,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        },
+        "LEFT": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "NO_COMMAND": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889
+        },
+        "UP": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "DOWN": {
+          "support": 5,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091
+        }
+      },
+      "seed": 44,
+      "checkpoint_sha256": "df58e86cfb6a272dbec73cbbca432a9d4add51f64b4b38282fc016da7a775342",
+      "sessions": {
+        "20261008T050854-92265627": {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.8780487804878049,
+          "macro_f1": 0.8726641414141414,
+          "nll": 0.41531306505203247,
+          "no_command_to_motion_count": 1,
+          "no_command_to_motion_rate": 0.2,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.8,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "UP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          }
+        }
+      }
+    },
+    {
+      "clips": 41,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8048780487804879,
+      "macro_f1": 0.7986111111111112,
+      "nll": 0.6284250617027283,
+      "no_command_to_motion_count": 2,
+      "no_command_to_motion_rate": 0.4,
+      "stop_to_motion_count": 1,
+      "stop_recall": 0.6,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "BACKWARD": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "LEFT": {
+          "support": 5,
+          "precision": 1.0,
+          "recall": 0.8,
+          "f1": 0.888888888888889
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 5,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665
+        },
+        "NO_COMMAND": {
+          "support": 5,
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6
+        },
+        "UP": {
+          "support": 5,
+          "precision": 0.8,
+          "recall": 0.8,
+          "f1": 0.8000000000000002
+        },
+        "DOWN": {
+          "support": 5,
+          "precision": 0.7142857142857143,
+          "recall": 1.0,
+          "f1": 0.8333333333333333
+        }
+      },
+      "seed": 55,
+      "checkpoint_sha256": "0342a2c5ad998cd18b4eb756219483e06444cd838556a7581145888d5d47533d",
+      "sessions": {
+        "20261008T050854-92265627": {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.8048780487804879,
+          "macro_f1": 0.7986111111111112,
+          "nll": 0.6284250617027283,
+          "no_command_to_motion_count": 2,
+          "no_command_to_motion_rate": 0.4,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.6,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              4,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6
+            },
+            "UP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            }
+          }
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "accuracy": {
+      "mean": 0.8634146341463416,
+      "run_sd": 0.04430707835264622
+    },
+    "macro_f1": {
+      "mean": 0.8576855089355089,
+      "run_sd": 0.04474467493493717
+    },
+    "nll": {
+      "mean": 0.4690351366996765,
+      "run_sd": 0.09699354441025375
+    },
+    "no_command_to_motion_rate": {
+      "mean": 0.27999999999999997,
+      "run_sd": 0.10954451150103323
+    },
+    "stop_recall": {
+      "mean": 0.8,
+      "run_sd": 0.14142135623730953
+    }
+  },
+  "interpretation": "Frozen-weight, single-user new-session development validation. No retraining or reselection. Old and new sessions are separate; descriptive changes are not causal improvements. Run SD is training variability on shared clips, not a population interval. No final test, gate/robot outcome, unseen-user reliability, SSL or annotation savings.",
+  "old_selection_session_metrics": {
+    "accuracy": {
+      "mean": 0.851063829787234,
+      "run_sd": 0.026058401518970015
+    },
+    "macro_f1": {
+      "mean": 0.8532226107226106,
+      "run_sd": 0.028789812578065403
+    },
+    "nll": {
+      "mean": 0.3380171716213226,
+      "run_sd": 0.03775318893811595
+    },
+    "no_command_to_motion_rate": {
+      "mean": 0.4666666666666667,
+      "run_sd": 0.13944333775567924
+    },
+    "stop_recall": {
+      "mean": 0.9666666666666668,
+      "run_sd": 0.07453559924999298
+    }
+  },
+  "paired_changes_from_selection_session": {
+    "accuracy": {
+      "by_seed": {
+        "11": 0.09392838609237164,
+        "22": 0.05137519460300988,
+        "33": -0.04307213284898814,
+        "44": 0.02698495070057083,
+        "55": -0.06746237675142708
+      },
+      "mean": 0.012350804359107426
+    },
+    "macro_f1": {
+      "by_seed": {
+        "11": 0.09054695304695315,
+        "22": 0.04074397824397824,
+        "33": -0.044390331890331924,
+        "44": 0.01792166167166176,
+        "55": -0.08250777000776988
+      },
+      "mean": 0.00446289821289827
+    },
+    "no_command_to_motion_rate": {
+      "by_seed": {
+        "11": -0.2666666666666666,
+        "22": -0.1333333333333333,
+        "33": -0.3,
+        "44": -0.3,
+        "55": 0.06666666666666671
+      },
+      "mean": -0.18666666666666668
+    },
+    "stop_recall": {
+      "by_seed": {
+        "11": 0.16666666666666663,
+        "22": -0.19999999999999996,
+        "33": -0.19999999999999996,
+        "44": -0.19999999999999996,
+        "55": -0.4
+      },
+      "mean": -0.16666666666666666
+    }
+  },
+  "class_recall_comparison": {
+    "FORWARD": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 6,
+      "new_mean": 0.64,
+      "old_mean": 0.8
+    },
+    "BACKWARD": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 6,
+      "new_mean": 0.96,
+      "old_mean": 0.7333333333333332
+    },
+    "LEFT": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 7,
+      "new_mean": 0.96,
+      "old_mean": 1.0
+    },
+    "RIGHT": {
+      "new_support_per_model": 6,
+      "old_support_per_model": 6,
+      "new_mean": 0.9666666666666668,
+      "old_mean": 0.9333333333333333
+    },
+    "STOP": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 6,
+      "new_mean": 0.8,
+      "old_mean": 0.9666666666666668
+    },
+    "NO_COMMAND": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 6,
+      "new_mean": 0.72,
+      "old_mean": 0.5333333333333333
+    },
+    "UP": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 5,
+      "new_mean": 0.8400000000000001,
+      "old_mean": 0.8400000000000001
+    },
+    "DOWN": {
+      "new_support_per_model": 5,
+      "old_support_per_model": 5,
+      "new_mean": 1.0,
+      "old_mean": 1.0
+    }
+  },
+  "per_session": {
+    "20261008T050854-92265627": {
+      "trials": [
+        {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.9024390243902439,
+          "macro_f1": 0.8956876456876457,
+          "nll": 0.3770754635334015,
+          "no_command_to_motion_count": 2,
+          "no_command_to_motion_rate": 0.4,
+          "stop_to_motion_count": 0,
+          "stop_recall": 1.0,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              3,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 0.8571428571428571,
+              "recall": 1.0,
+              "f1": 0.923076923076923
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999
+            },
+            "UP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          },
+          "seed": 11,
+          "checkpoint_sha256": "090adc1dcd624d5dca372fdca32ac52784ac9af3b3feda98688a5278d1ba426d",
+          "sessions": {
+            "20261008T050854-92265627": {
+              "clips": 41,
+              "labels": [
+                "FORWARD",
+                "BACKWARD",
+                "LEFT",
+                "RIGHT",
+                "STOP",
+                "NO_COMMAND",
+                "UP",
+                "DOWN"
+              ],
+              "accuracy": 0.9024390243902439,
+              "macro_f1": 0.8956876456876457,
+              "nll": 0.3770754635334015,
+              "no_command_to_motion_count": 2,
+              "no_command_to_motion_rate": 0.4,
+              "stop_to_motion_count": 0,
+              "stop_recall": 1.0,
+              "confusion_matrix_actual_rows_predicted_columns": [
+                [
+                  3,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ]
+              ],
+              "per_class": {
+                "FORWARD": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.6,
+                  "f1": 0.7499999999999999
+                },
+                "BACKWARD": {
+                  "support": 5,
+                  "precision": 0.7142857142857143,
+                  "recall": 1.0,
+                  "f1": 0.8333333333333333
+                },
+                "LEFT": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "RIGHT": {
+                  "support": 6,
+                  "precision": 0.8571428571428571,
+                  "recall": 1.0,
+                  "f1": 0.923076923076923
+                },
+                "STOP": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "NO_COMMAND": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.6,
+                  "f1": 0.7499999999999999
+                },
+                "UP": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "DOWN": {
+                  "support": 5,
+                  "precision": 0.8333333333333334,
+                  "recall": 1.0,
+                  "f1": 0.9090909090909091
+                }
+              }
+            }
+          }
+        },
+        {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.9024390243902439,
+          "macro_f1": 0.8983585858585859,
+          "nll": 0.48204612731933594,
+          "no_command_to_motion_count": 1,
+          "no_command_to_motion_rate": 0.2,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.8,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "UP": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          },
+          "seed": 22,
+          "checkpoint_sha256": "f331f99d56196ef7fa14a19f4eb050b6d6fa7f484095af2da4bf0515109bf0d8",
+          "sessions": {
+            "20261008T050854-92265627": {
+              "clips": 41,
+              "labels": [
+                "FORWARD",
+                "BACKWARD",
+                "LEFT",
+                "RIGHT",
+                "STOP",
+                "NO_COMMAND",
+                "UP",
+                "DOWN"
+              ],
+              "accuracy": 0.9024390243902439,
+              "macro_f1": 0.8983585858585859,
+              "nll": 0.48204612731933594,
+              "no_command_to_motion_count": 1,
+              "no_command_to_motion_rate": 0.2,
+              "stop_to_motion_count": 1,
+              "stop_recall": 0.8,
+              "confusion_matrix_actual_rows_predicted_columns": [
+                [
+                  3,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ]
+              ],
+              "per_class": {
+                "FORWARD": {
+                  "support": 5,
+                  "precision": 0.75,
+                  "recall": 0.6,
+                  "f1": 0.6666666666666665
+                },
+                "BACKWARD": {
+                  "support": 5,
+                  "precision": 0.7142857142857143,
+                  "recall": 1.0,
+                  "f1": 0.8333333333333333
+                },
+                "LEFT": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "RIGHT": {
+                  "support": 6,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "STOP": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.8,
+                  "f1": 0.888888888888889
+                },
+                "NO_COMMAND": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.8,
+                  "f1": 0.888888888888889
+                },
+                "UP": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "DOWN": {
+                  "support": 5,
+                  "precision": 0.8333333333333334,
+                  "recall": 1.0,
+                  "f1": 0.9090909090909091
+                }
+              }
+            }
+          }
+        },
+        {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.8292682926829268,
+          "macro_f1": 0.8231060606060606,
+          "nll": 0.4423159658908844,
+          "no_command_to_motion_count": 1,
+          "no_command_to_motion_rate": 0.2,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.8,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 0.8333333333333334,
+              "f1": 0.9090909090909091
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "UP": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          },
+          "seed": 33,
+          "checkpoint_sha256": "0ef1f8108f74983560945014bc00c8eb3853e5f6838cfcdd906be0eb8144aff7",
+          "sessions": {
+            "20261008T050854-92265627": {
+              "clips": 41,
+              "labels": [
+                "FORWARD",
+                "BACKWARD",
+                "LEFT",
+                "RIGHT",
+                "STOP",
+                "NO_COMMAND",
+                "UP",
+                "DOWN"
+              ],
+              "accuracy": 0.8292682926829268,
+              "macro_f1": 0.8231060606060606,
+              "nll": 0.4423159658908844,
+              "no_command_to_motion_count": 1,
+              "no_command_to_motion_rate": 0.2,
+              "stop_to_motion_count": 1,
+              "stop_recall": 0.8,
+              "confusion_matrix_actual_rows_predicted_columns": [
+                [
+                  3,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ]
+              ],
+              "per_class": {
+                "FORWARD": {
+                  "support": 5,
+                  "precision": 0.75,
+                  "recall": 0.6,
+                  "f1": 0.6666666666666665
+                },
+                "BACKWARD": {
+                  "support": 5,
+                  "precision": 0.7142857142857143,
+                  "recall": 1.0,
+                  "f1": 0.8333333333333333
+                },
+                "LEFT": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "RIGHT": {
+                  "support": 6,
+                  "precision": 1.0,
+                  "recall": 0.8333333333333334,
+                  "f1": 0.9090909090909091
+                },
+                "STOP": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "NO_COMMAND": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "UP": {
+                  "support": 5,
+                  "precision": 0.75,
+                  "recall": 0.6,
+                  "f1": 0.6666666666666665
+                },
+                "DOWN": {
+                  "support": 5,
+                  "precision": 0.8333333333333334,
+                  "recall": 1.0,
+                  "f1": 0.9090909090909091
+                }
+              }
+            }
+          }
+        },
+        {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.8780487804878049,
+          "macro_f1": 0.8726641414141414,
+          "nll": 0.41531306505203247,
+          "no_command_to_motion_count": 1,
+          "no_command_to_motion_rate": 0.2,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.8,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.6,
+              "f1": 0.7499999999999999
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "UP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.8333333333333334,
+              "recall": 1.0,
+              "f1": 0.9090909090909091
+            }
+          },
+          "seed": 44,
+          "checkpoint_sha256": "df58e86cfb6a272dbec73cbbca432a9d4add51f64b4b38282fc016da7a775342",
+          "sessions": {
+            "20261008T050854-92265627": {
+              "clips": 41,
+              "labels": [
+                "FORWARD",
+                "BACKWARD",
+                "LEFT",
+                "RIGHT",
+                "STOP",
+                "NO_COMMAND",
+                "UP",
+                "DOWN"
+              ],
+              "accuracy": 0.8780487804878049,
+              "macro_f1": 0.8726641414141414,
+              "nll": 0.41531306505203247,
+              "no_command_to_motion_count": 1,
+              "no_command_to_motion_rate": 0.2,
+              "stop_to_motion_count": 1,
+              "stop_recall": 0.8,
+              "confusion_matrix_actual_rows_predicted_columns": [
+                [
+                  3,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  4,
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ]
+              ],
+              "per_class": {
+                "FORWARD": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.6,
+                  "f1": 0.7499999999999999
+                },
+                "BACKWARD": {
+                  "support": 5,
+                  "precision": 0.7142857142857143,
+                  "recall": 1.0,
+                  "f1": 0.8333333333333333
+                },
+                "LEFT": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "RIGHT": {
+                  "support": 6,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "STOP": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "NO_COMMAND": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.8,
+                  "f1": 0.888888888888889
+                },
+                "UP": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "DOWN": {
+                  "support": 5,
+                  "precision": 0.8333333333333334,
+                  "recall": 1.0,
+                  "f1": 0.9090909090909091
+                }
+              }
+            }
+          }
+        },
+        {
+          "clips": 41,
+          "labels": [
+            "FORWARD",
+            "BACKWARD",
+            "LEFT",
+            "RIGHT",
+            "STOP",
+            "NO_COMMAND",
+            "UP",
+            "DOWN"
+          ],
+          "accuracy": 0.8048780487804879,
+          "macro_f1": 0.7986111111111112,
+          "nll": 0.6284250617027283,
+          "no_command_to_motion_count": 2,
+          "no_command_to_motion_rate": 0.4,
+          "stop_to_motion_count": 1,
+          "stop_recall": 0.6,
+          "confusion_matrix_actual_rows_predicted_columns": [
+            [
+              4,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              3,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ],
+          "per_class": {
+            "FORWARD": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "BACKWARD": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "LEFT": {
+              "support": 5,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.888888888888889
+            },
+            "RIGHT": {
+              "support": 6,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0
+            },
+            "STOP": {
+              "support": 5,
+              "precision": 0.75,
+              "recall": 0.6,
+              "f1": 0.6666666666666665
+            },
+            "NO_COMMAND": {
+              "support": 5,
+              "precision": 0.6,
+              "recall": 0.6,
+              "f1": 0.6
+            },
+            "UP": {
+              "support": 5,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002
+            },
+            "DOWN": {
+              "support": 5,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333333
+            }
+          },
+          "seed": 55,
+          "checkpoint_sha256": "0342a2c5ad998cd18b4eb756219483e06444cd838556a7581145888d5d47533d",
+          "sessions": {
+            "20261008T050854-92265627": {
+              "clips": 41,
+              "labels": [
+                "FORWARD",
+                "BACKWARD",
+                "LEFT",
+                "RIGHT",
+                "STOP",
+                "NO_COMMAND",
+                "UP",
+                "DOWN"
+              ],
+              "accuracy": 0.8048780487804879,
+              "macro_f1": 0.7986111111111112,
+              "nll": 0.6284250617027283,
+              "no_command_to_motion_count": 2,
+              "no_command_to_motion_rate": 0.4,
+              "stop_to_motion_count": 1,
+              "stop_recall": 0.6,
+              "confusion_matrix_actual_rows_predicted_columns": [
+                [
+                  4,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  4,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  4,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  6,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  4,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ]
+              ],
+              "per_class": {
+                "FORWARD": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "BACKWARD": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "LEFT": {
+                  "support": 5,
+                  "precision": 1.0,
+                  "recall": 0.8,
+                  "f1": 0.888888888888889
+                },
+                "RIGHT": {
+                  "support": 6,
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "f1": 1.0
+                },
+                "STOP": {
+                  "support": 5,
+                  "precision": 0.75,
+                  "recall": 0.6,
+                  "f1": 0.6666666666666665
+                },
+                "NO_COMMAND": {
+                  "support": 5,
+                  "precision": 0.6,
+                  "recall": 0.6,
+                  "f1": 0.6
+                },
+                "UP": {
+                  "support": 5,
+                  "precision": 0.8,
+                  "recall": 0.8,
+                  "f1": 0.8000000000000002
+                },
+                "DOWN": {
+                  "support": 5,
+                  "precision": 0.7142857142857143,
+                  "recall": 1.0,
+                  "f1": 0.8333333333333333
+                }
+              }
+            }
+          }
+        }
+      ],
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8634146341463416,
+          "run_sd": 0.04430707835264622
+        },
+        "macro_f1": {
+          "mean": 0.8576855089355089,
+          "run_sd": 0.04474467493493717
+        },
+        "nll": {
+          "mean": 0.4690351366996765,
+          "run_sd": 0.09699354441025375
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.27999999999999997,
+          "run_sd": 0.10954451150103323
+        },
+        "stop_recall": {
+          "mean": 0.8,
+          "run_sd": 0.14142135623730953
+        }
+      },
+      "interpretation": "Frozen-weight, single-user new-session development validation. No retraining or reselection. Old and new sessions are separate; descriptive changes are not causal improvements. Run SD is training variability on shared clips, not a population interval. No final test, gate/robot outcome, unseen-user reliability, SSL or annotation savings.",
+      "old_selection_session_metrics": {
+        "accuracy": {
+          "mean": 0.851063829787234,
+          "run_sd": 0.026058401518970015
+        },
+        "macro_f1": {
+          "mean": 0.8532226107226106,
+          "run_sd": 0.028789812578065403
+        },
+        "nll": {
+          "mean": 0.3380171716213226,
+          "run_sd": 0.03775318893811595
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.4666666666666667,
+          "run_sd": 0.13944333775567924
+        },
+        "stop_recall": {
+          "mean": 0.9666666666666668,
+          "run_sd": 0.07453559924999298
+        }
+      },
+      "paired_changes_from_selection_session": {
+        "accuracy": {
+          "by_seed": {
+            "11": 0.09392838609237164,
+            "22": 0.05137519460300988,
+            "33": -0.04307213284898814,
+            "44": 0.02698495070057083,
+            "55": -0.06746237675142708
+          },
+          "mean": 0.012350804359107426
+        },
+        "macro_f1": {
+          "by_seed": {
+            "11": 0.09054695304695315,
+            "22": 0.04074397824397824,
+            "33": -0.044390331890331924,
+            "44": 0.01792166167166176,
+            "55": -0.08250777000776988
+          },
+          "mean": 0.00446289821289827
+        },
+        "no_command_to_motion_rate": {
+          "by_seed": {
+            "11": -0.2666666666666666,
+            "22": -0.1333333333333333,
+            "33": -0.3,
+            "44": -0.3,
+            "55": 0.06666666666666671
+          },
+          "mean": -0.18666666666666668
+        },
+        "stop_recall": {
+          "by_seed": {
+            "11": 0.16666666666666663,
+            "22": -0.19999999999999996,
+            "33": -0.19999999999999996,
+            "44": -0.19999999999999996,
+            "55": -0.4
+          },
+          "mean": -0.16666666666666666
+        }
+      },
+      "class_recall_comparison": {
+        "FORWARD": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 6,
+          "new_mean": 0.64,
+          "old_mean": 0.8
+        },
+        "BACKWARD": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 6,
+          "new_mean": 0.96,
+          "old_mean": 0.7333333333333332
+        },
+        "LEFT": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 7,
+          "new_mean": 0.96,
+          "old_mean": 1.0
+        },
+        "RIGHT": {
+          "new_support_per_model": 6,
+          "old_support_per_model": 6,
+          "new_mean": 0.9666666666666668,
+          "old_mean": 0.9333333333333333
+        },
+        "STOP": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 6,
+          "new_mean": 0.8,
+          "old_mean": 0.9666666666666668
+        },
+        "NO_COMMAND": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 6,
+          "new_mean": 0.72,
+          "old_mean": 0.5333333333333333
+        },
+        "UP": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 5,
+          "new_mean": 0.8400000000000001,
+          "old_mean": 0.8400000000000001
+        },
+        "DOWN": {
+          "new_support_per_model": 5,
+          "old_support_per_model": 5,
+          "new_mean": 1.0,
+          "old_mean": 1.0
+        }
+      }
+    }
+  }
+}

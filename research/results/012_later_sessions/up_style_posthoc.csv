@@ -1,0 +1,16 @@
+family,style,unique_clips,correct_of_20_repeated_predictions,repeated_predictions,recall,scope
+cnn,index_up,4,6,20,0.3,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+cnn,two_fingers_up,4,18,20,0.9,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+cnn,thumbs_up,4,15,20,0.75,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+lstm,index_up,4,11,20,0.55,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+lstm,two_fingers_up,4,17,20,0.85,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+lstm,thumbs_up,4,14,20,0.7,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+bilstm,index_up,4,14,20,0.7,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+bilstm,two_fingers_up,4,14,20,0.7,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+bilstm,thumbs_up,4,16,20,0.8,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+local_set,index_up,4,12,20,0.6,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+local_set,two_fingers_up,4,19,20,0.95,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+local_set,thumbs_up,4,15,20,0.75,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+feature_set,index_up,4,11,20,0.55,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+feature_set,two_fingers_up,4,19,20,0.95,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.
+feature_set,thumbs_up,4,9,20,0.45,Post-hoc descriptive; four unique clips/style from one user; not an independent primary contrast.

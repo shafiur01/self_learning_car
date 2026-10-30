@@ -1,0 +1,2262 @@
+[
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9720017636684304,
+    "balanced_accuracy": 0.972943722943723,
+    "nll": 0.06714904308319092,
+    "no_command_to_motion_count": 0,
+    "no_command_to_motion_rate": 0.0,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        11
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666,
+        "support": 11
+      }
+    },
+    "variant": "baseline",
+    "seed": 11,
+    "best_epoch": 46,
+    "training_seconds": 6.2563493750058115,
+    "initial_weights_sha256": "04ff6d9faf73f69ca2b138d986c9f840e916fad0111562d3b6d84a0152d2aea4",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9696969696969697,
+    "balanced_accuracy": 0.9696969696969697,
+    "nll": 0.07402915507555008,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      }
+    },
+    "variant": "jitter",
+    "seed": 11,
+    "best_epoch": 79,
+    "training_seconds": 6.325737042003311,
+    "initial_weights_sha256": "04ff6d9faf73f69ca2b138d986c9f840e916fad0111562d3b6d84a0152d2aea4",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9569365149075294,
+    "balanced_accuracy": 0.9577922077922079,
+    "nll": 0.09878779947757721,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "f1": 0.8695652173913043,
+        "support": 11
+      }
+    },
+    "variant": "time_warp",
+    "seed": 11,
+    "best_epoch": 47,
+    "training_seconds": 6.472379832994193,
+    "initial_weights_sha256": "04ff6d9faf73f69ca2b138d986c9f840e916fad0111562d3b6d84a0152d2aea4",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9696969696969697,
+    "balanced_accuracy": 0.9696969696969697,
+    "nll": 0.0700594112277031,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      }
+    },
+    "variant": "combined",
+    "seed": 11,
+    "best_epoch": 69,
+    "training_seconds": 6.472754791990155,
+    "initial_weights_sha256": "04ff6d9faf73f69ca2b138d986c9f840e916fad0111562d3b6d84a0152d2aea4",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9720017636684304,
+    "balanced_accuracy": 0.972943722943723,
+    "nll": 0.07677272707223892,
+    "no_command_to_motion_count": 0,
+    "no_command_to_motion_rate": 0.0,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        11
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666,
+        "support": 11
+      }
+    },
+    "variant": "baseline",
+    "seed": 22,
+    "best_epoch": 67,
+    "training_seconds": 6.136490290984511,
+    "initial_weights_sha256": "741ba054b713621b1bcb10dabf4c39d8b2dbe3711362d57ccf8fc55514062e49",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9562150141860287,
+    "balanced_accuracy": 0.9577922077922079,
+    "nll": 0.13363496959209442,
+    "no_command_to_motion_count": 0,
+    "no_command_to_motion_rate": 0.0,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "f1": 0.8695652173913043,
+        "support": 11
+      }
+    },
+    "variant": "jitter",
+    "seed": 22,
+    "best_epoch": 60,
+    "training_seconds": 6.307626416004496,
+    "initial_weights_sha256": "741ba054b713621b1bcb10dabf4c39d8b2dbe3711362d57ccf8fc55514062e49",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9696496989600439,
+    "balanced_accuracy": 0.9696969696969697,
+    "nll": 0.10146734863519669,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        9
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1": 0.9655172413793104,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 1.0,
+        "recall": 0.8181818181818182,
+        "f1": 0.9,
+        "support": 11
+      }
+    },
+    "variant": "time_warp",
+    "seed": 22,
+    "best_epoch": 36,
+    "training_seconds": 6.298412417003419,
+    "initial_weights_sha256": "741ba054b713621b1bcb10dabf4c39d8b2dbe3711362d57ccf8fc55514062e49",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.968975468975469,
+    "balanced_accuracy": 0.9696969696969697,
+    "nll": 0.09791330248117447,
+    "no_command_to_motion_count": 0,
+    "no_command_to_motion_rate": 0.0,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      }
+    },
+    "variant": "combined",
+    "seed": 22,
+    "best_epoch": 46,
+    "training_seconds": 6.492356833012309,
+    "initial_weights_sha256": "741ba054b713621b1bcb10dabf4c39d8b2dbe3711362d57ccf8fc55514062e49",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9552918346021796,
+    "balanced_accuracy": 0.9545454545454546,
+    "nll": 0.1476408690214157,
+    "no_command_to_motion_count": 2,
+    "no_command_to_motion_rate": 0.18181818181818182,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        9
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1": 0.9655172413793104,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9,
+        "recall": 0.8181818181818182,
+        "f1": 0.8571428571428572,
+        "support": 11
+      }
+    },
+    "variant": "baseline",
+    "seed": 33,
+    "best_epoch": 34,
+    "training_seconds": 6.148131333000492,
+    "initial_weights_sha256": "440088bd8ff7ffaf5c02d44b59ce55e215ae40f2986ecbe1b539b83fbd9cf949",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9573622279769207,
+    "balanced_accuracy": 0.9585858585858587,
+    "nll": 0.14745157957077026,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1": 0.9655172413793104,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "f1": 0.8695652173913043,
+        "support": 11
+      }
+    },
+    "variant": "jitter",
+    "seed": 33,
+    "best_epoch": 41,
+    "training_seconds": 6.31823062498006,
+    "initial_weights_sha256": "440088bd8ff7ffaf5c02d44b59ce55e215ae40f2986ecbe1b539b83fbd9cf949",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9573622279769207,
+    "balanced_accuracy": 0.9585858585858587,
+    "nll": 0.1401626169681549,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        14,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1": 0.9655172413793104,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "f1": 0.8695652173913043,
+        "support": 11
+      }
+    },
+    "variant": "time_warp",
+    "seed": 33,
+    "best_epoch": 41,
+    "training_seconds": 6.306409415992675,
+    "initial_weights_sha256": "440088bd8ff7ffaf5c02d44b59ce55e215ae40f2986ecbe1b539b83fbd9cf949",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9861111111111112,
+    "macro_f1": 0.9841269841269842,
+    "balanced_accuracy": 0.9848484848484849,
+    "nll": 0.14505577087402344,
+    "no_command_to_motion_count": 0,
+    "no_command_to_motion_rate": 0.0,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      }
+    },
+    "variant": "combined",
+    "seed": 33,
+    "best_epoch": 30,
+    "training_seconds": 6.487571167002898,
+    "initial_weights_sha256": "440088bd8ff7ffaf5c02d44b59ce55e215ae40f2986ecbe1b539b83fbd9cf949",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9376811594202898,
+    "balanced_accuracy": 0.9393939393939394,
+    "nll": 0.12955118715763092,
+    "no_command_to_motion_count": 3,
+    "no_command_to_motion_rate": 0.2727272727272727,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        8
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "f1": 0.8695652173913043,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8888888888888888,
+        "recall": 0.7272727272727273,
+        "f1": 0.7999999999999999,
+        "support": 11
+      }
+    },
+    "variant": "baseline",
+    "seed": 44,
+    "best_epoch": 51,
+    "training_seconds": 6.161660042009316,
+    "initial_weights_sha256": "52bc941d16a1969f2fafa9dd3be707b22f66d28b25e368932b069768d632b335",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9569365149075294,
+    "balanced_accuracy": 0.9577922077922079,
+    "nll": 0.15269875526428223,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8333333333333334,
+        "recall": 0.9090909090909091,
+        "f1": 0.8695652173913043,
+        "support": 11
+      }
+    },
+    "variant": "jitter",
+    "seed": 44,
+    "best_epoch": 57,
+    "training_seconds": 6.392616541997995,
+    "initial_weights_sha256": "52bc941d16a1969f2fafa9dd3be707b22f66d28b25e368932b069768d632b335",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9385216482667756,
+    "balanced_accuracy": 0.9393939393939394,
+    "nll": 0.12654948234558105,
+    "no_command_to_motion_count": 3,
+    "no_command_to_motion_rate": 0.2727272727272727,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        8
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1": 0.9655172413793104,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.8888888888888888,
+        "recall": 0.7272727272727273,
+        "f1": 0.7999999999999999,
+        "support": 11
+      }
+    },
+    "variant": "time_warp",
+    "seed": 44,
+    "best_epoch": 51,
+    "training_seconds": 6.323626375000458,
+    "initial_weights_sha256": "52bc941d16a1969f2fafa9dd3be707b22f66d28b25e368932b069768d632b335",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9444444444444444,
+    "macro_f1": 0.9373219373219372,
+    "balanced_accuracy": 0.9393939393939394,
+    "nll": 0.150821253657341,
+    "no_command_to_motion_count": 4,
+    "no_command_to_motion_rate": 0.36363636363636365,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        0,
+        7
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.7333333333333333,
+        "recall": 1.0,
+        "f1": 0.846153846153846,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 1.0,
+        "recall": 0.6363636363636364,
+        "f1": 0.7777777777777778,
+        "support": 11
+      }
+    },
+    "variant": "combined",
+    "seed": 44,
+    "best_epoch": 32,
+    "training_seconds": 6.4823432080156635,
+    "initial_weights_sha256": "52bc941d16a1969f2fafa9dd3be707b22f66d28b25e368932b069768d632b335",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9861111111111112,
+    "macro_f1": 0.9865807836822329,
+    "balanced_accuracy": 0.9880952380952381,
+    "nll": 0.08155227452516556,
+    "no_command_to_motion_count": 0,
+    "no_command_to_motion_rate": 0.0,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        13,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        11
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1": 0.962962962962963,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "support": 11
+      }
+    },
+    "variant": "baseline",
+    "seed": 55,
+    "best_epoch": 41,
+    "training_seconds": 6.245953666977584,
+    "initial_weights_sha256": "f027566a30c9fe46e7712ee5ad7e755130a7c4873a1742e179a2a3a947de833c",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9711648504751952,
+    "balanced_accuracy": 0.9696969696969697,
+    "nll": 0.07491274923086166,
+    "no_command_to_motion_count": 1,
+    "no_command_to_motion_rate": 0.09090909090909091,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        10
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1": 0.9655172413793104,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "support": 11
+      }
+    },
+    "variant": "jitter",
+    "seed": 55,
+    "best_epoch": 45,
+    "training_seconds": 6.551703625009395,
+    "initial_weights_sha256": "f027566a30c9fe46e7712ee5ad7e755130a7c4873a1742e179a2a3a947de833c",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9722222222222222,
+    "macro_f1": 0.9703398300849576,
+    "balanced_accuracy": 0.9696969696969697,
+    "nll": 0.06346205621957779,
+    "no_command_to_motion_count": 2,
+    "no_command_to_motion_rate": 0.18181818181818182,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        9
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1": 0.9655172413793104,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 1.0,
+        "recall": 0.8181818181818182,
+        "f1": 0.9,
+        "support": 11
+      }
+    },
+    "variant": "time_warp",
+    "seed": 55,
+    "best_epoch": 53,
+    "training_seconds": 6.412584167002933,
+    "initial_weights_sha256": "f027566a30c9fe46e7712ee5ad7e755130a7c4873a1742e179a2a3a947de833c",
+    "parameters": 48390
+  },
+  {
+    "accuracy": 0.9583333333333334,
+    "macro_f1": 0.9552604650055926,
+    "balanced_accuracy": 0.9545454545454546,
+    "nll": 0.06908660382032394,
+    "no_command_to_motion_count": 2,
+    "no_command_to_motion_rate": 0.18181818181818182,
+    "stop_to_motion_count": 0,
+    "stop_recall": 1.0,
+    "clips": 72,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND"
+    ],
+    "confusion_matrix_actual_rows_predicted_columns": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        9
+      ]
+    ],
+    "per_class": {
+      "FORWARD": {
+        "precision": 1.0,
+        "recall": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "support": 11
+      },
+      "BACKWARD": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "support": 11
+      },
+      "LEFT": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1": 0.9655172413793104,
+        "support": 14
+      },
+      "RIGHT": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "STOP": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "NO_COMMAND": {
+        "precision": 0.9,
+        "recall": 0.8181818181818182,
+        "f1": 0.8571428571428572,
+        "support": 11
+      }
+    },
+    "variant": "combined",
+    "seed": 55,
+    "best_epoch": 57,
+    "training_seconds": 6.599761624995153,
+    "initial_weights_sha256": "f027566a30c9fe46e7712ee5ad7e755130a7c4873a1742e179a2a3a947de833c",
+    "parameters": 48390
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "experiment_id": "016_input_conditioning",
+  "conditions": [
+    "raw_clock",
+    "rms_clock",
+    "raw_no_clock",
+    "rms_no_clock"
+  ],
+  "roles": [
+    "teacher_a",
+    "teacher_b",
+    "student"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "training": {
+    "steps": 560,
+    "validation_checks": 28,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "ramp_steps": 140
+  },
+  "threads": 2,
+  "parent_study": "research/experiments/runs/evidence_profile_budget160/20261016T133936682213Z",
+  "prior_diagnostic": "research/experiments/runs/evidence_profile_diagnostic/20261016T142255449351Z",
+  "parameters": 49840,
+  "features": 149,
+  "prepared_fits": 60,
+  "scope": "Fixed-budget single-user retrospective baseline experiment; not physical-viewpoint, novelty or independent test evidence."
+}

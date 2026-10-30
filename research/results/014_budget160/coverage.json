@@ -1,0 +1,85 @@
+{
+  "role": "Metadata-only coverage audit; no style-based reselection.",
+  "rows": [
+    {
+      "seed": 11,
+      "teacher_up_shapes": [
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ],
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ]
+      ],
+      "both_teachers_all_up_shapes": true
+    },
+    {
+      "seed": 22,
+      "teacher_up_shapes": [
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ],
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ]
+      ],
+      "both_teachers_all_up_shapes": true
+    },
+    {
+      "seed": 33,
+      "teacher_up_shapes": [
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ],
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ]
+      ],
+      "both_teachers_all_up_shapes": true
+    },
+    {
+      "seed": 44,
+      "teacher_up_shapes": [
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ],
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ]
+      ],
+      "both_teachers_all_up_shapes": true
+    },
+    {
+      "seed": 55,
+      "teacher_up_shapes": [
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ],
+        [
+          "index_up",
+          "thumbs_up",
+          "two_fingers_up"
+        ]
+      ],
+      "both_teachers_all_up_shapes": true
+    }
+  ]
+}

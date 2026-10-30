@@ -1,0 +1,34 @@
+{
+  "study": "research/experiments/runs/commands_v2/20261008T025353704748Z",
+  "checkpoints": [
+    {
+      "seed": 11,
+      "file": "seed_11/model.pt",
+      "sha256": "090adc1dcd624d5dca372fdca32ac52784ac9af3b3feda98688a5278d1ba426d"
+    },
+    {
+      "seed": 22,
+      "file": "seed_22/model.pt",
+      "sha256": "f331f99d56196ef7fa14a19f4eb050b6d6fa7f484095af2da4bf0515109bf0d8"
+    },
+    {
+      "seed": 33,
+      "file": "seed_33/model.pt",
+      "sha256": "0ef1f8108f74983560945014bc00c8eb3853e5f6838cfcdd906be0eb8144aff7"
+    },
+    {
+      "seed": 44,
+      "file": "seed_44/model.pt",
+      "sha256": "df58e86cfb6a272dbec73cbbca432a9d4add51f64b4b38282fc016da7a775342"
+    },
+    {
+      "seed": 55,
+      "file": "seed_55/model.pt",
+      "sha256": "0342a2c5ad998cd18b4eb756219483e06444cd838556a7581145888d5d47533d"
+    }
+  ],
+  "evaluation": "raw classification on new validation only",
+  "retraining": false,
+  "checkpoint_selection": false,
+  "primary_outcome": "macro F1 across every declared seed"
+}

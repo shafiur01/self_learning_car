@@ -1,0 +1,10 @@
+{
+  "parent_artifacts_intact": true,
+  "seed_score_bundles_reproduced": 5,
+  "ranking_selections_reproduced": 180,
+  "student_prediction_vectors_reproduced": 1225,
+  "original_profile_and_embedding_weights_reproduced": true,
+  "scores_frozen_before_oracle_access": true,
+  "new_fits": 0,
+  "endpoint_feature_or_score_payloads_loaded": 0
+}

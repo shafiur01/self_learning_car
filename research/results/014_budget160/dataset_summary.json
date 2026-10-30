@@ -1,0 +1,24 @@
+{
+  "original_training": 405,
+  "class_counts": {
+    "FORWARD": 86,
+    "LEFT": 46,
+    "NO_COMMAND": 41,
+    "STOP": 44,
+    "DOWN": 34,
+    "RIGHT": 41,
+    "BACKWARD": 63,
+    "UP": 50
+  },
+  "labeled_per_seed": 160,
+  "hidden_per_seed": 245,
+  "selection": 48,
+  "retrospective_endpoint": 96,
+  "group_sizes": [
+    250,
+    155
+  ],
+  "excluded_model_selected_corrections": 133,
+  "new_recordings": 0,
+  "training_plus_selection_labels": 208
+}

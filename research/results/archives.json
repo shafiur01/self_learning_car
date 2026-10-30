@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "artifact_roots": [
+    {
+      "path": "research/experiments/runs",
+      "files": 3244,
+      "bytes": 393590592,
+      "content_index_sha256": "fb6101bd87ceffbf0f2d1bb185e8aca17a50dbdfb26ce8d7d2045face292b806"
+    },
+    {
+      "path": "research/experiments/data",
+      "files": 1804,
+      "bytes": 155312582,
+      "content_index_sha256": "59f176416b85caa017c7f5ed5700bf801b1a1a56a4123587638982e659484079"
+    },
+    {
+      "path": "gesture_commands/data",
+      "files": 548,
+      "bytes": 4514774,
+      "content_index_sha256": "16db75be2dd1b1c97ce7299a17e61d06a38c2be6b22f5249c03a8cf49d130eff"
+    },
+    {
+      "path": "gesture_commands/runs",
+      "files": 6,
+      "bytes": 489328,
+      "content_index_sha256": "dad7c6934e3ce6beba608726486e0d2e17477d25aa1f438f59f3129558a3c7db"
+    },
+    {
+      "path": "models",
+      "files": 2,
+      "bytes": 7819590,
+      "content_index_sha256": "e59311aaa9a0e27f9b1ef8141ac320bb061da76cc0a48f1c2cbba3376e66047d"
+    },
+    {
+      "path": "research/notes",
+      "files": 9,
+      "bytes": 105807,
+      "content_index_sha256": "4f1e0f7602c04a9aff898e4552e0f1410392016aaf71cd67ac4495df77d1839f"
+    }
+  ],
+  "backup_status": "No off-device upload/backup was performed by this preparation.",
+  "storage_uri": null,
+  "private_index": "research/private/artifact_inventory.json"
+}

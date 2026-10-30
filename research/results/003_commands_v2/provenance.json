@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "experiment": "003_commands_v2",
+  "original_archive": "research/experiments/runs/commands_v2/20261008T025353704748Z",
+  "finding": "research/findings/003_commands_v2.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "config.json": "73bbc02d87e2969caf2c7b1ad674e2be5242250a7020dade5a8e48b37ad260c6",
+    "summary.json": "e5a908a3e77cf7a20cbe028a2885aab2d6d200cc657594e71c995246b30b5499",
+    "trials.json": "a01962f0506366757f4af7844bf86b350b0cc88a10b467a1c2e68152c4bf0e7a",
+    "environment.json": "81cae28ba1afd1758d00d878b55791d8b8ded4e253fbfdd5d3eaac7ac4def2e4",
+    "status.json": "8de76f5e952de43d158427958e29e36c6d7769b0b5cc5603f48ad21e8656ff9b",
+    "verification.json": "8560e449c2d746b603ca75279ed26bb32a138fa338be52a9ad6dc948f94d3385",
+    "contract.json": "38e38c55920e1acaec9d129bcd258eea5004c67b93fd7d8336ccedc74bea157d",
+    "seed_11/history.json": "5cde9981d6eaa3edc189f81627a1153bd2883e195cb8449ea163e6b87f622b22",
+    "seed_22/history.json": "25fb06e011f9468587de6bfe20ce322b1f829a66a1e9e05a1a42891196a20bc3",
+    "seed_33/history.json": "9b5779eba7f7c73fa1a993ccfa2b10216f5904cf9c5bc3aab35dde8dbe1a94ff",
+    "seed_44/history.json": "aa3da60d4a5712518be37c251e455c4e68b574b6b77dfd583a26e22151cf8c90",
+    "seed_55/history.json": "89dfa0bea878f351093beda6d201d09b3055d5b187a8d6c9299524cdaec00975"
+  },
+  "private_reference_sha256": {
+    "manifest.json": "52e76f47ffd676c2ebeda6bc2bf50cd94d1c5f0eacc82a675b36cd687be2e43c"
+  },
+  "export_sha256": {
+    "config.json": "73bbc02d87e2969caf2c7b1ad674e2be5242250a7020dade5a8e48b37ad260c6",
+    "summary.json": "e5a908a3e77cf7a20cbe028a2885aab2d6d200cc657594e71c995246b30b5499",
+    "trials.json": "a01962f0506366757f4af7844bf86b350b0cc88a10b467a1c2e68152c4bf0e7a",
+    "environment.json": "81cae28ba1afd1758d00d878b55791d8b8ded4e253fbfdd5d3eaac7ac4def2e4",
+    "status.json": "8de76f5e952de43d158427958e29e36c6d7769b0b5cc5603f48ad21e8656ff9b",
+    "verification.json": "8560e449c2d746b603ca75279ed26bb32a138fa338be52a9ad6dc948f94d3385",
+    "contract.json": "38e38c55920e1acaec9d129bcd258eea5004c67b93fd7d8336ccedc74bea157d",
+    "histories/seed_11/history.json": "5cde9981d6eaa3edc189f81627a1153bd2883e195cb8449ea163e6b87f622b22",
+    "histories/seed_22/history.json": "25fb06e011f9468587de6bfe20ce322b1f829a66a1e9e05a1a42891196a20bc3",
+    "histories/seed_33/history.json": "9b5779eba7f7c73fa1a993ccfa2b10216f5904cf9c5bc3aab35dde8dbe1a94ff",
+    "histories/seed_44/history.json": "aa3da60d4a5712518be37c251e455c4e68b574b6b77dfd583a26e22151cf8c90",
+    "histories/seed_55/history.json": "89dfa0bea878f351093beda6d201d09b3055d5b187a8d6c9299524cdaec00975"
+  }
+}

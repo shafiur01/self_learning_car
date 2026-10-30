@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Gesture clip review</title>
+<style>
+:root{color-scheme:light;--ink:#18313e;--muted:#60717b;--line:#dbe3e6;--blue:#216a87;--red:#a63d41;--green:#2d7254;--paper:#f5f7f6}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,BlinkMacSystemFont,sans-serif}
+header{background:#173c4c;color:white;padding:22px 32px}header h1{font-size:27px;margin:0 0 4px;font-weight:650}header p{margin:0;color:#d5e5eb;font-size:14px}
+main{max-width:1500px;margin:auto;padding:22px 28px}button,select,textarea{font:inherit}button,select{border:1px solid var(--line);background:white;border-radius:8px;padding:8px 11px;color:var(--ink)}button{cursor:pointer}button:hover{border-color:var(--blue);background:#edf6f8}button:disabled{opacity:.45;cursor:default}button.primary{background:var(--blue);color:white;border-color:var(--blue)}button:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #7ec8df;outline-offset:2px}label{display:block;font-size:13px;color:var(--muted);font-weight:600}label select{display:block;margin-top:5px;width:100%;font-size:14px}h2{font-size:20px;margin:0 0 10px}h3{font-size:16px;margin:0 0 8px}.muted{color:var(--muted);font-size:13px}.notice{padding:11px 15px;background:#edf3f5;border:1px solid #d5e3e7;border-radius:9px;margin-bottom:18px;font-size:14px}.filters{display:grid;grid-template-columns:1.2fr 1.2fr .7fr 1.2fr;gap:12px;margin:15px 0}.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:18px}.list-card{padding:12px;align-self:start;position:sticky;top:15px}.list{max-height:680px;overflow-y:auto;margin-top:10px}.clip-button{display:block;width:100%;text-align:left;margin-bottom:7px;padding:10px}.clip-button.selected{background:#e7f3f7;border:2px solid var(--blue);padding:9px}.clip-button small{display:block;color:var(--muted);overflow:hidden;text-overflow:ellipsis}.badge{display:inline-block;font-size:12px;padding:2px 8px;background:#eff2f3;border-radius:12px;font-weight:600}.bad{background:#f9e9e9;color:var(--red)}.good{background:#e9f4ed;color:var(--green)}.player-head{display:flex;justify-content:space-between;gap:12px;align-items:start}.filename{font:12px ui-monospace,SFMono-Regular,monospace;overflow-wrap:anywhere}.hint{background:#f6f8f8;padding:10px 12px;border-radius:8px;margin:12px 0}.playback{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:12px 0}.playback label{display:flex;align-items:center;gap:5px;white-space:nowrap}.playback label select{margin:0;width:auto}.canvas-wrap{position:relative;background:#101f2a;border-radius:10px;overflow:hidden}canvas{display:block;width:100%;height:auto}.scrub{width:100%;accent-color:var(--blue);margin:12px 0 0}.player-footer{display:flex;justify-content:space-between;margin:0 0 14px}.details{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:17px}.small-canvas{max-height:300px}.reference-prompt{font-size:13px;min-height:42px}.signals{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}.signals div{padding:8px;background:#f4f7f7;border-radius:6px;font-size:13px}.signals strong{display:block}.family-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.family{border:1px solid var(--line);border-radius:8px;padding:12px}.family p{margin:4px 0;font-size:13px}.seed-row{display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-top:1px solid #edf0f1;font-size:13px}.seed-row.incorrect{color:var(--red)}.review-form{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin-bottom:12px}textarea{width:100%;min-height:100px;border:1px solid var(--line);border-radius:8px;padding:10px;resize:vertical}.review-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:10px}.status{font-size:13px;color:var(--muted)}.empty{padding:32px;text-align:center;color:var(--muted)}[hidden]{display:none!important}footer{font-size:12px;color:var(--muted);padding:18px 0 8px}kbd{padding:1px 4px;background:#eef2f4;border-radius:3px}.right-content{display:grid;gap:18px}.snapshot{font-size:13px;margin:0 0 8px;color:var(--muted)}
+@media(max-width:950px){.layout{grid-template-columns:210px minmax(0,1fr)}.details{grid-template-columns:1fr}.filters{grid-template-columns:1fr 1fr}main{padding:18px}.player-head{display:block}}
+@media(max-width:680px){header{padding:18px}.layout{grid-template-columns:1fr}.list-card{position:static}.list{max-height:200px}.review-form{grid-template-columns:1fr}.player-head{display:block}.filters{gap:8px}}
+</style>
+</head>
+<body>
+<header><h1>Gesture clip review</h1><p>Watch the recorded hand points. Compare examples. Add your observations.</p></header>
+<main>
+<div class="notice"><strong>Landmark replay:</strong> camera video was not saved. These animations show tracked hand points and their movement, with the same mirrored orientation as your recording preview. Observe first; reveal model guesses when ready.</div>
+<div class="filters">
+<label>Original category<select id="category"></select></label>
+<label>Model family<select id="family"></select></label>
+<label>Training seed<select id="seed"></select></label>
+<label>Which clips?<select id="scope"><option value="failures">Failures in selected models</option><option value="all">All clips, including correct examples</option><option value="unreviewed">Unreviewed failures</option></select></label>
+</div>
+<div class="layout">
+<aside class="card list-card"><h3 id="list-title">Clips</h3><div id="list-summary" class="muted"></div><div id="clip-list" class="list"></div></aside>
+<section id="content" class="right-content">
+<div class="card">
+<div class="player-head"><div><p id="clip-position" class="snapshot"></p><h2 id="clip-label"></h2><div id="clip-filename" class="filename"></div></div><div id="failure-badge" class="badge"></div></div>
+<div id="clip-hint" class="hint"></div>
+<div class="playback"><button id="previous">← Previous</button><button id="play" class="primary">Pause</button><button id="restart">Restart</button><button id="next">Next →</button><label>Speed<select id="speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label><label>View<select id="view"><option value="camera">Camera position</option><option value="centered">Centered hand shape</option></select></label></div>
+<div class="canvas-wrap"><canvas id="main-canvas" width="960" height="540" aria-label="Animated hand landmarks"></canvas></div>
+<label for="scrub" class="muted">Scrub through the original frames</label><input id="scrub" class="scrub" type="range" min="0" step="1" value="0">
+<div class="player-footer"><span id="frame-time" class="muted"></span><span class="muted">Space: play/pause · ← / →: previous/next</span></div>
+<p id="view-explanation" class="muted"></p>
+<div class="details">
+<div><h3>Nearby training example</h3><select id="reference"><option value="same_label">Nearest example with the same label</option><option value="confused_label" disabled>Nearest example of a wrong predicted class</option></select><p id="reference-caption" class="reference-prompt"></p><div class="canvas-wrap"><canvas id="reference-canvas" class="small-canvas" width="640" height="360" aria-label="Training example landmarks"></canvas></div><p id="reference-distance" class="muted"></p></div>
+<div><h3>Recorded signals</h3><div id="signals" class="signals"></div><p class="muted">Palm units are normalized coordinate distances, not metres. These measurements describe the recording; they do not establish what you intended.</p><p id="session" class="muted"></p></div>
+</div>
+</div>
+<div class="card"><h3>Your observation</h3><p class="muted">Describe what you performed and any visible differences. A possible label mistake is a suggestion for review; it does not change the stored label.</p>
+<div class="review-form"><label>Does the replay fit the intended gesture?<select id="assessment"><option value="">Not reviewed yet</option><option value="matches">Matches the intended gesture</option><option value="ambiguous">Ambiguous / not enough information</option><option value="tracking">Possible tracking problem</option><option value="possible_label_error">Possible label mistake</option></select></label><label>Suggested label, if needed<select id="suggested-label"></select></label></div>
+<label for="notes">What do you notice?</label><textarea id="notes" placeholder="For example: my palm was tilted, this was a relaxed hand, or the motion was deliberate…"></textarea>
+<div class="review-actions"><button id="save-observation" class="primary">Save observation</button><button id="export-notes">Export observations</button><span id="review-status" class="status" role="status"></span></div>
+</div>
+<div class="card"><div class="player-head"><div><h3>Model guesses</h3><p class="muted">Each family has five separately trained models. A score is not a verified probability of correctness.</p></div><button id="reveal">Show model guesses</button></div><div id="prediction-grid" class="family-grid" hidden></div></div>
+</section>
+<div id="empty" class="card empty" hidden>No clips match these filters. Try another category or choose “All clips”.</div>
+</div>
+<footer>Existing development validation · original labels and recordings preserved · no robot action or new accuracy experiment. Observations stay in this browser until you export them. Review timer counts foreground viewer time, including thought and pauses.</footer>
+</main>
+<script id="review-data" type="application/json">__REVIEW_DATA__</script>
+<script>__REVIEW_JS__</script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+{
+  "created_utc": "2026-10-16T01:04:48.271928+00:00",
+  "scope": "Metadata feasibility only. Planning/oracle-side summary, not sanitized learner input; no models fit or endpoint inference.",
+  "source_manifest": "research/experiments/runs/cross_model_motion/20261015T164901242592Z/manifest.json",
+  "source_manifest_sha256": "529f6c1fe9ac5429c65aad8dae717ac1e14ff3e37b12ddaf8e5ec68356b09259",
+  "current_training": {
+    "clips": 538,
+    "counts": {
+      "FORWARD": 124,
+      "BACKWARD": 85,
+      "LEFT": 68,
+      "RIGHT": 59,
+      "STOP": 57,
+      "NO_COMMAND": 61,
+      "UP": 50,
+      "DOWN": 34
+    },
+    "source_counts": {
+      "correction": 133,
+      "recording": 405
+    }
+  },
+  "primary_pool": {
+    "original_clips": 405,
+    "counts": {
+      "FORWARD": 86,
+      "BACKWARD": 63,
+      "LEFT": 46,
+      "RIGHT": 41,
+      "STOP": 44,
+      "NO_COMMAND": 41,
+      "UP": 50,
+      "DOWN": 34
+    },
+    "hidden_label_simulation": true
+  },
+  "session_counts": {
+    "20260930T062558-33e35afb": {
+      "total": 201,
+      "counts": {
+        "FORWARD": 61,
+        "BACKWARD": 38,
+        "LEFT": 31,
+        "RIGHT": 26,
+        "STOP": 29,
+        "NO_COMMAND": 16,
+        "UP": 0,
+        "DOWN": 0
+      },
+      "sources": {
+        "recording": 201
+      }
+    },
+    "20260930T072835-ac4d3184": {
+      "total": 130,
+      "counts": {
+        "FORWARD": 35,
+        "BACKWARD": 22,
+        "LEFT": 22,
+        "RIGHT": 18,
+        "STOP": 13,
+        "NO_COMMAND": 20,
+        "UP": 0,
+        "DOWN": 0
+      },
+      "sources": {
+        "correction": 130
+      }
+    },
+    "20260930T083901-bc5c2dd6": {
+      "total": 3,
+      "counts": {
+        "FORWARD": 3,
+        "BACKWARD": 0,
+        "LEFT": 0,
+        "RIGHT": 0,
+        "STOP": 0,
+        "NO_COMMAND": 0,
+        "UP": 0,
+        "DOWN": 0
+      },
+      "sources": {
+        "correction": 3
+      }
+    },
+    "20261008T005936-27dde0e5": {
+      "total": 90,
+      "counts": {
+        "FORWARD": 15,
+        "BACKWARD": 15,
+        "LEFT": 15,
+        "RIGHT": 15,
+        "STOP": 15,
+        "NO_COMMAND": 15,
+        "UP": 0,
+        "DOWN": 0
+      },
+      "sources": {
+        "recording": 90
+      }
+    },
+    "20261008T021615-a0b59124": {
+      "total": 24,
+      "counts": {
+        "FORWARD": 0,
+        "BACKWARD": 0,
+        "LEFT": 0,
+        "RIGHT": 0,
+        "STOP": 0,
+        "NO_COMMAND": 0,
+        "UP": 0,
+        "DOWN": 24
+      },
+      "sources": {
+        "recording": 24
+      }
+    },
+    "20261008T063028-1f0a4f92": {
+      "total": 20,
+      "counts": {
+        "FORWARD": 5,
+        "BACKWARD": 5,
+        "LEFT": 0,
+        "RIGHT": 0,
+        "STOP": 0,
+        "NO_COMMAND": 5,
+        "UP": 0,
+        "DOWN": 5
+      },
+      "sources": {
+        "recording": 20
+      }
+    },
+    "20261008T065105-55ca7759": {
+      "total": 20,
+      "counts": {
+        "FORWARD": 5,
+        "BACKWARD": 5,
+        "LEFT": 0,
+        "RIGHT": 0,
+        "STOP": 0,
+        "NO_COMMAND": 5,
+        "UP": 0,
+        "DOWN": 5
+      },
+      "sources": {
+        "recording": 20
+      }
+    },
+    "20261012T174044-0244fa51": {
+      "total": 25,
+      "counts": {
+        "FORWARD": 0,
+        "BACKWARD": 0,
+        "LEFT": 0,
+        "RIGHT": 0,
+        "STOP": 0,
+        "NO_COMMAND": 0,
+        "UP": 25,
+        "DOWN": 0
+      },
+      "sources": {
+        "recording": 25
+      }
+    },
+    "20261012T175809-93ca5838": {
+      "total": 25,
+      "counts": {
+        "FORWARD": 0,
+        "BACKWARD": 0,
+        "LEFT": 0,
+        "RIGHT": 0,
+        "STOP": 0,
+        "NO_COMMAND": 0,
+        "UP": 25,
+        "DOWN": 0
+      },
+      "sources": {
+        "recording": 25
+      }
+    }
+  },
+  "teacher_groups": {
+    "A": {
+      "clips": 250,
+      "sessions": [
+        "20260930T062558-33e35afb",
+        "20261008T021615-a0b59124",
+        "20261012T174044-0244fa51"
+      ],
+      "counts": {
+        "FORWARD": 61,
+        "BACKWARD": 38,
+        "LEFT": 31,
+        "RIGHT": 26,
+        "STOP": 29,
+        "NO_COMMAND": 16,
+        "UP": 25,
+        "DOWN": 24
+      },
+      "proposed_labels_per_class": 5
+    },
+    "B": {
+      "clips": 155,
+      "sessions": [
+        "20261008T005936-27dde0e5",
+        "20261008T063028-1f0a4f92",
+        "20261008T065105-55ca7759",
+        "20261012T175809-93ca5838"
+      ],
+      "counts": {
+        "FORWARD": 25,
+        "BACKWARD": 25,
+        "LEFT": 15,
+        "RIGHT": 15,
+        "STOP": 15,
+        "NO_COMMAND": 25,
+        "UP": 25,
+        "DOWN": 10
+      },
+      "proposed_labels_per_class": 5
+    }
+  },
+  "proposed_training_labels": 80,
+  "proposed_hidden_training_labels": 325,
+  "existing_development_labels": 48,
+  "existing_retrospective_endpoint_labels": 96,
+  "fresh_personal_recordings_requested": 0,
+  "trained_low_label_models": 0,
+  "notes": [
+    "All evaluation cohorts have prior exposure.",
+    "UP has only two training sessions; fully nested grouped8-class CV is impossible.",
+    "Old538-label checkpoints cannot initialize the low-label study.",
+    "Primary sampler uses oracle class labels for balanced benchmark construction; not an active-label efficiency claim."
+  ]
+}

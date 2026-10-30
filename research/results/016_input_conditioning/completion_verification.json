@@ -1,0 +1,28 @@
+{
+  "checkpoints_verified": 60,
+  "prediction_vectors_reproduced": 17800,
+  "own_label_only_scale_fits_verified": 15,
+  "raw_parent_state_matches": 15,
+  "all_role_initial_batch_mask_streams_paired": true,
+  "parent_artifacts_intact": true,
+  "new_data_or_activation": false,
+  "software_checks_passed": 7,
+  "admission_and_sitting_metrics_verified": 20,
+  "raw_parent_prediction_bundles_verified": 5,
+  "csv_rows_verified": {
+    "model_results": 20,
+    "per_class_results": 480,
+    "gate_saturation": 160,
+    "costs": 20,
+    "student_errors": 264,
+    "changes_vs_raw": 1440
+  },
+  "training_numpy_loads": 6,
+  "oracle_endpoint_loads_during_fitting": 0,
+  "diagnostic_freeze_sha256": "5b2e4c107e88ee628bcd337c2367cdca17578fd60420466c6c4effac80fb91ed",
+  "fit_freeze_sha256": "efdbe2a58853a07c71fd4bd7f230a44ff46ebc3deb5582138713cffe0fca4b9b",
+  "evaluation_access_sha256": "6fe6be442b34b629b7f07aaf424fd2a0b9596fcfe51e1fc35e5fd31be1947ef2",
+  "artifact_manifest_sha256": "54a59c502740b773d0bbce5a6325368c67ce2df99679ca30a9f0cbf9f992d718",
+  "scientific_figure_visually_checked": true,
+  "no_checkpoint_activated": true
+}

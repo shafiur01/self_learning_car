@@ -1,0 +1,80 @@
+{
+  "experiment_id": "013_evidence_profile_pilot",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "methods": [
+    "supervised80",
+    "supervised80_long",
+    "selftrain_full_conf",
+    "selftrain_subset_conf",
+    "profile",
+    "embedding",
+    "matched_conf",
+    "matched_random"
+  ],
+  "training": {
+    "steps": 560,
+    "validation_checks": 28,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "ramp_steps": 140
+  },
+  "selector": {
+    "confidence": 0.95,
+    "anchor_confidence": 0.5,
+    "minimum_anchors": 3,
+    "scale_floor": 0.05,
+    "radius_floor_squared": 0.0025000000000000005
+  },
+  "source_study": "research/experiments/runs/cross_model_motion/20261015T164901242592Z",
+  "endpoint": "research/experiments/data/prospective_motion_011",
+  "parameters": 49840,
+  "features": 149,
+  "feature_schema": "motion_v2_availability_v1",
+  "threads": 2,
+  "planned_fits": 65,
+  "contract": {
+    "taxonomy": "commands_v3",
+    "schema_version": 3,
+    "feature_version": 1,
+    "labels": [
+      "FORWARD",
+      "BACKWARD",
+      "LEFT",
+      "RIGHT",
+      "STOP",
+      "NO_COMMAND",
+      "UP",
+      "DOWN"
+    ],
+    "convention": "mirrored_preview_v1",
+    "meanings": {
+      "FORWARD": "Beckon toward yourself using one, several, or all fingers.",
+      "BACKWARD": "Push your hand outward to signal go away.",
+      "LEFT": "Point toward the left side of the mirrored preview.",
+      "RIGHT": "Point toward the right side of the mirrored preview.",
+      "STOP": "Hold a still open palm facing the camera, fingers extended; no closed fist.",
+      "NO_COMMAND": "No intended command: resting, unrelated motion, transitions, or no hand.",
+      "UP": "Signal UP using one index finger, index and middle fingers, or the thumb pointing upward, with the remaining fingers folded. Hold the deliberate pose for about two seconds. No open-palm UP.",
+      "DOWN": "Deliberately point downward or move the hand downward to request DOWN; varied styles allowed."
+    },
+    "up_style": "three_shapes",
+    "up_motion_requirement": "static deliberate pose; incidental motion allowed",
+    "allowed_up_shapes": [
+      "index_up",
+      "two_fingers_up",
+      "thumbs_up"
+    ],
+    "down_styles": [
+      "pointing",
+      "whole_hand_motion"
+    ],
+    "robot_mapping": "unassigned; screen-only labels"
+  },
+  "scope": "Fixed-data retrospective single-user mechanism pilot; not untouched testing or label/compute saving evidence."
+}

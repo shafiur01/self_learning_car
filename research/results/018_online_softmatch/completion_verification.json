@@ -1,0 +1,12 @@
+{
+  "fits": 15,
+  "checkpoints": 30,
+  "software_checks_passed": 9,
+  "source_and_fit_freezes_intact": true,
+  "parent_artifacts_unchanged": true,
+  "older_frozen_python_sources_unchanged": 32,
+  "previous017_manifest_intact": true,
+  "local_links_resolve": true,
+  "figure_visually_checked": true,
+  "no_extra_fit_or_endpoint_rescoring": true
+}

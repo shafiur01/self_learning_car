@@ -1,0 +1,32 @@
+{
+  "checkpoints_verified": 65,
+  "prediction_vectors_verified": 7440,
+  "selector_seed_bundles_reproduced": 5,
+  "raw_feature_arrays_reextracted": 549,
+  "pairing_verified": true,
+  "scope": "Fixed-data retrospective single-user mechanism pilot; not untouched testing or label/compute saving evidence.",
+  "phase": "complete",
+  "software_checks_passed": 12,
+  "parent_artifacts_unchanged": true,
+  "full405_states_identical_all5": true,
+  "zero_unsupervised_models_equal_sparse_baseline": 19,
+  "active_unlabeled_sampling_paired": true,
+  "csv_rows": {
+    "model_results.csv": 45,
+    "per_class_results.csv": 360,
+    "pseudo_label_diagnostics.csv": 30,
+    "costs.csv": 45,
+    "admission_stages.csv": 5,
+    "budget_comparison.csv": 9
+  },
+  "profile_admitted_pairs": 37,
+  "profile_unique_clips": 35,
+  "profile_errors": 0,
+  "profile_has_up_or_no_command_targets": false,
+  "source_freeze_sha256": "5b87f75e049a4f58f030f8c56539cbcf1c1f011376cdf674440fe9cd252c0fef",
+  "fit_freeze_sha256": "a62e0f5ddb33ab68af64dec803ad317660bb3f3e2d6d37cecae80fe6a4e7333a",
+  "endpoint_access_sha256": "e67a1f241274350bdf08c55d99b24c7cfff1f99448f1575d5a1c336c66bd3da3",
+  "scientific_figure_visually_checked": true,
+  "no_camera_activation": true,
+  "artifact_manifest_sha256": "0c3555c127c7db73a50fe1c958942e68ae2de7f6fae6aee8c82154b02ad5541c"
+}

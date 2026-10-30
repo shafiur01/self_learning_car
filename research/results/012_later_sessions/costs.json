@@ -1,0 +1,28 @@
+{
+  "human_labels_added": 96,
+  "new_fits": 0,
+  "attempts": [
+    {
+      "sitting": 1,
+      "started_utc": "2026-10-15T23:01:47.691197+00:00",
+      "ended_utc": "2026-10-15T23:19:56.716351+00:00",
+      "wall_seconds": 1088.9844667500001,
+      "saved_before": 0,
+      "saved_after": 48,
+      "state": "complete",
+      "scope": "Camera/replay/preparation/pause interval, not pure annotation time."
+    },
+    {
+      "sitting": 2,
+      "started_utc": "2026-10-15T23:23:01.035484+00:00",
+      "ended_utc": "2026-10-15T23:36:06.855188+00:00",
+      "wall_seconds": 785.821997291001,
+      "saved_before": 0,
+      "saved_after": 48,
+      "state": "complete",
+      "scope": "Camera/replay/preparation/pause interval, not pure annotation time."
+    }
+  ],
+  "camera_interval_seconds": 1874.8064640410012,
+  "scope": "Capture/replay/preparation/pause interval, not pure annotation. Software work, earlier fits/labels/review/pretraining are additional costs. No label savings demonstrated."
+}

@@ -1,0 +1,27 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "research/experiments/commands_v2.py": "cd0dfd5cb8086f34939a32838f3af2f496f813d24661a60db7a7c6ef5721f198",
+    "gesture_commands/app.py": "95f8f912bea83fbb4a7c3fd7357a5a9e82fb370426f2ccf9a6753632e56ed3b4",
+    "gesture_commands/data.py": "ae2459bc4adb4aab0a2dbf648a47755f87135a714abc278413c35c17784e35d4",
+    "gesture_commands/model.py": "c9c1123da61a225edde1a7f76f247e73ed13ef4cddaa1d2ccac2f3fa0e7ef24f",
+    "gesture_commands/train.py": "d00de3e196d9ac191cced5a19e71e5a6d347c1687664f09e9e8d31c44b65e18e",
+    "research/PROTOCOL.md": "e96d8bb388c0674b3ec5f13dc6958c67f932307095236a6c186a9d173d9968fd",
+    "research/experiments/boundary_pilot.py": "956f03fead0555124449f62db5f4b7deaa15e3c7d85e2b60aba37f2b5c6ea336",
+    "research/experiments/boundary_train.py": "f81fe12386e3f1333a00fdfdc3d70413062fb6d1237ef358ea187393eb201d53",
+    "research/experiments/test_boundary_train.py": "7818da2197e128972d34e353ade8a98be0ff8234335da69d496b3133c82d91ad",
+    "research/experiments/evaluate_v2_sessions.py": "c5c280dcfc62744cd4e3fc0be26166117d57315ea46a309de3b6806e1d67ebe9",
+    "research/experiments/run.py": "6a5ba8db327ad4c48657faaeff0e9307d561b96a32b56fbbccb5626c54b42b9a",
+    "research/BOUNDARY_DATA_PLAN.md": "4ded0bd98063881eeb06a1408d23e688be5970eeb28dafb1cc56ed43ebc714bf"
+  },
+  "input_sha256": {
+    "config.json": "87e4e505d6115f40af11e023e230aceee31442788476c70c84d3c9d27013faef",
+    "manifest.json": "72692813baa4fcae5e92d4601e4cfe7869fa2275577c2746d536f104704abe01",
+    "contract.json": "38e38c55920e1acaec9d129bcd258eea5004c67b93fd7d8336ccedc74bea157d",
+    "collection_plan.json": "b45548062cd67266c7a1b23863e0fe3225996227318b3f2d01900d25c9bfe910",
+    "development_features.npz": "c7f1bf44bb00f847cf26ded5e06f11a02edd6493d4dd36594d80cad3d4007abd"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "numpy": "2.5.3",
+  "torch": "2.14.0",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "research/experiments/commands_v2.py": "cd0dfd5cb8086f34939a32838f3af2f496f813d24661a60db7a7c6ef5721f198",
+    "gesture_commands/app.py": "95f8f912bea83fbb4a7c3fd7357a5a9e82fb370426f2ccf9a6753632e56ed3b4",
+    "gesture_commands/data.py": "ae2459bc4adb4aab0a2dbf648a47755f87135a714abc278413c35c17784e35d4",
+    "gesture_commands/model.py": "c9c1123da61a225edde1a7f76f247e73ed13ef4cddaa1d2ccac2f3fa0e7ef24f",
+    "gesture_commands/train.py": "d00de3e196d9ac191cced5a19e71e5a6d347c1687664f09e9e8d31c44b65e18e",
+    "research/PROTOCOL.md": "0551bf85d71923ffba975c026a236ea97b06dab7880fa7dbddede201b0490fb3"
+  },
+  "input_sha256": {
+    "config.json": "73bbc02d87e2969caf2c7b1ad674e2be5242250a7020dade5a8e48b37ad260c6",
+    "manifest.json": "52e76f47ffd676c2ebeda6bc2bf50cd94d1c5f0eacc82a675b36cd687be2e43c",
+    "contract.json": "38e38c55920e1acaec9d129bcd258eea5004c67b93fd7d8336ccedc74bea157d",
+    "development_features.npz": "2ccd20a78b49ec7c628937038fcfe1efae225fb4198fa45609968e875bd2e10b"
+  }
+}

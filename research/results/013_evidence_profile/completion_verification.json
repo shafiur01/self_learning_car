@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-16T03:21:45.634929+00:00",
+  "state": "complete_negative_pilot",
+  "software_tests_passed": 7,
+  "new_models_verified": 65,
+  "saved_score_vectors_verified": 7440,
+  "selector_bundles_reproduced": 5,
+  "raw_features_reextracted": 549,
+  "zero_unsupervised_models_exactly_equal_sparse_supervised": 30,
+  "prior_frozen_models_and_sources_intact": 115,
+  "csv_rows": {
+    "per_class_results.csv": 360,
+    "model_results.csv": 45,
+    "endpoint_errors.csv": 1015,
+    "pseudo_label_diagnostics.csv": 30,
+    "costs.csv": 45
+  },
+  "new_recordings": 0,
+  "validation_to_training_transfers": 0,
+  "new_lesson_files": 0,
+  "data_and_source_freeze_sha256": "439421b6bb4a53c95b881a10933ed4f140ed34f440e0884da85f009c7dede848",
+  "fit_freeze_sha256": "6dc9f8e3eeb6d1aade057a9492ac7b39f6a8433995e3e7474f2d7276368ae2f5",
+  "endpoint_access_sha256": "173fe15702854abf4ea9f52c83b3d0543cfd754ff00604b5dc9c0a1f884f1f31",
+  "artifact_manifest_sha256": "bf82e01d50d43f83cf99be8181fe011fc84943346445f610cefe1ddc87f11035",
+  "interpretation": "No supported improvement; almost no admitted pseudo-labels. Next160-label feasibility only, no next-budget model fit."
+}

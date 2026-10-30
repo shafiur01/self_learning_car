@@ -1,0 +1,516 @@
+{
+  "scope": "Retrospective diagnostic of reused hidden training inputs; no independent test or learning-utility claim.",
+  "primary_fraction": 0.25,
+  "seed_clip_pairs": 1225,
+  "unique_hidden_clips": 385,
+  "rankings": [
+    {
+      "domain": "class_quota",
+      "fraction": 0.1,
+      "method": "confidence",
+      "retained": 73,
+      "errors": 3,
+      "error_rate": 0.0410958904109589,
+      "available": 627,
+      "actual_coverage": 0.11642743221690591,
+      "unique_clips": 52
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.1,
+      "method": "profile",
+      "retained": 73,
+      "errors": 1,
+      "error_rate": 0.0136986301369863,
+      "available": 627,
+      "actual_coverage": 0.11642743221690591,
+      "unique_clips": 64
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.1,
+      "method": "embedding",
+      "retained": 73,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 627,
+      "actual_coverage": 0.11642743221690591,
+      "unique_clips": 60
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.1,
+      "method": "random",
+      "retained": 73,
+      "errors": 8,
+      "error_rate": 0.1095890410958904,
+      "available": 627,
+      "actual_coverage": 0.11642743221690591,
+      "unique_clips": 64
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.25,
+      "method": "confidence",
+      "retained": 164,
+      "errors": 7,
+      "error_rate": 0.042682926829268296,
+      "available": 627,
+      "actual_coverage": 0.26156299840510366,
+      "unique_clips": 107
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.25,
+      "method": "profile",
+      "retained": 164,
+      "errors": 5,
+      "error_rate": 0.03048780487804878,
+      "available": 627,
+      "actual_coverage": 0.26156299840510366,
+      "unique_clips": 124
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.25,
+      "method": "embedding",
+      "retained": 164,
+      "errors": 1,
+      "error_rate": 0.006097560975609756,
+      "available": 627,
+      "actual_coverage": 0.26156299840510366,
+      "unique_clips": 106
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.25,
+      "method": "random",
+      "retained": 164,
+      "errors": 17,
+      "error_rate": 0.10365853658536585,
+      "available": 627,
+      "actual_coverage": 0.26156299840510366,
+      "unique_clips": 135
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.5,
+      "method": "confidence",
+      "retained": 320,
+      "errors": 15,
+      "error_rate": 0.046875,
+      "available": 627,
+      "actual_coverage": 0.5103668261562998,
+      "unique_clips": 187
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.5,
+      "method": "profile",
+      "retained": 320,
+      "errors": 23,
+      "error_rate": 0.071875,
+      "available": 627,
+      "actual_coverage": 0.5103668261562998,
+      "unique_clips": 191
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.5,
+      "method": "embedding",
+      "retained": 320,
+      "errors": 17,
+      "error_rate": 0.053125,
+      "available": 627,
+      "actual_coverage": 0.5103668261562998,
+      "unique_clips": 189
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 0.5,
+      "method": "random",
+      "retained": 320,
+      "errors": 39,
+      "error_rate": 0.121875,
+      "available": 627,
+      "actual_coverage": 0.5103668261562998,
+      "unique_clips": 217
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 1.0,
+      "method": "confidence",
+      "retained": 627,
+      "errors": 80,
+      "error_rate": 0.12759170653907495,
+      "available": 627,
+      "actual_coverage": 1.0,
+      "unique_clips": 313
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 1.0,
+      "method": "profile",
+      "retained": 627,
+      "errors": 80,
+      "error_rate": 0.12759170653907495,
+      "available": 627,
+      "actual_coverage": 1.0,
+      "unique_clips": 313
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 1.0,
+      "method": "embedding",
+      "retained": 627,
+      "errors": 80,
+      "error_rate": 0.12759170653907495,
+      "available": 627,
+      "actual_coverage": 1.0,
+      "unique_clips": 313
+    },
+    {
+      "domain": "class_quota",
+      "fraction": 1.0,
+      "method": "random",
+      "retained": 627,
+      "errors": 80,
+      "error_rate": 0.12759170653907495,
+      "available": 627,
+      "actual_coverage": 1.0,
+      "unique_clips": 313
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.1,
+      "method": "confidence",
+      "retained": 14,
+      "errors": 1,
+      "error_rate": 0.07142857142857142,
+      "available": 89,
+      "actual_coverage": 0.15730337078651685,
+      "unique_clips": 14
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.1,
+      "method": "profile",
+      "retained": 14,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 89,
+      "actual_coverage": 0.15730337078651685,
+      "unique_clips": 13
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.1,
+      "method": "embedding",
+      "retained": 14,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 89,
+      "actual_coverage": 0.15730337078651685,
+      "unique_clips": 13
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.1,
+      "method": "random",
+      "retained": 14,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 89,
+      "actual_coverage": 0.15730337078651685,
+      "unique_clips": 14
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.25,
+      "method": "confidence",
+      "retained": 24,
+      "errors": 1,
+      "error_rate": 0.041666666666666664,
+      "available": 89,
+      "actual_coverage": 0.2696629213483146,
+      "unique_clips": 23
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.25,
+      "method": "profile",
+      "retained": 24,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 89,
+      "actual_coverage": 0.2696629213483146,
+      "unique_clips": 23
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.25,
+      "method": "embedding",
+      "retained": 24,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 89,
+      "actual_coverage": 0.2696629213483146,
+      "unique_clips": 21
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.25,
+      "method": "random",
+      "retained": 24,
+      "errors": 2,
+      "error_rate": 0.08333333333333333,
+      "available": 89,
+      "actual_coverage": 0.2696629213483146,
+      "unique_clips": 24
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.5,
+      "method": "confidence",
+      "retained": 46,
+      "errors": 2,
+      "error_rate": 0.043478260869565216,
+      "available": 89,
+      "actual_coverage": 0.5168539325842697,
+      "unique_clips": 42
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.5,
+      "method": "profile",
+      "retained": 46,
+      "errors": 0,
+      "error_rate": 0.0,
+      "available": 89,
+      "actual_coverage": 0.5168539325842697,
+      "unique_clips": 41
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.5,
+      "method": "embedding",
+      "retained": 46,
+      "errors": 1,
+      "error_rate": 0.021739130434782608,
+      "available": 89,
+      "actual_coverage": 0.5168539325842697,
+      "unique_clips": 41
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 0.5,
+      "method": "random",
+      "retained": 46,
+      "errors": 3,
+      "error_rate": 0.06521739130434782,
+      "available": 89,
+      "actual_coverage": 0.5168539325842697,
+      "unique_clips": 42
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 1.0,
+      "method": "confidence",
+      "retained": 89,
+      "errors": 5,
+      "error_rate": 0.056179775280898875,
+      "available": 89,
+      "actual_coverage": 1.0,
+      "unique_clips": 79
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 1.0,
+      "method": "profile",
+      "retained": 89,
+      "errors": 5,
+      "error_rate": 0.056179775280898875,
+      "available": 89,
+      "actual_coverage": 1.0,
+      "unique_clips": 79
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 1.0,
+      "method": "embedding",
+      "retained": 89,
+      "errors": 5,
+      "error_rate": 0.056179775280898875,
+      "available": 89,
+      "actual_coverage": 1.0,
+      "unique_clips": 79
+    },
+    {
+      "domain": "frozen_gate",
+      "fraction": 1.0,
+      "method": "random",
+      "retained": 89,
+      "errors": 5,
+      "error_rate": 0.056179775280898875,
+      "available": 89,
+      "actual_coverage": 1.0,
+      "unique_clips": 79
+    },
+    {
+      "domain": "confidence_matched",
+      "fraction": 0.25,
+      "method": "confidence",
+      "retained": 192,
+      "errors": 21,
+      "error_rate": 0.109375,
+      "available": 627,
+      "actual_coverage": 0.3062200956937799,
+      "unique_clips": 153
+    },
+    {
+      "domain": "confidence_matched",
+      "fraction": 0.25,
+      "method": "profile",
+      "retained": 192,
+      "errors": 20,
+      "error_rate": 0.10416666666666667,
+      "available": 627,
+      "actual_coverage": 0.3062200956937799,
+      "unique_clips": 151
+    },
+    {
+      "domain": "confidence_matched",
+      "fraction": 0.25,
+      "method": "embedding",
+      "retained": 192,
+      "errors": 14,
+      "error_rate": 0.07291666666666667,
+      "available": 627,
+      "actual_coverage": 0.3062200956937799,
+      "unique_clips": 145
+    },
+    {
+      "domain": "confidence_matched",
+      "fraction": 0.25,
+      "method": "random",
+      "retained": 192,
+      "errors": 22,
+      "error_rate": 0.11458333333333333,
+      "available": 627,
+      "actual_coverage": 0.3062200956937799,
+      "unique_clips": 158
+    }
+  ],
+  "paired_at_25_percent": [
+    {
+      "domain": "class_quota",
+      "method": "profile",
+      "error_count_minus_confidence_by_seed": [
+        0,
+        -1,
+        1,
+        -2,
+        0
+      ],
+      "pooled_error_count_difference": -2
+    },
+    {
+      "domain": "class_quota",
+      "method": "embedding",
+      "error_count_minus_confidence_by_seed": [
+        0,
+        -4,
+        -1,
+        -1,
+        0
+      ],
+      "pooled_error_count_difference": -6
+    },
+    {
+      "domain": "class_quota",
+      "method": "random",
+      "error_count_minus_confidence_by_seed": [
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "pooled_error_count_difference": 10
+    },
+    {
+      "domain": "confidence_matched",
+      "method": "profile",
+      "error_count_minus_confidence_by_seed": [
+        1,
+        -2,
+        -1,
+        -1,
+        2
+      ],
+      "pooled_error_count_difference": -1
+    },
+    {
+      "domain": "confidence_matched",
+      "method": "embedding",
+      "error_count_minus_confidence_by_seed": [
+        -1,
+        -3,
+        -4,
+        1,
+        0
+      ],
+      "pooled_error_count_difference": -7
+    },
+    {
+      "domain": "confidence_matched",
+      "method": "random",
+      "error_count_minus_confidence_by_seed": [
+        0,
+        -2,
+        -2,
+        0,
+        5
+      ],
+      "pooled_error_count_difference": 1
+    },
+    {
+      "domain": "frozen_gate",
+      "method": "profile",
+      "error_count_minus_confidence_by_seed": [
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "pooled_error_count_difference": -1
+    },
+    {
+      "domain": "frozen_gate",
+      "method": "embedding",
+      "error_count_minus_confidence_by_seed": [
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "pooled_error_count_difference": -1
+    },
+    {
+      "domain": "frozen_gate",
+      "method": "random",
+      "error_count_minus_confidence_by_seed": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "pooled_error_count_difference": 1
+    }
+  ],
+  "new_fits": 0,
+  "endpoint_payloads_loaded": 0
+}

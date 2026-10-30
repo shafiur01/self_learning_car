@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment": "017_selector_replay",
+  "original_archive": "research/experiments/runs/published_selector_replay/20261017T072612284949Z",
+  "finding": "research/findings/017_literature_grounded_decision.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "summary.json": "79004e83317b25eda1b83162992900ac94cbab443d8b0db65d15e5380d7ef872",
+    "status.json": "44fc812fd7d779709beb492bf69a33372be0b71241e0a8714f221a8ffa438c24",
+    "verification.json": "44ad712553b919e310dd77e5621cfc15c63ec645c92a0fb21e6f1672003e9e83",
+    "per_class.csv": "232a7739d98025c4b30c2144bb90346f4ae5a78bce0e0e82e35b3f8ce431e770",
+    "per_seed.csv": "2169f5ab9edb80e6e3967bf488efa5f412a4928e9cc4e6e518e2a447bcf32f19"
+  },
+  "private_reference_sha256": {
+    "freeze.json": "b97dde570eda470c0d768c8dfc5b4e79c6b54fca614ca1678e0525b98454762a"
+  },
+  "export_sha256": {
+    "summary.json": "79004e83317b25eda1b83162992900ac94cbab443d8b0db65d15e5380d7ef872",
+    "status.json": "44fc812fd7d779709beb492bf69a33372be0b71241e0a8714f221a8ffa438c24",
+    "verification.json": "44ad712553b919e310dd77e5621cfc15c63ec645c92a0fb21e6f1672003e9e83",
+    "per_class.csv": "4bbcacbe2fd2dcda50c3343ad44eb89b9974d4157a2be017ec6613fdcbd8ebac",
+    "per_seed.csv": "8c6142f2349940dd39ea99d9239563fb577c21697ba4d949e740cf8cc6f7f106"
+  }
+}

@@ -1,0 +1,4 @@
+# Direct dependencies observed in the existing research environment.
+# This does not install recordings, checkpoints or external datasets.
+-r gesture_commands/requirements.txt
+matplotlib==3.11.2

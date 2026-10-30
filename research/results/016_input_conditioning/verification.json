@@ -1,0 +1,9 @@
+{
+  "checkpoints_verified": 60,
+  "prediction_vectors_reproduced": 17800,
+  "own_label_only_scale_fits_verified": 15,
+  "raw_parent_state_matches": 15,
+  "all_role_initial_batch_mask_streams_paired": true,
+  "parent_artifacts_intact": true,
+  "new_data_or_activation": false
+}

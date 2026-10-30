@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "experiment": "015_profile_diagnostic",
+  "original_archive": "research/experiments/runs/evidence_profile_diagnostic/20261016T142255449351Z",
+  "finding": "research/findings/015_evidence_profile_diagnostic.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "config.json": "e538b0c151f22057ea5fbf56b25cd6f9eb9e1a64122be74c9bd0a69d1bd97bdd",
+    "status.json": "44fc812fd7d779709beb492bf69a33372be0b71241e0a8714f221a8ffa438c24",
+    "verification.json": "bb2add26c12500596a525d49edbae3991d735e8e0bbfed5ef21f2344718f4f7d",
+    "completion_verification.json": "648f508f015ef951a36f57647317c616a4506adbe61a9dffcda268fcc3036f9b",
+    "analysis/summary.json": "fc8460cb4a0570861bc5c0bf01f44b60a329980d6f2fae890496330672a29f1b",
+    "analysis/predicted_class_stages.csv": "4fdec8e678ee32956ff1a3234e522d92625d976e9b9379f7ae5ff2670f9350ba",
+    "analysis/ranking_classes.csv": "970a739852ded754c269246354c38f606999f72e27a930dfa398ea53553d4614",
+    "analysis/ranking_pooled.csv": "9d9bab2c660e5a8ae0d12c2b8e35e23aaca4f390466036535f039c61b9fc5197",
+    "analysis/ranking_results.csv": "2a20e62f3ade460e6af203c1de6b4c36ec01b976245849911092f60d4ec935a7",
+    "analysis/student_proxies.csv": "675c7b9d5ccb683ff30438d1914a681c05381423ce0136367dcc87705145b3a1",
+    "analysis/true_class_stages.csv": "39c0c714ca87c45f65560b26c40a4b5def45edb6739d749ad81021cdca0c49c3",
+    "analysis/figure.png": "71b308fdee9d7e61a64759815069eb47a44ed7616435b887e4f8f5d2dfd2570b",
+    "analysis/figure.pdf": "caa0d0d6b4224fb42672b2f45fb2af0dae60cb556b7534df501ae1ec3fcbb170"
+  },
+  "private_reference_sha256": {
+    "freeze.json": "677d1a493b23b29aa1888ad384b317f7bdb9c8ac87572c8c50983cf7d390055c",
+    "freeze.sha256": "79fbe0c711508b7dc03985afee7d2bf9f6a73f2ae7610a7529d9e7547e7d8f4b"
+  },
+  "export_sha256": {
+    "config.json": "eb2c3b934e42dd1c5f2fc934ed12192df38a861a2314b9c72f3e72c4f810608d",
+    "status.json": "44fc812fd7d779709beb492bf69a33372be0b71241e0a8714f221a8ffa438c24",
+    "verification.json": "bb2add26c12500596a525d49edbae3991d735e8e0bbfed5ef21f2344718f4f7d",
+    "completion_verification.json": "648f508f015ef951a36f57647317c616a4506adbe61a9dffcda268fcc3036f9b",
+    "analysis/summary.json": "fc8460cb4a0570861bc5c0bf01f44b60a329980d6f2fae890496330672a29f1b",
+    "analysis/predicted_class_stages.csv": "f0bcdd69777400aa8080d5d53db8e0562b01af3996a077d977e7501956596f59",
+    "analysis/ranking_classes.csv": "0fb99d71bdee99bc8700f02cc8c01a929d8b36168d2fcadf0e648853d4c9e524",
+    "analysis/ranking_pooled.csv": "fd88fdb3a6f2fbfb6229d4f10da3268311469ff06561bcd9dcf59f8559285739",
+    "analysis/ranking_results.csv": "a02180969d26960dd563f23905ce254d1898a0dea1f5aff93405ce6f7fe85777",
+    "analysis/student_proxies.csv": "bbbda0c1c58fd93faba58e290d9f0dbdd80b91273b6b8280194403ec281f3ef7",
+    "analysis/true_class_stages.csv": "5dc954c8ca537e5e849cb95e012dd66877b6ffc4b06ef34cc7f66d8de22d05a6",
+    "analysis/figure.png": "71b308fdee9d7e61a64759815069eb47a44ed7616435b887e4f8f5d2dfd2570b",
+    "analysis/figure.pdf": "caa0d0d6b4224fb42672b2f45fb2af0dae60cb556b7534df501ae1ec3fcbb170"
+  }
+}

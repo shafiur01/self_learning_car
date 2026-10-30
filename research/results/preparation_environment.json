@@ -1,0 +1,12 @@
+{
+  "scope": "Environment observed during repository preparation; historical environments are in each study export.",
+  "python": "3.14.7",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "mediapipe": "0.10.32",
+    "opencv-contrib-python": "5.0.0.93"
+  }
+}

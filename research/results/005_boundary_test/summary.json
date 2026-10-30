@@ -1,0 +1,130 @@
+{
+  "conditions": {
+    "reference": {
+      "accuracy": {
+        "mean": 0.79,
+        "run_sd": 0.024044230077089192
+      },
+      "macro_f1": {
+        "mean": 0.7691730032044005,
+        "run_sd": 0.025683292022768932
+      },
+      "nll": {
+        "mean": 0.9991759061813354,
+        "run_sd": 0.2916694736476657
+      },
+      "no_command_to_motion_rate": {
+        "mean": 0.66,
+        "run_sd": 0.0894427190999916
+      },
+      "no_command_to_down_rate": {
+        "mean": 0.6,
+        "run_sd": 0.0
+      },
+      "stop_recall": {
+        "mean": 0.86,
+        "run_sd": 0.11401754250991382
+      },
+      "stop_to_motion_count": {
+        "mean": 1.0,
+        "run_sd": 1.4142135623730951
+      },
+      "forward_to_backward_count": {
+        "mean": 0.6,
+        "run_sd": 0.8944271909999159
+      },
+      "backward_to_forward_count": {
+        "mean": 0.8,
+        "run_sd": 0.4472135954999579
+      }
+    },
+    "routine": {
+      "accuracy": {
+        "mean": 0.845,
+        "run_sd": 0.006846531968814552
+      },
+      "macro_f1": {
+        "mean": 0.8320478775398683,
+        "run_sd": 0.006861719979784389
+      },
+      "nll": {
+        "mean": 0.4956185340881348,
+        "run_sd": 0.1457704529497581
+      },
+      "no_command_to_motion_rate": {
+        "mean": 0.13999999999999999,
+        "run_sd": 0.08944271909999159
+      },
+      "no_command_to_down_rate": {
+        "mean": 0.1,
+        "run_sd": 0.1
+      },
+      "stop_recall": {
+        "mean": 0.86,
+        "run_sd": 0.15165750888103105
+      },
+      "stop_to_motion_count": {
+        "mean": 1.4,
+        "run_sd": 1.5165750888103102
+      },
+      "forward_to_backward_count": {
+        "mean": 0.2,
+        "run_sd": 0.44721359549995804
+      },
+      "backward_to_forward_count": {
+        "mean": 0.8,
+        "run_sd": 0.44721359549995804
+      }
+    },
+    "targeted": {
+      "accuracy": {
+        "mean": 0.8300000000000001,
+        "run_sd": 0.02091650066335191
+      },
+      "macro_f1": {
+        "mean": 0.817126938533117,
+        "run_sd": 0.02547189536177403
+      },
+      "nll": {
+        "mean": 0.496283221244812,
+        "run_sd": 0.10760103335495584
+      },
+      "no_command_to_motion_rate": {
+        "mean": 0.13999999999999999,
+        "run_sd": 0.11401754250991379
+      },
+      "no_command_to_down_rate": {
+        "mean": 0.08,
+        "run_sd": 0.10954451150103323
+      },
+      "stop_recall": {
+        "mean": 0.78,
+        "run_sd": 0.10954451150103325
+      },
+      "stop_to_motion_count": {
+        "mean": 1.4,
+        "run_sd": 1.5165750888103102
+      },
+      "forward_to_backward_count": {
+        "mean": 0.0,
+        "run_sd": 0.0
+      },
+      "backward_to_forward_count": {
+        "mean": 0.8,
+        "run_sd": 0.44721359549995804
+      }
+    }
+  },
+  "primary_comparison": {
+    "field": "pooled macro F1: targeted minus routine",
+    "paired_by_seed": {
+      "11": -0.009101021658229902,
+      "22": 0.02370088753097921,
+      "33": -0.045898970298283714,
+      "44": -0.006412740895006319,
+      "55": -0.036892849713215825
+    },
+    "mean": -0.01492093900675131
+  },
+  "interpretation": "Fresh same-user clip pilot, all seeds share 80 clips. Seed SD is optimization variation, not person/session uncertainty. No robot, label-saving, SSL or novelty claim."
+}

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-15T18:35:43.852386+00:00",
+  "checks": {
+    "software_tests_passed": 11,
+    "software_test_seconds": 0.915,
+    "fitting_inputs_verified": 586,
+    "saved_checkpoints_verified": 115,
+    "saved_full_and_prefix_prediction_vectors_verified": 22080,
+    "sampling_and_within_family_initialization_paired": true,
+    "missing_document_links": 0,
+    "prospective_human_labels": 0,
+    "historical_test_performance_recomputed": false
+  },
+  "derived_artifacts_sha256": {
+    "REPORT.md": "0a4523d6183b0eca9cfae0c9feee2a6c8e155d791cfda8f6b9a9f927b0aa6690",
+    "model_results.csv": "4422197a3e777d175d2c19abcab67ee08c7e258b8012c8c687a67c87f5c413fc",
+    "per_class_results.csv": "193d49f858844f8d02a33beb79f158648165543958367d94594abe21d2be1d0f",
+    "full_clip_errors.csv": "2ee56e9f66c6682d8a24c3ca4300ccade3647302275eeda37c2fe040eed177dd",
+    "unique_failure_counts.csv": "2afdc0c2c685227301a2bcdd5743da6341835e49d45d99329af8eb3f71403100",
+    "historical_integrity_addendum.json": "fb61396ad92cc9690094289f5dbe849a0c2460034e55e9fcd4851a147f10eaad",
+    "cost_addendum.json": "e730c2b7408e7f1f06a2589bbff986fd25bddb247039c4394b9b99da3ef8bee0",
+    "figure.png": "51f79c55135cd8ef344993788ddce2607800058bd816fb5c7ff88320cfa3d25d",
+    "figure.pdf": "0787bb269908c90957b67e1cca6f72874fabc8f31a4977bf9e4ad948748a0fb7",
+    "build_report.py": "f5f927113bdbd46e5887b1aec20880eff4ecc6e624c92dbb0649e3ab05d39da9",
+    "plot_results.py": "e682fd7e3cc3236c02b508cab704544d993f612509355fbd35d4606e55df6245"
+  },
+  "scope": "Final completion check; source, weights, scores, audit and prospective freeze unchanged."
+}

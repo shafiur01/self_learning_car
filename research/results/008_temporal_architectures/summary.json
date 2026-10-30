@@ -1,0 +1,354 @@
+{
+  "conditions": {
+    "cnn": {
+      "parameters": 48520,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8583333333333334,
+          "seed_sd": 0.0174304172194599
+        },
+        "macro_f1": {
+          "mean": 0.861105561105561,
+          "seed_sd": 0.016300839039610816
+        },
+        "nll": {
+          "mean": 0.415666663646698,
+          "seed_sd": 0.10311494583158018
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.13333333333333333,
+          "seed_sd": 0.07453559924999299
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.6666666666666666,
+          "seed_sd": 0.0
+        },
+        "stop_to_motion_count": {
+          "mean": 1.8,
+          "seed_sd": 0.4472135954999579
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 1.8,
+          "seed_sd": 0.4472135954999579
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.7333333333333333,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      },
+      "training_seconds_mean": 3.8471679334063085,
+      "worker_wall_seconds_mean": 4.914656299795024,
+      "window_latency_median_ms_mean": 0.0611666,
+      "process_peak_rss_bytes_mean": 332467404.8
+    },
+    "pose_set": {
+      "parameters": 48792,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8583333333333332,
+          "seed_sd": 0.0174304172194599
+        },
+        "macro_f1": {
+          "mean": 0.8599637862137861,
+          "seed_sd": 0.015043314489631771
+        },
+        "nll": {
+          "mean": 0.5086154937744141,
+          "seed_sd": 0.06712675011156599
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.16666666666666666,
+          "seed_sd": 0.0
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.6666666666666666,
+          "seed_sd": 0.0
+        },
+        "stop_to_motion_count": {
+          "mean": 2.0,
+          "seed_sd": 0.0
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 1.8,
+          "seed_sd": 0.4472135954999579
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.8,
+        "BACKWARD": 0.6666666666666666,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8333333333333334,
+        "UP": 0.9,
+        "DOWN": 1.0
+      },
+      "training_seconds_mean": 0.4353650666191243,
+      "worker_wall_seconds_mean": 1.501689233200159,
+      "window_latency_median_ms_mean": 0.0375292,
+      "process_peak_rss_bytes_mean": 329790259.2
+    },
+    "feature_set": {
+      "parameters": 49176,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8541666666666666,
+          "seed_sd": 0.014731391274719726
+        },
+        "macro_f1": {
+          "mean": 0.8567732267732268,
+          "seed_sd": 0.01466366190062333
+        },
+        "nll": {
+          "mean": 0.45523855090141296,
+          "seed_sd": 0.07801652793379638
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.13333333333333333,
+          "seed_sd": 0.07453559924999299
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.6666666666666666,
+          "seed_sd": 0.0
+        },
+        "stop_to_motion_count": {
+          "mean": 2.0,
+          "seed_sd": 0.0
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 1.8,
+          "seed_sd": 0.4472135954999579
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.7333333333333333,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.8666666666666668,
+        "DOWN": 1.0
+      },
+      "training_seconds_mean": 0.4085939915967174,
+      "worker_wall_seconds_mean": 1.5297390414052643,
+      "window_latency_median_ms_mean": 0.0329249,
+      "process_peak_rss_bytes_mean": 329823027.2
+    },
+    "lstm": {
+      "parameters": 48944,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8958333333333334,
+          "seed_sd": 0.048858497498160715
+        },
+        "macro_f1": {
+          "mean": 0.8909194971694971,
+          "seed_sd": 0.05156672279264943
+        },
+        "nll": {
+          "mean": 0.3733430415391922,
+          "seed_sd": 0.10154301252093983
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.33333333333333337,
+          "seed_sd": 0.2635231383473649
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.2,
+          "seed_sd": 0.2173067468400883
+        },
+        "stop_recall": {
+          "mean": 0.7666666666666666,
+          "seed_sd": 0.14907119849998599
+        },
+        "stop_to_motion_count": {
+          "mean": 1.4,
+          "seed_sd": 0.8944271909999159
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.8,
+          "seed_sd": 1.0954451150103324
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.9333333333333333,
+        "BACKWARD": 0.8,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.7666666666666666,
+        "NO_COMMAND": 0.6666666666666667,
+        "UP": 1.0,
+        "DOWN": 1.0
+      },
+      "training_seconds_mean": 1.9491556667955592,
+      "worker_wall_seconds_mean": 3.0990799501887523,
+      "window_latency_median_ms_mean": 0.2107248,
+      "process_peak_rss_bytes_mean": 333928857.6
+    },
+    "bilstm": {
+      "parameters": 49256,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8875,
+          "seed_sd": 0.047961935138422236
+        },
+        "macro_f1": {
+          "mean": 0.8869434731934731,
+          "seed_sd": 0.0467976744125282
+        },
+        "nll": {
+          "mean": 0.35354073345661163,
+          "seed_sd": 0.12204613710920181
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.1,
+          "seed_sd": 0.09128709291752768
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.03333333333333333,
+          "seed_sd": 0.07453559924999299
+        },
+        "stop_recall": {
+          "mean": 0.6666666666666666,
+          "seed_sd": 0.0
+        },
+        "stop_to_motion_count": {
+          "mean": 2.0,
+          "seed_sd": 0.0
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 1.0,
+          "seed_sd": 1.0
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.9,
+        "BACKWARD": 0.7666666666666666,
+        "LEFT": 1.0,
+        "RIGHT": 0.9666666666666668,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.9,
+        "UP": 0.9,
+        "DOWN": 1.0
+      },
+      "training_seconds_mean": 2.919814941601362,
+      "worker_wall_seconds_mean": 4.0635376496124085,
+      "window_latency_median_ms_mean": 0.3327503,
+      "process_peak_rss_bytes_mean": 335996518.4
+    }
+  },
+  "paired_macro_f1_minus_cnn": {
+    "pose_set": {
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "differences": [
+        0.0,
+        -0.018539793539793514,
+        0.0,
+        0.0,
+        0.012830919080919045
+      ],
+      "mean": -0.0011417748917748939,
+      "seed_sd": 0.011200872504428213
+    },
+    "feature_set": {
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "differences": [
+        -0.01945970695970689,
+        0.0010656010656010517,
+        -0.018901931401931416,
+        0.02137445887445888,
+        -0.00574009324009328
+      ],
+      "mean": -0.004332334332334331,
+      "seed_sd": 0.016830547154335775
+    },
+    "lstm": {
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "differences": [
+        0.07804695304695297,
+        0.05896603396603395,
+        0.034236596736596736,
+        -0.015648934398934444,
+        -0.006530969030969058
+      ],
+      "mean": 0.02981393606393603,
+      "seed_sd": 0.04056985760353492
+    },
+    "bilstm": {
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "differences": [
+        0.059815184815184885,
+        0.015270146520146577,
+        0.06089327339327344,
+        -0.022731435231435282,
+        0.015942390942390805
+      ],
+      "mean": 0.025837912087912085,
+      "seed_sd": 0.03518491837810984
+    }
+  },
+  "interpretation": "Checkpoint-selected, inspected single-user validation; fixed recipe, no test/label-saving/novelty/robot-reliability claim. Seed SD is not population uncertainty."
+}

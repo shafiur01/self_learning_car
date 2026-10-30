@@ -1,0 +1,11 @@
+{
+  "parent_inputs_unchanged": true,
+  "all_weights_frozen_before_new_oracle_access": true,
+  "original_masks_reproduced": 5,
+  "aggregate_accounting_checks": true,
+  "model_fits": 0,
+  "forward_passes": 0,
+  "selection_or_endpoint_payload_reads": 0,
+  "pairs": 1225,
+  "elapsed_seconds": 0.03861812496325001
+}

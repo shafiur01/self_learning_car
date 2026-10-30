@@ -1,0 +1,33 @@
+{
+  "experiment_id": "015_evidence_profile_diagnostic",
+  "parent_study": "research/experiments/runs/evidence_profile_budget160/20261016T133936682213Z",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "selector": {
+    "confidence": 0.95,
+    "anchor_confidence": 0.5,
+    "minimum_anchors": 3,
+    "scale_floor": 0.05,
+    "radius_floor_squared": 0.0025000000000000005
+  },
+  "primary_fraction": 0.25,
+  "fractions": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "confidence_bin_edges": [
+    0.5,
+    0.7,
+    0.85,
+    0.95
+  ],
+  "threads": 2,
+  "scope": "Retrospective diagnostic of reused hidden training inputs; no independent test or learning-utility claim."
+}

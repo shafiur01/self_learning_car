@@ -1,0 +1,330 @@
+{
+  "momentum": 0.9134437245304771,
+  "half_life_updates": 7.65625,
+  "only_stochastic_layer": "classifier head dropout .2; no sensor transform",
+  "original_m999_initial_retention560": 0.5710490410244007,
+  "bootstrap_initial_contribution_after420_updates": 3.3548470650393385e-17,
+  "synthetic_trace": [
+    {
+      "step": 1,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 2,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 3,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 4,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 5,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 6,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 7,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 8,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 9,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 10,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 11,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 12,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 13,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 14,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 15,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 16,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 17,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 18,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 19,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 20,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 21,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 22,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 23,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 24,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 25,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 26,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 27,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 28,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 29,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 30,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 31,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 32,
+      "batch_confidence": 0.2,
+      "ema_mean": 0.2
+    },
+    {
+      "step": 33,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.2605893928286661
+    },
+    {
+      "step": 34,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.315934393481123
+    },
+    {
+      "step": 35,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.36648893701124496
+    },
+    {
+      "step": 36,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.4126676675453377
+    },
+    {
+      "step": 37,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.4548493391584886
+    },
+    {
+      "step": 38,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.49337992238372663
+    },
+    {
+      "step": 39,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.5285754418333196
+    },
+    {
+      "step": 40,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.5607245682061407
+    },
+    {
+      "step": 41,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.5900909859405313
+    },
+    {
+      "step": 42,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.616915555931951
+    },
+    {
+      "step": 43,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.6414182910538418
+    },
+    {
+      "step": 44,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.6638001606847656
+    },
+    {
+      "step": 45,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.684244739042392
+    },
+    {
+      "step": 46,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7029197108438375
+    },
+    {
+      "step": 47,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7199782466416516
+    },
+    {
+      "step": 48,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7355602591158433
+    },
+    {
+      "step": 49,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7497935506259494
+    },
+    {
+      "step": 50,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7627948614352688
+    },
+    {
+      "step": 51,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7746708272047117
+    },
+    {
+      "step": 52,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7855188536095481
+    },
+    {
+      "step": 53,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.7954279152525868
+    },
+    {
+      "step": 54,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8044792854264062
+    },
+    {
+      "step": 55,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8127472027100839
+    },
+    {
+      "step": 56,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8202994798677964
+    },
+    {
+      "step": 57,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8271980600434237
+    },
+    {
+      "step": 58,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8334995248130208
+    },
+    {
+      "step": 59,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8392555582621591
+    },
+    {
+      "step": 60,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8445133708944621
+    },
+    {
+      "step": 61,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8493160868481964
+    },
+    {
+      "step": 62,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8537030975968373
+    },
+    {
+      "step": 63,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.857710385034631
+    },
+    {
+      "step": 64,
+      "batch_confidence": 0.9,
+      "ema_mean": 0.8613708165970736
+    }
+  ],
+  "no_optimization": true
+}

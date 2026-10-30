@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment": "007_motion_probe",
+  "original_archive": "research/experiments/runs/motion_probes/20261012T221029684780Z",
+  "finding": "research/findings/007_motion_sensitivity.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "config.json": "6fff0ccb62d6871af2594ddee6721c3c80817729b253618749164bcb501573c4",
+    "summary.json": "597349e2598f11564f367d9817b6fc7a602f530c7445141c30bc50728adcea5c",
+    "trials.json": "97bb2c243172e04c7a8986c21ae03df04f72e4c36e7e3f92b98283a776a363ef",
+    "status.json": "a291e57fabacd873e925a6955765ed9455ec731fd5af96b0934e16e091310036",
+    "verification.json": "b1ae18f7b619ce646a52bcf5562e03ba8113e60010eae81bd7f489c2f2eb000a"
+  },
+  "private_reference_sha256": {
+    "manifest.json": "471113ae4c0723c296f815c7605a20e80bb1be5fcd566a85172e26603351e05a"
+  },
+  "export_sha256": {
+    "config.json": "4e75616b38071012c94361edecd32ebec0aa2808a77baa0a3b1a2ef798354f4a",
+    "summary.json": "597349e2598f11564f367d9817b6fc7a602f530c7445141c30bc50728adcea5c",
+    "trials.json": "97bb2c243172e04c7a8986c21ae03df04f72e4c36e7e3f92b98283a776a363ef",
+    "status.json": "a291e57fabacd873e925a6955765ed9455ec731fd5af96b0934e16e091310036",
+    "verification.json": "b1ae18f7b619ce646a52bcf5562e03ba8113e60010eae81bd7f489c2f2eb000a"
+  }
+}

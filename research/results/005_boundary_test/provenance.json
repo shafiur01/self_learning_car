@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "experiment": "005_boundary_test",
+  "original_archive": "research/experiments/data/boundary_test/evaluation",
+  "finding": "research/findings/005_boundary_test.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "summary.json": "4c57a88e10f644bc2881f5e3a371603c52284dc5283ae1c2598de43c24c5e239",
+    "trials.json": "6ad062230270309c659d6a7f2a9c18d6ca796111e3a087fd4c4ca63410df3692",
+    "costs.json": "c40ce6790f343fb822c5d67c60fd85b198bc8b3c39e5f29fbaa9ba9a0b8cf6aa",
+    "analysis/verification.json": "815686bd82d53eeeaf87b73eb701edec20335888ceb4bcbee4944ac4f5107d6c"
+  },
+  "private_reference_sha256": {
+    "manifest.json": "2d4c459d13626b52baf92f9e006da13c8011dee7bad44387364c80e4b4b6192e"
+  },
+  "export_sha256": {
+    "summary.json": "4c57a88e10f644bc2881f5e3a371603c52284dc5283ae1c2598de43c24c5e239",
+    "trials.json": "6ad062230270309c659d6a7f2a9c18d6ca796111e3a087fd4c4ca63410df3692",
+    "costs.json": "c40ce6790f343fb822c5d67c60fd85b198bc8b3c39e5f29fbaa9ba9a0b8cf6aa",
+    "analysis/verification.json": "815686bd82d53eeeaf87b73eb701edec20335888ceb4bcbee4944ac4f5107d6c"
+  }
+}

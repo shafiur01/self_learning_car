@@ -1,0 +1,39 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "research/experiments/commands_v3_collection.py": "b86204deea926a1723511e412069f6599c09cf389198ce3cd1e63c6e4d8c76ca",
+    "research/experiments/commands_v2.py": "cd0dfd5cb8086f34939a32838f3af2f496f813d24661a60db7a7c6ef5721f198",
+    "gesture_commands/app.py": "95f8f912bea83fbb4a7c3fd7357a5a9e82fb370426f2ccf9a6753632e56ed3b4",
+    "gesture_commands/data.py": "ae2459bc4adb4aab0a2dbf648a47755f87135a714abc278413c35c17784e35d4",
+    "gesture_commands/model.py": "c9c1123da61a225edde1a7f76f247e73ed13ef4cddaa1d2ccac2f3fa0e7ef24f",
+    "research/experiments/commands_v3_validation.py": "3d88f0cc9e4e3368dee83878c501f39da580d033fa1d82fbf794d01df9c71e0a",
+    "research/experiments/test_commands_v3_validation.py": "ee0dab4bc4d48a56a018551a07801187bc584c153a3c10aa30ec164013df29ac",
+    "research/experiments/boundary_train.py": "f81fe12386e3f1333a00fdfdc3d70413062fb6d1237ef358ea187393eb201d53",
+    "research/experiments/run.py": "6a5ba8db327ad4c48657faaeff0e9307d561b96a32b56fbbccb5626c54b42b9a",
+    "research/experiments/commands_v3_train.py": "ac7355da6de1fc670f5d04cfbc8c7793700c7f155f70836a033cabfaa6a5d847",
+    "research/experiments/test_commands_v3_train.py": "3576d5bb6e7a596ac47cc3e791765e96afeb229532307b879a9ebdd6e1dca62a",
+    "research/PROTOCOL.md": "2ee3c0d87e48ce41584016f51aa2a740f28122f14a0e62c45549f18d24170612",
+    "research/V3_VALIDATION_PLAN.md": "ad71c3ba0da25430c41c028736acee4558e1b928e7cae08e107c67c8f44d5604",
+    "research/experiments/temporal_comparison.py": "a744e8ae6048300431a8e328012c62dfb239215f4a86412fc1d136f226cb7a6a",
+    "research/experiments/test_temporal_comparison.py": "db4d372c0b31c0b28332b8a1f0b7c07c1bfcd543852cd082748a21dbe717d6f6",
+    "research/TEMPORAL_COMPARISON_PROTOCOL.md": "c7625f20def041ae7b0ea14f2cef781d2ae8caeea5c1a7dd043806ae5ce938eb",
+    "research/experiments/landmark_representations.py": "312e1acd14d679af444dc91ea5e592bec88d5fcb8ec8d59cf9fa97889fe5d7c2",
+    "research/experiments/motion_representation.py": "3969072f87cb5c17934b5b12bfb41b1d2bf046a5ff49eb4ad610cffd850c2e6b",
+    "research/experiments/test_motion_representation.py": "7dc851cf8936f9d1cccb56d487723946063dc6154608e5e53a9aff1a4c140794",
+    "research/MOTION_REPRESENTATION_PROTOCOL.md": "67b2b00814c7d30e221a5d86f775d53264b2ecdd09efa6e93ced1801ea93d18c",
+    "research/experiments/cross_model_motion.py": "c0faec83963264c7a7b53bb488b0fb8bec834f11c4639918cbf21430c1a78e10",
+    "research/experiments/test_cross_model_motion.py": "c37a610e3beede7d3c089d2ff357b6ba0d56dc969b3e9b1b2db2354da2488aba",
+    "research/experiments/dataset_validation.py": "3dc623f28e073345f18db619f85f3707cfc246da350222039d5bff9579d76e89",
+    "research/CROSS_MODEL_MOTION_PROTOCOL.md": "79f36d14d13d9f347f4393175461d1b5749a633be5c9c003a5577c4a9f093676"
+  },
+  "input_sha256": {
+    "config.json": "14de1e0f3168ac6ab994cc74262eda11ccd45a5123cc89ae8972c5c25e77268b",
+    "manifest.json": "529f6c1fe9ac5429c65aad8dae717ac1e14ff3e37b12ddaf8e5ec68356b09259",
+    "features.npz": "a66d883d646f6ffb69a48abed4df26f757aecdcaac5857e806b8a7508b664d5d",
+    "feature_audits.json": "a9ab86f6f89b613ef6245eb50e69307715639664cdc8a6246a93c429ce39b305",
+    "prefix_observations.json": "79d3628f1ed36f6708d3cd92267360423d846a985fc56205878abefa384153e7"
+  }
+}

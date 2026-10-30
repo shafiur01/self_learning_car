@@ -1,0 +1,28 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "device": "cpu",
+  "threads": 2,
+  "source_sha256": {
+    "research/experiments/evaluate_sessions.py": "bf6303d8bcc1bd1bb6acf810e79a870b097df38642c05f0af1109379cc62caf1",
+    "research/experiments/test_evaluate_sessions.py": "9b535b4803111c0ea88a17053ffafa2413b07e8889039fe1fd7db5a9fd282e1e",
+    "research/PROTOCOL.md": "6cc21be79a69e1a5c0b713814a85700bd8db08db147dba1d23f6fe86943e2447",
+    "gesture_commands/data.py": "ae2459bc4adb4aab0a2dbf648a47755f87135a714abc278413c35c17784e35d4",
+    "gesture_commands/model.py": "c9c1123da61a225edde1a7f76f247e73ed13ef4cddaa1d2ccac2f3fa0e7ef24f",
+    "research/experiments/run.py": "6a5ba8db327ad4c48657faaeff0e9307d561b96a32b56fbbccb5626c54b42b9a",
+    "research/experiments/label_budget.py": "01c035523d2a9f0b9f2ed2d8fa0b591f5f6636cbde059be9123b3d1bbddbb046"
+  },
+  "original_study_artifact_sha256": {
+    "config.json": "1fecff6e62a1945cfc6c5f1df665cd2479e7783908d04c7b8f3230b3d3d76977",
+    "manifest.json": "6983dd295504092ac898fa168adaeca4f7fe5a3e33349ebb09903b98df3959eb",
+    "selections.json": "981d7b1c232f1530f376dcd023927c8026374266216d70bf04229db74395f191",
+    "development_features.npz": "52e6ff4d5ab4273465c8dd9e9c742d1a793ab534b994cd4f157123c4c9ef8efe"
+  },
+  "artifact_sha256": {
+    "manifest.json": "4b0d6cb32c88761d39e15a511ca12e6d165e27a56fb374ad87a535461d59ad43",
+    "evaluation_plan.json": "4dbebedd59e22d0a29aad72180127a707bf01f830073b0ed8c86869cd8e274b6",
+    "new_validation_features.npz": "ec5aa3e65ea6bfdb217b027cca5a400835f8d71c7cad00c4295b74f6ac1a85c9"
+  }
+}

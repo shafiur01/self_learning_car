@@ -1,0 +1,550 @@
+{
+  "conditions": {
+    "reference": {
+      "selection": {
+        "accuracy": {
+          "mean": 0.851063829787234,
+          "run_sd": 0.026058401518970015
+        },
+        "macro_f1": {
+          "mean": 0.8532226107226106,
+          "run_sd": 0.028789812578065403
+        },
+        "nll": {
+          "mean": 0.3380171716213226,
+          "run_sd": 0.03775318893811595
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.4666666666666667,
+          "run_sd": 0.13944333775567924
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "run_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.9666666666666668,
+          "run_sd": 0.07453559924999298
+        },
+        "stop_to_motion_count": {
+          "mean": 0.2,
+          "run_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 1.0,
+          "run_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.0,
+          "run_sd": 0.0
+        },
+        "per_class": {
+          "FORWARD": {
+            "support_per_model": 6,
+            "precision": 0.96,
+            "recall": 0.8,
+            "f1": 0.8727272727272727
+          },
+          "BACKWARD": {
+            "support_per_model": 6,
+            "precision": 0.5619047619047619,
+            "recall": 0.7333333333333332,
+            "f1": 0.6347252747252747
+          },
+          "LEFT": {
+            "support_per_model": 7,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "RIGHT": {
+            "support_per_model": 6,
+            "precision": 1.0,
+            "recall": 0.9333333333333333,
+            "f1": 0.9636363636363636
+          },
+          "STOP": {
+            "support_per_model": 6,
+            "precision": 0.8595238095238095,
+            "recall": 0.9666666666666668,
+            "f1": 0.9073260073260073
+          },
+          "NO_COMMAND": {
+            "support_per_model": 6,
+            "precision": 0.6485714285714286,
+            "recall": 0.5333333333333333,
+            "f1": 0.5685780885780886
+          },
+          "UP": {
+            "support_per_model": 5,
+            "precision": 0.9333333333333332,
+            "recall": 0.8400000000000001,
+            "f1": 0.8787878787878789
+          },
+          "DOWN": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "monitor": {
+        "accuracy": {
+          "mean": 0.8634146341463416,
+          "run_sd": 0.04430707835264622
+        },
+        "macro_f1": {
+          "mean": 0.8576855089355089,
+          "run_sd": 0.04474467493493717
+        },
+        "nll": {
+          "mean": 0.4690351366996765,
+          "run_sd": 0.09699354441025375
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.27999999999999997,
+          "run_sd": 0.10954451150103323
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.24000000000000005,
+          "run_sd": 0.08944271909999159
+        },
+        "stop_recall": {
+          "mean": 0.8,
+          "run_sd": 0.14142135623730953
+        },
+        "stop_to_motion_count": {
+          "mean": 0.8,
+          "run_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 1.8,
+          "run_sd": 0.4472135954999579
+        },
+        "backward_to_forward_count": {
+          "mean": 0.2,
+          "run_sd": 0.447213595499958
+        },
+        "per_class": {
+          "FORWARD": {
+            "support_per_model": 5,
+            "precision": 0.86,
+            "recall": 0.64,
+            "f1": 0.7266666666666667
+          },
+          "BACKWARD": {
+            "support_per_model": 5,
+            "precision": 0.7314285714285715,
+            "recall": 0.96,
+            "f1": 0.8266666666666665
+          },
+          "LEFT": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 0.96,
+            "f1": 0.9777777777777779
+          },
+          "RIGHT": {
+            "support_per_model": 6,
+            "precision": 0.9714285714285715,
+            "recall": 0.9666666666666668,
+            "f1": 0.9664335664335664
+          },
+          "STOP": {
+            "support_per_model": 5,
+            "precision": 0.8699999999999999,
+            "recall": 0.8,
+            "f1": 0.8311111111111111
+          },
+          "NO_COMMAND": {
+            "support_per_model": 5,
+            "precision": 0.8799999999999999,
+            "recall": 0.72,
+            "f1": 0.7855555555555556
+          },
+          "UP": {
+            "support_per_model": 5,
+            "precision": 0.8699999999999999,
+            "recall": 0.8400000000000001,
+            "f1": 0.8533333333333333
+          },
+          "DOWN": {
+            "support_per_model": 5,
+            "precision": 0.8095238095238095,
+            "recall": 1.0,
+            "f1": 0.8939393939393939
+          }
+        }
+      }
+    },
+    "routine": {
+      "selection": {
+        "accuracy": {
+          "mean": 0.876595744680851,
+          "run_sd": 0.01780127716029945
+        },
+        "macro_f1": {
+          "mean": 0.8758212620712621,
+          "run_sd": 0.019594685767137233
+        },
+        "nll": {
+          "mean": 0.3634300231933594,
+          "run_sd": 0.047957788400669395
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.26666666666666666,
+          "run_sd": 0.19002923751652298
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "run_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.9666666666666668,
+          "run_sd": 0.07453559924999298
+        },
+        "stop_to_motion_count": {
+          "mean": 0.2,
+          "run_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 1.0,
+          "run_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.0,
+          "run_sd": 0.0
+        },
+        "per_class": {
+          "FORWARD": {
+            "support_per_model": 6,
+            "precision": 0.9333333333333333,
+            "recall": 0.8333333333333334,
+            "f1": 0.8787878787878787
+          },
+          "BACKWARD": {
+            "support_per_model": 6,
+            "precision": 0.6659523809523809,
+            "recall": 0.7666666666666666,
+            "f1": 0.7047219447219447
+          },
+          "LEFT": {
+            "support_per_model": 7,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "RIGHT": {
+            "support_per_model": 6,
+            "precision": 1.0,
+            "recall": 0.9666666666666668,
+            "f1": 0.9818181818181818
+          },
+          "STOP": {
+            "support_per_model": 6,
+            "precision": 0.830952380952381,
+            "recall": 0.9666666666666668,
+            "f1": 0.8919413919413918
+          },
+          "NO_COMMAND": {
+            "support_per_model": 6,
+            "precision": 0.7561904761904762,
+            "recall": 0.7333333333333333,
+            "f1": 0.7159673659673659
+          },
+          "UP": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 0.72,
+            "f1": 0.8333333333333333
+          },
+          "DOWN": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "monitor": {
+        "accuracy": {
+          "mean": 0.8829268292682928,
+          "run_sd": 0.026718173536837395
+        },
+        "macro_f1": {
+          "mean": 0.8787937062937063,
+          "run_sd": 0.02780293112844595
+        },
+        "nll": {
+          "mean": 0.2671350955963135,
+          "run_sd": 0.059513064103554024
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.16,
+          "run_sd": 0.08944271909999159
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.08,
+          "run_sd": 0.10954451150103323
+        },
+        "stop_recall": {
+          "mean": 0.96,
+          "run_sd": 0.08944271909999157
+        },
+        "stop_to_motion_count": {
+          "mean": 0.2,
+          "run_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 1.8,
+          "run_sd": 0.4472135954999579
+        },
+        "backward_to_forward_count": {
+          "mean": 0.6,
+          "run_sd": 0.5477225575051662
+        },
+        "per_class": {
+          "FORWARD": {
+            "support_per_model": 5,
+            "precision": 0.8333333333333334,
+            "recall": 0.64,
+            "f1": 0.712121212121212
+          },
+          "BACKWARD": {
+            "support_per_model": 5,
+            "precision": 0.6945238095238094,
+            "recall": 0.8799999999999999,
+            "f1": 0.7714219114219114
+          },
+          "LEFT": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "RIGHT": {
+            "support_per_model": 6,
+            "precision": 0.9428571428571428,
+            "recall": 1.0,
+            "f1": 0.9692307692307691
+          },
+          "STOP": {
+            "support_per_model": 5,
+            "precision": 0.8266666666666668,
+            "recall": 0.96,
+            "f1": 0.8872727272727273
+          },
+          "NO_COMMAND": {
+            "support_per_model": 5,
+            "precision": 0.96,
+            "recall": 0.8400000000000001,
+            "f1": 0.8933333333333333
+          },
+          "UP": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 0.72,
+            "f1": 0.8333333333333333
+          },
+          "DOWN": {
+            "support_per_model": 5,
+            "precision": 0.9333333333333333,
+            "recall": 1.0,
+            "f1": 0.9636363636363636
+          }
+        }
+      }
+    },
+    "targeted": {
+      "selection": {
+        "accuracy": {
+          "mean": 0.8638297872340426,
+          "run_sd": 0.035602554320598966
+        },
+        "macro_f1": {
+          "mean": 0.8636686924186924,
+          "run_sd": 0.03450807693144003
+        },
+        "nll": {
+          "mean": 0.3413826286792755,
+          "run_sd": 0.020672461295445532
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.4666666666666666,
+          "run_sd": 0.074535599249993
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "run_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.9666666666666668,
+          "run_sd": 0.07453559924999298
+        },
+        "stop_to_motion_count": {
+          "mean": 0.2,
+          "run_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 1.0,
+          "run_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.0,
+          "run_sd": 0.0
+        },
+        "per_class": {
+          "FORWARD": {
+            "support_per_model": 6,
+            "precision": 0.9095238095238095,
+            "recall": 0.8333333333333334,
+            "f1": 0.8659673659673659
+          },
+          "BACKWARD": {
+            "support_per_model": 6,
+            "precision": 0.5961111111111111,
+            "recall": 0.8333333333333334,
+            "f1": 0.6852813852813853
+          },
+          "LEFT": {
+            "support_per_model": 7,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "RIGHT": {
+            "support_per_model": 6,
+            "precision": 1.0,
+            "recall": 0.9666666666666668,
+            "f1": 0.9818181818181818
+          },
+          "STOP": {
+            "support_per_model": 6,
+            "precision": 0.8523809523809524,
+            "recall": 0.9666666666666668,
+            "f1": 0.9051282051282051
+          },
+          "NO_COMMAND": {
+            "support_per_model": 6,
+            "precision": 0.77,
+            "recall": 0.5333333333333333,
+            "f1": 0.61004329004329
+          },
+          "UP": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 0.76,
+            "f1": 0.861111111111111
+          },
+          "DOWN": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        }
+      },
+      "monitor": {
+        "accuracy": {
+          "mean": 0.853658536585366,
+          "run_sd": 1.2412670766236366e-16
+        },
+        "macro_f1": {
+          "mean": 0.8497435897435898,
+          "run_sd": 0.0029803548616828533
+        },
+        "nll": {
+          "mean": 0.3438584566116333,
+          "run_sd": 0.04469477909185844
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.24,
+          "run_sd": 0.0894427190999916
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.2,
+          "run_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.8800000000000001,
+          "run_sd": 0.1095445115010332
+        },
+        "stop_to_motion_count": {
+          "mean": 0.2,
+          "run_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 2.0,
+          "run_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.8,
+          "run_sd": 0.4472135954999579
+        },
+        "per_class": {
+          "FORWARD": {
+            "support_per_model": 5,
+            "precision": 0.74,
+            "recall": 0.6,
+            "f1": 0.6566666666666665
+          },
+          "BACKWARD": {
+            "support_per_model": 5,
+            "precision": 0.6761904761904761,
+            "recall": 0.8400000000000001,
+            "f1": 0.7484848484848483
+          },
+          "LEFT": {
+            "support_per_model": 5,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "RIGHT": {
+            "support_per_model": 6,
+            "precision": 0.9714285714285715,
+            "recall": 0.9333333333333333,
+            "f1": 0.9482517482517482
+          },
+          "STOP": {
+            "support_per_model": 5,
+            "precision": 0.8533333333333333,
+            "recall": 0.8800000000000001,
+            "f1": 0.8614141414141414
+          },
+          "NO_COMMAND": {
+            "support_per_model": 5,
+            "precision": 0.8699999999999999,
+            "recall": 0.76,
+            "f1": 0.808888888888889
+          },
+          "UP": {
+            "support_per_model": 5,
+            "precision": 0.9666666666666668,
+            "recall": 0.8,
+            "f1": 0.8651515151515152
+          },
+          "DOWN": {
+            "support_per_model": 5,
+            "precision": 0.8333333333333334,
+            "recall": 1.0,
+            "f1": 0.909090909090909
+          }
+        }
+      }
+    }
+  },
+  "primary_comparison": {
+    "field": "monitor macro F1, targeted minus routine",
+    "paired_by_seed": {
+      "11": 0.002777777777777768,
+      "22": -0.06862373737373739,
+      "33": -0.03112859362859366,
+      "44": -0.02474747474747474,
+      "55": -0.023528554778554756
+    },
+    "mean": -0.029050116550116557
+  },
+  "interpretation": "Single-user supervised development comparison on inspected shared recordings; no final test, novelty, label savings, SSL, unseen-user or robot reliability result."
+}

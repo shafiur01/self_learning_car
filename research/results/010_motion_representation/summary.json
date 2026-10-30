@@ -1,0 +1,275 @@
+{
+  "modes": {
+    "camera_pose": {
+      "validation": {
+        "accuracy": {
+          "mean": 0.8416666666666666,
+          "seed_sd": 0.05229125165837972
+        },
+        "macro_f1": {
+          "mean": 0.8350833888333888,
+          "seed_sd": 0.05748743963262587
+        },
+        "nll": {
+          "mean": 0.3175690233707428,
+          "seed_sd": 0.051706994262185786
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.36666666666666664,
+          "seed_sd": 0.2981423969999719
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.2333333333333333,
+          "seed_sd": 0.223606797749979
+        },
+        "stop_recall": {
+          "mean": 0.7333333333333333,
+          "seed_sd": 0.09128709291752772
+        },
+        "stop_to_motion_count": {
+          "mean": 1.6,
+          "seed_sd": 0.5477225575051661
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 1.4,
+          "seed_sd": 0.8944271909999159
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.8333333333333334,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.7333333333333333,
+        "NO_COMMAND": 0.6333333333333333,
+        "UP": 0.8333333333333334,
+        "DOWN": 1.0
+      },
+      "prefix_recorded_intent_agreement": {
+        "p050": 0.8333333333333334,
+        "p100": 0.8458333333333334,
+        "p150": 0.8458333333333334
+      },
+      "training_seconds_mean": 1.7446048334124498,
+      "latency_median_ms_mean": 0.18703319999999998
+    },
+    "camera_motion": {
+      "validation": {
+        "accuracy": {
+          "mean": 0.9791666666666667,
+          "seed_sd": 0.020833333333333315
+        },
+        "macro_f1": {
+          "mean": 0.9792957042957042,
+          "seed_sd": 0.02064189969131342
+        },
+        "nll": {
+          "mean": 0.07822980955243111,
+          "seed_sd": 0.0402607217006102
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.9333333333333333,
+          "seed_sd": 0.09128709291752767
+        },
+        "stop_to_motion_count": {
+          "mean": 0.2,
+          "seed_sd": 0.44721359549995804
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 1.0,
+        "BACKWARD": 1.0,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.9333333333333333,
+        "NO_COMMAND": 1.0,
+        "UP": 0.9333333333333333,
+        "DOWN": 0.9666666666666668
+      },
+      "prefix_recorded_intent_agreement": {
+        "p050": 0.9208333333333334,
+        "p100": 0.9625,
+        "p150": 0.9833333333333334
+      },
+      "training_seconds_mean": 1.7483071250026114,
+      "latency_median_ms_mean": 0.1841417
+    },
+    "hand_pose": {
+      "validation": {
+        "accuracy": {
+          "mean": 0.9166666666666666,
+          "seed_sd": 0.038975597778895206
+        },
+        "macro_f1": {
+          "mean": 0.9153180153180154,
+          "seed_sd": 0.03974452038893166
+        },
+        "nll": {
+          "mean": 0.23623083233833314,
+          "seed_sd": 0.07913329610192243
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.13333333333333333,
+          "seed_sd": 0.13944333775567924
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.8666666666666666,
+          "seed_sd": 0.13944333775567927
+        },
+        "stop_to_motion_count": {
+          "mean": 0.6,
+          "seed_sd": 0.8944271909999159
+        },
+        "forward_to_backward_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "backward_to_forward_count": {
+          "mean": 0.8,
+          "seed_sd": 0.8366600265340756
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.9666666666666666,
+        "BACKWARD": 0.8333333333333333,
+        "LEFT": 1.0,
+        "RIGHT": 0.9,
+        "STOP": 0.8666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      },
+      "prefix_recorded_intent_agreement": {
+        "p050": 0.9125,
+        "p100": 0.9291666666666666,
+        "p150": 0.9166666666666666
+      },
+      "training_seconds_mean": 1.7461096168030052,
+      "latency_median_ms_mean": 0.1860124
+    },
+    "hand_motion": {
+      "validation": {
+        "accuracy": {
+          "mean": 0.9208333333333334,
+          "seed_sd": 0.04973890160963884
+        },
+        "macro_f1": {
+          "mean": 0.9214169164169164,
+          "seed_sd": 0.049189787880984125
+        },
+        "nll": {
+          "mean": 0.23320115506649017,
+          "seed_sd": 0.10980208508774777
+        },
+        "no_command_to_motion_rate": {
+          "mean": 0.06666666666666667,
+          "seed_sd": 0.09128709291752768
+        },
+        "no_command_to_down_rate": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "stop_recall": {
+          "mean": 0.9666666666666668,
+          "seed_sd": 0.07453559924999298
+        },
+        "stop_to_motion_count": {
+          "mean": 0.0,
+          "seed_sd": 0.0
+        },
+        "forward_to_backward_count": {
+          "mean": 0.2,
+          "seed_sd": 0.447213595499958
+        },
+        "backward_to_forward_count": {
+          "mean": 0.4,
+          "seed_sd": 0.5477225575051662
+        }
+      },
+      "per_class_recall": {
+        "FORWARD": 0.8333333333333334,
+        "BACKWARD": 0.9333333333333333,
+        "LEFT": 1.0,
+        "RIGHT": 0.8333333333333334,
+        "STOP": 0.9666666666666668,
+        "NO_COMMAND": 0.9333333333333333,
+        "UP": 0.9,
+        "DOWN": 0.9666666666666668
+      },
+      "prefix_recorded_intent_agreement": {
+        "p050": 0.8875,
+        "p100": 0.925,
+        "p150": 0.9208333333333334
+      },
+      "training_seconds_mean": 1.7473532493808306,
+      "latency_median_ms_mean": 0.1884127
+    }
+  },
+  "paired_macro_f1_differences": {
+    "primary_camera_motion_minus_pose": {
+      "differences": [
+        0.222008547008547,
+        0.15057858807858804,
+        0.2002976190476191,
+        0.08344155844155832,
+        0.06473526473526459
+      ],
+      "mean": 0.14421231546231542
+    },
+    "hand_motion_minus_pose": {
+      "differences": [
+        0.06610889110889107,
+        -0.01695804195804196,
+        -0.05944055944055937,
+        0.06383616383616386,
+        -0.0230519480519481
+      ],
+      "mean": 0.0060989010989010994
+    },
+    "hand_minus_camera_pose": {
+      "differences": [
+        0.13492063492063489,
+        0.06538461538461537,
+        0.17931859806859807,
+        0.018231768231768086,
+        0.003317515817515826
+      ],
+      "mean": 0.08023462648462645
+    },
+    "hand_minus_camera_motion": {
+      "differences": [
+        -0.020979020979021046,
+        -0.10215201465201462,
+        -0.08041958041958042,
+        -0.0013736263736263687,
+        -0.08446969696969686
+      ],
+      "mean": -0.05787878787878786
+    }
+  },
+  "scope": "Inspected single-user development; prefixes are original-intent agreement under distribution shift, not validated early accuracy or onset latency. No new algorithm/label savings/robot claim."
+}

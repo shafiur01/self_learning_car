@@ -1,0 +1,4752 @@
+[
+  {
+    "seed": 11,
+    "best_step": 420,
+    "training_seconds": 3.8310733750113286,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "a1a19fb89b52307d3c306fdcc1b02f48e68100c472e629b5e535469d18008382",
+    "batch_indices_sha256": "f72a4d8dd0174be75c18afd245c1c0c8069c94ddea2ea5520b6e35cc8513e0f8",
+    "process_peak_rss_bytes_through_fit": 332005376,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "cnn",
+    "parameters": 48520,
+    "checkpoint_sha256": "bc49355f8941af1b1625beeddfed2b627331fcd40be63cdf4564c9dc3803c841",
+    "state_sha256": "5020afd49f20b165671fe8100d7645d119af88216a821139aafcc1d9304ab503",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8567432567432567,
+      "nll": 0.5019471645355225,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.0624165,
+      "p90_ms": 0.067,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.925909250043333
+  },
+  {
+    "seed": 22,
+    "best_step": 480,
+    "training_seconds": 3.833848209003918,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "67c42b8bf59d410c6eb44fb8de031ebea46856224ae359705347172771d589c3",
+    "batch_indices_sha256": "33bcef356cb213cf6d9b0228c6426926507682ddfacff03b7000a67fb8160392",
+    "process_peak_rss_bytes_through_fit": 332333056,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "cnn",
+    "parameters": 48520,
+    "checkpoint_sha256": "5e0b03b71febb55e127d8e656d2052bb3f27c401b866f05cf66ef662b5d108aa",
+    "state_sha256": "5ccb7b6dee064c82e90c306ac4e0500116fe1755b722263fc15c8bd8b08f7bf2",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.875,
+      "macro_f1": 0.8771978021978022,
+      "nll": 0.323694109916687,
+      "no_command_to_motion_count": 0,
+      "no_command_to_motion_rate": 0.0,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.060271,
+      "p90_ms": 0.06818690000000001,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.87140616599936
+  },
+  {
+    "seed": 33,
+    "best_step": 300,
+    "training_seconds": 3.848702042014338,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "33e14384a8ddf4c4a1a788fd0bcc1ac789f3a67af8f8ea4c1308ef26467724d5",
+    "batch_indices_sha256": "d2e0833bc4b6877266fd9f5b8623a05aaef35980bde2d85c7cb0ce08515f90f0",
+    "process_peak_rss_bytes_through_fit": 332398592,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "cnn",
+    "parameters": 48520,
+    "checkpoint_sha256": "d22bbd26c2b85b283f7f866deb9cb665c560ad91442e8aa08fec9bc39336a10c",
+    "state_sha256": "4f53872e130a5bb748ca6266f76922748b188a32b4fe1447816d54d1bee7b8d0",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.875,
+      "macro_f1": 0.8756451881451881,
+      "nll": 0.4097174108028412,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 1,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307692
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 1
+    },
+    "latency": {
+      "median_ms": 0.0600835,
+      "p90_ms": 0.0657542,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.91180916596204
+  },
+  {
+    "seed": 44,
+    "best_step": 360,
+    "training_seconds": 3.8118742499500513,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "adf39189f595763efa5af36c75e2e4ca419bb68bb413a6a28c9d68d08dc671f8",
+    "batch_indices_sha256": "b0b23adb39a9b85abe7fe14e666fdb29082eae01f3ef24300b86036eccfed25d",
+    "process_peak_rss_bytes_through_fit": 333217792,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "cnn",
+    "parameters": 48520,
+    "checkpoint_sha256": "6860c0d4f1bd17d6f6e7d0b51c56b5008a3ac36d9b6240d50c0b756427dfacca",
+    "state_sha256": "f0e56c738ca810851f9a7e507cc8b233ba2886e2a6c0082ac9b4c241bc180378",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8372835497835498,
+      "nll": 0.5366488099098206,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.0617495,
+      "p90_ms": 0.06614590000000001,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.887067166971974
+  },
+  {
+    "seed": 55,
+    "best_step": 500,
+    "training_seconds": 3.9103417910519056,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "8aae6aa16477f979f6fa9b559fa6a37d4b49f9185bc97b842ccb10acd33f2258",
+    "batch_indices_sha256": "e4b84c204f5599ead23c42b5582a7ae9993a8e57bc830542141785e542f40e07",
+    "process_peak_rss_bytes_through_fit": 332382208,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "cnn",
+    "parameters": 48520,
+    "checkpoint_sha256": "5e25fea2467bcfe42c5a35100899640658eb1f4f032d2a46107076075ad568f6",
+    "state_sha256": "7c259124f7053cf267c30be0011bb146709af64c7d2f7264b5e095a84bd2d2ef",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8586580086580087,
+      "nll": 0.3063258230686188,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1": 0.6666666666666667
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.0613125,
+      "p90_ms": 0.07230419999999999,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.977089749998413
+  },
+  {
+    "seed": 11,
+    "best_step": 540,
+    "training_seconds": 0.43097112502437085,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "487614b8a08014bb6c06647daad19826b7d6ecd177a1af077c9b7defafa15bba",
+    "batch_indices_sha256": "f72a4d8dd0174be75c18afd245c1c0c8069c94ddea2ea5520b6e35cc8513e0f8",
+    "process_peak_rss_bytes_through_fit": 329023488,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "pose_set",
+    "parameters": 48792,
+    "checkpoint_sha256": "77791dd706043052a0661dccf7bb78bf734612c71aa7640bf17e72c1c62294af",
+    "state_sha256": "f5d9ebc7202d2a26563568c905a975ec7081ca9ea1680c7f2a86ac3fd4fcd83a",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8567432567432567,
+      "nll": 0.5940077304840088,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.0374165,
+      "p90_ms": 0.0382081,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.4937535409699194
+  },
+  {
+    "seed": 22,
+    "best_step": 520,
+    "training_seconds": 0.43222112499643117,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "b395abd8a6e2c17b32541d629df6b5d824e252bf31fece4c874816038f1785df",
+    "batch_indices_sha256": "33bcef356cb213cf6d9b0228c6426926507682ddfacff03b7000a67fb8160392",
+    "process_peak_rss_bytes_through_fit": 328597504,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "pose_set",
+    "parameters": 48792,
+    "checkpoint_sha256": "e83b6518a847fd3bc40daa23004a825a87a8e66eb7a9e3c1ba7b23b22cf5c535",
+    "state_sha256": "e8a1c3304576698207a0a1dc67739884397cce9f404078a85ac042ce4b42fb0e",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8586580086580087,
+      "nll": 0.4676721394062042,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1": 0.6666666666666667
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.038,
+      "p90_ms": 0.038584,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.4782799580134451
+  },
+  {
+    "seed": 33,
+    "best_step": 400,
+    "training_seconds": 0.4437263330328278,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "7bd77bb6741878a1e124d14ef2158329ade5ce0969e0891a019e94033d164a61",
+    "batch_indices_sha256": "d2e0833bc4b6877266fd9f5b8623a05aaef35980bde2d85c7cb0ce08515f90f0",
+    "process_peak_rss_bytes_through_fit": 332578816,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "pose_set",
+    "parameters": 48792,
+    "checkpoint_sha256": "d2df10dd0e8ceeda9d56250b62aafccba9ea72f8517b7ea4ce6bc3424b58c1fc",
+    "state_sha256": "a0f5c0d3ef6cc3e361d09d9c69a36a5c68d64286b0ab81aad41deb6ddbfc41c7",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.875,
+      "macro_f1": 0.8756451881451881,
+      "nll": 0.4194742739200592,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307692
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 1
+    },
+    "latency": {
+      "median_ms": 0.0377295,
+      "p90_ms": 0.038541,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.5073522919556126
+  },
+  {
+    "seed": 44,
+    "best_step": 560,
+    "training_seconds": 0.43441604101099074,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "227e3b7265e12dd12525ae30d8c88f4321c1a0621e97e8bb0142725f47801b82",
+    "batch_indices_sha256": "b0b23adb39a9b85abe7fe14e666fdb29082eae01f3ef24300b86036eccfed25d",
+    "process_peak_rss_bytes_through_fit": 329826304,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "pose_set",
+    "parameters": 48792,
+    "checkpoint_sha256": "080a661b1b3389feaa198de98b52890c99b5374ef59961ba4c004ac8745deb09",
+    "state_sha256": "2ca27933950e9853da84d83ff2cee088caa66342a993bfb2593d808d62697ffd",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8372835497835498,
+      "nll": 0.5384098291397095,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.037771,
+      "p90_ms": 0.0387122,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.5103806250263005
+  },
+  {
+    "seed": 55,
+    "best_step": 500,
+    "training_seconds": 0.43549070903100073,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "408be4ef4271c0f55834f248416557ef572fbec333e9b00e8aa51e6391366f8d",
+    "batch_indices_sha256": "e4b84c204f5599ead23c42b5582a7ae9993a8e57bc830542141785e542f40e07",
+    "process_peak_rss_bytes_through_fit": 328925184,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "pose_set",
+    "parameters": 48792,
+    "checkpoint_sha256": "f437e4845d897a511f5eb1bdf794a1929eb65e27a6cc715e92950ceac98e1f6b",
+    "state_sha256": "913435d2ceb7e10360cb93bda9b19179ea8680826f7b2d57a70a39adb000e106",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.875,
+      "macro_f1": 0.8714889277389277,
+      "nll": 0.5235134959220886,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.036729,
+      "p90_ms": 0.038125,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.518679750035517
+  },
+  {
+    "seed": 11,
+    "best_step": 420,
+    "training_seconds": 0.4374598329886794,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "557478f664b31f3a36ed532a4361656b3418ba8f5d24a2bec6f0e21a3f5e6295",
+    "batch_indices_sha256": "f72a4d8dd0174be75c18afd245c1c0c8069c94ddea2ea5520b6e35cc8513e0f8",
+    "process_peak_rss_bytes_through_fit": 328728576,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "feature_set",
+    "parameters": 49176,
+    "checkpoint_sha256": "323cd8320824c5d715daacb38b621d59eb74dd28c8b2e5d758805ffe75072023",
+    "state_sha256": "06e5ec1b75c65c21c4cf95043d4e8c8fbb387eb97620e50bdb8088e1caee7c4a",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8372835497835498,
+      "nll": 0.5335769057273865,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.032708,
+      "p90_ms": 0.033292,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.5752263750182465
+  },
+  {
+    "seed": 22,
+    "best_step": 520,
+    "training_seconds": 0.41000566602451727,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "18292775150abead1e5702d2e8bf8e5945b830de1787e7652dee6ccbc9079e9f",
+    "batch_indices_sha256": "33bcef356cb213cf6d9b0228c6426926507682ddfacff03b7000a67fb8160392",
+    "process_peak_rss_bytes_through_fit": 333594624,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "feature_set",
+    "parameters": 49176,
+    "checkpoint_sha256": "ae8431a2bbe08afd296ab606afade9ab9d1b23b23779bd178404e86a329e4791",
+    "state_sha256": "4f13df1548c32ff52f9a6e7558c5ebbdc948d22c7a28f35110009c6ebd6b18ea",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.875,
+      "macro_f1": 0.8782634032634032,
+      "nll": 0.326007604598999,
+      "no_command_to_motion_count": 0,
+      "no_command_to_motion_rate": 0.0,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1": 0.6666666666666667
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.032833,
+      "p90_ms": 0.0332961,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.5146722079953179
+  },
+  {
+    "seed": 33,
+    "best_step": 520,
+    "training_seconds": 0.3810901250108145,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "5dd9a7d596a7c97b600e910b8ac57242e88078d63393384b6f2eeb403c784374",
+    "batch_indices_sha256": "d2e0833bc4b6877266fd9f5b8623a05aaef35980bde2d85c7cb0ce08515f90f0",
+    "process_peak_rss_bytes_through_fit": 327843840,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "feature_set",
+    "parameters": 49176,
+    "checkpoint_sha256": "ae774ec199d406bc95da427be80914bf2ebba447d0aca5a298fdeac8801ae678",
+    "state_sha256": "c1a77022f99d12b83595137c8042a4c070037feb0e653f56d355002a6fcd0eb7",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8567432567432567,
+      "nll": 0.4895831048488617,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1": 0.5714285714285715
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.0334165,
+      "p90_ms": 0.0345462,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.5237365829525515
+  },
+  {
+    "seed": 44,
+    "best_step": 380,
+    "training_seconds": 0.40415124996798113,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "86a80075e25eb22ea7096c01b6e58dfa00fd5a55f57c3d62bc1ffa10598115e4",
+    "batch_indices_sha256": "b0b23adb39a9b85abe7fe14e666fdb29082eae01f3ef24300b86036eccfed25d",
+    "process_peak_rss_bytes_through_fit": 328122368,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "feature_set",
+    "parameters": 49176,
+    "checkpoint_sha256": "993832f7ab1c6630aece8cc3f1e74b1f7ac5aea8c9d75ef74eed452933faff3f",
+    "state_sha256": "85e339f5a94f3a1c63ce23887f3a6c8a978f887d3f14643272f90557bd02dc3d",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8586580086580087,
+      "nll": 0.45370665192604065,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1": 0.6666666666666667
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.033167,
+      "p90_ms": 0.0343414,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.516772666014731
+  },
+  {
+    "seed": 55,
+    "best_step": 360,
+    "training_seconds": 0.4102630839915946,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "b683db0f29f5429d311255aa6a108bc9816f2d898268e680c6a2f1ff766fd83a",
+    "batch_indices_sha256": "e4b84c204f5599ead23c42b5582a7ae9993a8e57bc830542141785e542f40e07",
+    "process_peak_rss_bytes_through_fit": 330825728,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "feature_set",
+    "parameters": 49176,
+    "checkpoint_sha256": "c79003a766669823030dbfe34c3303adf7079ac78551d56f987ac2b74bb09ae6",
+    "state_sha256": "1925a49e3341359911947026e02ec5912d7ed786bb61d61f28d8c98bcf04e79b",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8529179154179154,
+      "nll": 0.473318487405777,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307692
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 1
+    },
+    "latency": {
+      "median_ms": 0.0325,
+      "p90_ms": 0.0330881,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 1.5182873750454746
+  },
+  {
+    "seed": 11,
+    "best_step": 400,
+    "training_seconds": 2.018978459003847,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "a843b599ddfaa7c63b915fbe0161e5b7cba80d4a2792b02cc849345e2e3799f0",
+    "batch_indices_sha256": "f72a4d8dd0174be75c18afd245c1c0c8069c94ddea2ea5520b6e35cc8513e0f8",
+    "process_peak_rss_bytes_through_fit": 332939264,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "lstm",
+    "parameters": 48944,
+    "checkpoint_sha256": "611f82638a4573bf76269850ee81d1fa0ae1d3a73c6cc613083e077ae280821b",
+    "state_sha256": "0a0729553f57d217df295ebcdea898e276bfbabc738636c3a1965c6e86cd20f9",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9375,
+      "macro_f1": 0.9347902097902097,
+      "nll": 0.24915377795696259,
+      "no_command_to_motion_count": 2,
+      "no_command_to_motion_rate": 0.3333333333333333,
+      "stop_to_motion_count": 1,
+      "stop_recall": 0.8333333333333334,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        }
+      },
+      "no_command_to_down_count": 1,
+      "no_command_to_down_rate": 0.16666666666666666,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 0
+    },
+    "latency": {
+      "median_ms": 0.21437499999999998,
+      "p90_ms": 0.2232295,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 3.173159250000026
+  },
+  {
+    "seed": 22,
+    "best_step": 380,
+    "training_seconds": 1.9381513749831356,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "4d5faf9eda4461c0ee8fcdc77d0fd04b71d2beaa27bcd233b55c723e95a66c38",
+    "batch_indices_sha256": "33bcef356cb213cf6d9b0228c6426926507682ddfacff03b7000a67fb8160392",
+    "process_peak_rss_bytes_through_fit": 336297984,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "lstm",
+    "parameters": 48944,
+    "checkpoint_sha256": "65f032417af433d04952984d29099bfbc1eafc83486c205125992c2aac7f332f",
+    "state_sha256": "592b41bd062a301de297701bd390d52cf36029011d7c22e149d6d63d3f0c1405",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9375,
+      "macro_f1": 0.9361638361638361,
+      "nll": 0.34612807631492615,
+      "no_command_to_motion_count": 0,
+      "no_command_to_motion_rate": 0.0,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 0
+    },
+    "latency": {
+      "median_ms": 0.218125,
+      "p90_ms": 0.2248086,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 3.113915874972008
+  },
+  {
+    "seed": 33,
+    "best_step": 520,
+    "training_seconds": 1.9147057919763029,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "d2a497144d330b925846b801f1dd1583f4abc17d7612acd28e3a6599b73b69cf",
+    "batch_indices_sha256": "d2e0833bc4b6877266fd9f5b8623a05aaef35980bde2d85c7cb0ce08515f90f0",
+    "process_peak_rss_bytes_through_fit": 332021760,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "lstm",
+    "parameters": 48944,
+    "checkpoint_sha256": "c820a360e32f9ce1edf4e56b5a3e66a7e00f10065cc49c78cd64a08d76c20721",
+    "state_sha256": "79d62d115f4acf7a1afa9618b3facbc35c0d65d003c3fdf239b0ff3fa6fa8f05",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9166666666666666,
+      "macro_f1": 0.9098817848817848,
+      "nll": 0.3169032037258148,
+      "no_command_to_motion_count": 3,
+      "no_command_to_motion_rate": 0.5,
+      "stop_to_motion_count": 0,
+      "stop_recall": 1.0,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        }
+      },
+      "no_command_to_down_count": 2,
+      "no_command_to_down_rate": 0.3333333333333333,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 0
+    },
+    "latency": {
+      "median_ms": 0.2055205,
+      "p90_ms": 0.2262962,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 3.0730662919813767
+  },
+  {
+    "seed": 44,
+    "best_step": 380,
+    "training_seconds": 1.926058791053947,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "68c606294e8590a5c4f4528f07f9cd69c8e268e400170fa0d780403e072b8fa6",
+    "batch_indices_sha256": "b0b23adb39a9b85abe7fe14e666fdb29082eae01f3ef24300b86036eccfed25d",
+    "process_peak_rss_bytes_through_fit": 333152256,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "lstm",
+    "parameters": 48944,
+    "checkpoint_sha256": "79d1fe6ebca1a00dbec6828d0f3e67b0e8101307b27bc37fd3f87ad109070d52",
+    "state_sha256": "68e43a76e34c775bbadf73efca6db5a319ea0ae0043a2c56063633fffa5baafe",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8216346153846154,
+      "nll": 0.48941564559936523,
+      "no_command_to_motion_count": 4,
+      "no_command_to_motion_rate": 0.6666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8
+        }
+      },
+      "no_command_to_down_count": 3,
+      "no_command_to_down_rate": 0.5,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.1988745,
+      "p90_ms": 0.2120881,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 3.043368708982598
+  },
+  {
+    "seed": 55,
+    "best_step": 300,
+    "training_seconds": 1.9478839169605635,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "6157c04052a06225650e44eba4c3f961cc35393c0b63c45bf60886bad1bd7afa",
+    "batch_indices_sha256": "e4b84c204f5599ead23c42b5582a7ae9993a8e57bc830542141785e542f40e07",
+    "process_peak_rss_bytes_through_fit": 335233024,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "lstm",
+    "parameters": 48944,
+    "checkpoint_sha256": "fca300c608fd99b35891bdbcd375d58bc12e6d8fffbdb5d0bc767ab1915d3d3f",
+    "state_sha256": "7f3451c15a609435124d570613ae20c0062c15f9a445e87c00a4de9c301e9dbc",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8521270396270396,
+      "nll": 0.4651145040988922,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.8333333333333334,
+          "f1": 0.6666666666666667
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.8333333333333334,
+          "recall": 0.8333333333333334,
+          "f1": 0.8333333333333334
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.216729,
+      "p90_ms": 0.22521639999999998,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 3.0918896250077523
+  },
+  {
+    "seed": 11,
+    "best_step": 460,
+    "training_seconds": 2.9090629999991506,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "177cda57cb58c04fae50f6480f7a682290b804e6cfef017157bcd9eaeb80f708",
+    "batch_indices_sha256": "f72a4d8dd0174be75c18afd245c1c0c8069c94ddea2ea5520b6e35cc8513e0f8",
+    "process_peak_rss_bytes_through_fit": 333725696,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "bilstm",
+    "parameters": 49256,
+    "checkpoint_sha256": "b7bb0523ce2df989da32bfbe31d04fda8388baa163694278edecf8051f35475b",
+    "state_sha256": "9608dab2cbd16f4839f436c13763998ee42a1a930428c5bc15dc59a418dd44a6",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9166666666666666,
+      "macro_f1": 0.9165584415584416,
+      "nll": 0.21048599481582642,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 0
+    },
+    "latency": {
+      "median_ms": 0.3300835,
+      "p90_ms": 0.3428,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.046547708043363
+  },
+  {
+    "seed": 22,
+    "best_step": 360,
+    "training_seconds": 2.9098656669957563,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "df45b9732800d3ac99305ae3785114c9eab67439de689bebd70f523620988018",
+    "batch_indices_sha256": "33bcef356cb213cf6d9b0228c6426926507682ddfacff03b7000a67fb8160392",
+    "process_peak_rss_bytes_through_fit": 337215488,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "bilstm",
+    "parameters": 49256,
+    "checkpoint_sha256": "deda4134be6596dba90d76c3ddf1f6eb656605030e8cc1e7c65aa71d81900404",
+    "state_sha256": "5d8b684245a4c4019d48c23c01c84a6f993070094d374d887cfe3d8e8ec763ed",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8958333333333334,
+      "macro_f1": 0.8924679487179488,
+      "nll": 0.46456846594810486,
+      "no_command_to_motion_count": 0,
+      "no_command_to_motion_rate": 0.0,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1": 0.7499999999999999
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.3307295,
+      "p90_ms": 0.3496703,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.04810750001343
+  },
+  {
+    "seed": 33,
+    "best_step": 540,
+    "training_seconds": 2.9263749580131844,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "fa82ee82078a66764d7d5f5264d994ca8bf778137270d00dbbf8412792fa3a41",
+    "batch_indices_sha256": "d2e0833bc4b6877266fd9f5b8623a05aaef35980bde2d85c7cb0ce08515f90f0",
+    "process_peak_rss_bytes_through_fit": 334200832,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "bilstm",
+    "parameters": 49256,
+    "checkpoint_sha256": "1ef1feff5788b9776d8210d29d7ee4bb2edd36a0f182df00ede91e83d2e638ef",
+    "state_sha256": "95748c7e6052ae8448472207f26c34ad41e3f24fe496cf7b3676f25df51aa35d",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.9375,
+      "macro_f1": 0.9365384615384615,
+      "nll": 0.23156897723674774,
+      "no_command_to_motion_count": 0,
+      "no_command_to_motion_rate": 0.0,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307692
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 0
+    },
+    "latency": {
+      "median_ms": 0.335938,
+      "p90_ms": 0.3503006,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.055026166024618
+  },
+  {
+    "seed": 44,
+    "best_step": 540,
+    "training_seconds": 2.9377437499933876,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "a695e666038f9c4ad406959e1e1c20fa9d1059d815940ede677abcc519a947a1",
+    "batch_indices_sha256": "b0b23adb39a9b85abe7fe14e666fdb29082eae01f3ef24300b86036eccfed25d",
+    "process_peak_rss_bytes_through_fit": 337920000,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "bilstm",
+    "parameters": 49256,
+    "checkpoint_sha256": "eb240d90b5532b462e0cb9d004b025a2e5407d9cfc365f79f21aef5c07941425",
+    "state_sha256": "3123494e56db004835c38beb483a45c878fc0fe79b7ea092440a72e42a69efbc",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.8125,
+      "macro_f1": 0.8145521145521145,
+      "nll": 0.4253293573856354,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.625,
+          "recall": 0.8333333333333334,
+          "f1": 0.7142857142857143
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1": 0.8571428571428571
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.6666666666666666
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307692
+        },
+        "UP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "no_command_to_down_count": 0,
+      "no_command_to_down_rate": 0.0,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 1
+    },
+    "latency": {
+      "median_ms": 0.334396,
+      "p90_ms": 0.3462042,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.091079082980286
+  },
+  {
+    "seed": 55,
+    "best_step": 360,
+    "training_seconds": 2.9160273330053315,
+    "optimizer_steps": 560,
+    "validation_checks": 28,
+    "training_clips": 538,
+    "training_class_counts": [
+      124,
+      85,
+      68,
+      59,
+      57,
+      61,
+      50,
+      34
+    ],
+    "initial_state_sha256": "bdbe8b8a5225c86fd7aefd35266bf3119da86e646f3938fdb1fd27500b19a8b6",
+    "batch_indices_sha256": "e4b84c204f5599ead23c42b5582a7ae9993a8e57bc830542141785e542f40e07",
+    "process_peak_rss_bytes_through_fit": 336920576,
+    "peak_rss_scope": "Fresh worker process through fit, including interpreter/Torch/data/optimizer.",
+    "condition": "bilstm",
+    "parameters": 49256,
+    "checkpoint_sha256": "9bf73890f8f0c699cfac64913acda435c52d4677a8be9f5846da9e58d1ff1e25",
+    "state_sha256": "6e2e97540e05335fbbfdc0faa1d8263b9890b31ab2e85fba344a8b19a2717f81",
+    "validation": {
+      "clips": 48,
+      "labels": [
+        "FORWARD",
+        "BACKWARD",
+        "LEFT",
+        "RIGHT",
+        "STOP",
+        "NO_COMMAND",
+        "UP",
+        "DOWN"
+      ],
+      "accuracy": 0.875,
+      "macro_f1": 0.8746003996003995,
+      "nll": 0.4357508718967438,
+      "no_command_to_motion_count": 1,
+      "no_command_to_motion_rate": 0.16666666666666666,
+      "stop_to_motion_count": 2,
+      "stop_recall": 0.6666666666666666,
+      "confusion_matrix_actual_rows_predicted_columns": [
+        [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          2,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "per_class": {
+        "FORWARD": {
+          "support": 6,
+          "precision": 0.625,
+          "recall": 0.8333333333333334,
+          "f1": 0.7142857142857143
+        },
+        "BACKWARD": {
+          "support": 6,
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272
+        },
+        "LEFT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "RIGHT": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "STOP": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8
+        },
+        "NO_COMMAND": {
+          "support": 6,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091
+        },
+        "UP": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        },
+        "DOWN": {
+          "support": 6,
+          "precision": 0.8571428571428571,
+          "recall": 1.0,
+          "f1": 0.923076923076923
+        }
+      },
+      "no_command_to_down_count": 1,
+      "no_command_to_down_rate": 0.16666666666666666,
+      "forward_to_backward_count": 0,
+      "backward_to_forward_count": 2
+    },
+    "latency": {
+      "median_ms": 0.33260449999999997,
+      "p90_ms": 0.3444253,
+      "warmup": 40,
+      "timed_passes": 200,
+      "scope": "CPU forward pass for one preprocessed full window; acquisition/tracker excluded."
+    },
+    "worker_wall_seconds": 4.076927791000344
+  }
+]

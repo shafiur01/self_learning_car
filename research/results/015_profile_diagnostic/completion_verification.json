@@ -1,0 +1,27 @@
+{
+  "parent_artifacts_intact": true,
+  "seed_score_bundles_reproduced": 5,
+  "ranking_selections_reproduced": 180,
+  "student_prediction_vectors_reproduced": 1225,
+  "original_profile_and_embedding_weights_reproduced": true,
+  "scores_frozen_before_oracle_access": true,
+  "new_fits": 0,
+  "endpoint_feature_or_score_payloads_loaded": 0,
+  "software_checks_passed": 7,
+  "independent_selection_error_counts_verified": 180,
+  "csv_rows_verified": {
+    "candidates": 1225,
+    "true_class_stages": 40,
+    "predicted_class_stages": 40,
+    "ranking_results": 180,
+    "ranking_classes": 1440,
+    "student_proxies": 20,
+    "ranking_pooled": 36
+  },
+  "diagnostic_freeze_sha256": "677d1a493b23b29aa1888ad384b317f7bdb9c8ac87572c8c50983cf7d390055c",
+  "score_freeze_sha256": "eb3c138801090994ef08f7a3993dbe6010794bc444c449d603d927e13ae8596f",
+  "score_access_audit_sha256": "b224ceb9da60f0489d74f9092b547aa73845d958560cb298a81d97bc9acb8edf",
+  "artifact_manifest_sha256": "7cdfce366de0d3fe1478c64d68226daa3d55e159ab535257702a71be970e6b65",
+  "scientific_figure_visually_checked": true,
+  "new_fit_or_activation": false
+}

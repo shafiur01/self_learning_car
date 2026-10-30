@@ -1,0 +1,23 @@
+{
+  "reference_and_new_input_files_verified": 640,
+  "saved_prediction_vectors_verified": 1320,
+  "checkpoints_sha256": {
+    "reference/seed_11/model.pt": "090adc1dcd624d5dca372fdca32ac52784ac9af3b3feda98688a5278d1ba426d",
+    "reference/seed_22/model.pt": "f331f99d56196ef7fa14a19f4eb050b6d6fa7f484095af2da4bf0515109bf0d8",
+    "reference/seed_33/model.pt": "0ef1f8108f74983560945014bc00c8eb3853e5f6838cfcdd906be0eb8144aff7",
+    "reference/seed_44/model.pt": "df58e86cfb6a272dbec73cbbca432a9d4add51f64b4b38282fc016da7a775342",
+    "reference/seed_55/model.pt": "0342a2c5ad998cd18b4eb756219483e06444cd838556a7581145888d5d47533d",
+    "routine/seed_11/model.pt": "6340e256415a94fd5a2cf2db96bf363b647cc4866c5a172e390332d1d8aaf99f",
+    "routine/seed_22/model.pt": "588b9fc5a45a02ee12a70f0bdd4cc4c8d6c36f69106c3359148724401ca536ca",
+    "routine/seed_33/model.pt": "bbf358c3510039bffe75345390baa013c151aca669f86a36ebf696454b0ad335",
+    "routine/seed_44/model.pt": "ea09d452297eba53054fede452604d6acf2887a27bfddcc766c4ec365c9b7927",
+    "routine/seed_55/model.pt": "9394e976fbc5998aed2af2d705e29943377fa914fe986a4579acdfc99dc706f0",
+    "targeted/seed_11/model.pt": "9a900e8d8cb49845771f6f553fa2c106ac306ca5cddff5d7873049a6c9cea834",
+    "targeted/seed_22/model.pt": "03c18f5423d146185334cef813c4ee6d72f44c59afc7eb8a0dc47ca60b5e66ff",
+    "targeted/seed_33/model.pt": "be0429e094fa053e44b43b9659aa567cada9dae4b2a15bf71e59adbcf8730082",
+    "targeted/seed_44/model.pt": "cdae88f9aa56e2f4fe89dec2e691618fbdc27406fa43a9a38d798e98211c7f06",
+    "targeted/seed_55/model.pt": "4c8987e0b217931780aaec4e40d2c79726b24267d8824fdc247d170940970167"
+  },
+  "paired_initial_states_batch_indices_class_counts_verified": true,
+  "scope": "Artifact/software integrity, not population or robot reliability."
+}

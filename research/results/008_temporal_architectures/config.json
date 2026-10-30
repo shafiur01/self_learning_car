@@ -1,0 +1,36 @@
+{
+  "experiment_id": "008_temporal_comparison",
+  "conditions": [
+    "cnn",
+    "pose_set",
+    "feature_set",
+    "lstm",
+    "bilstm"
+  ],
+  "training": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "optimizer_steps": 560,
+    "validation_every_steps": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "threads": 2,
+    "augmentation": "none"
+  },
+  "source_study": "research/experiments/runs/commands_v3/20261012T205727638067Z",
+  "original_checkpoint_sha256": {
+    "seed_11/model.pt": "391d9dab23ad42880b02b9063cae2cba1162d996c7998122937ddd43142f2a5d",
+    "seed_22/model.pt": "25f4c8931013d54e20228c9de3a4865fb962602eacc8a667cd7a9aef507b558a",
+    "seed_33/model.pt": "c7eeaa868eee5a30c05df615cb546328672794bdd0da988eeb48473b376a4308",
+    "seed_44/model.pt": "bd64cbc8bd7aeeffb5ca65f0cb2dc973fb6e99f35195d88a4f2c2abf077cea59",
+    "seed_55/model.pt": "081e726795349e0942651b5e1febe76f64787451052dce81e32141ddf0203ad3"
+  },
+  "latency_warmup": 40,
+  "latency_repeats": 200,
+  "fresh_worker_processes": true
+}

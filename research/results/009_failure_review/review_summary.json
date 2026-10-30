@@ -1,0 +1,98 @@
+{
+  "FORWARD": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 2,
+    "repeated_model_errors": 27,
+    "unique_failures_by_family": {
+      "cnn": 2,
+      "pose_set": 2,
+      "feature_set": 2,
+      "lstm": 2,
+      "bilstm": 2
+    }
+  },
+  "BACKWARD": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 3,
+    "repeated_model_errors": 41,
+    "unique_failures_by_family": {
+      "cnn": 2,
+      "pose_set": 3,
+      "feature_set": 2,
+      "lstm": 3,
+      "bilstm": 3
+    }
+  },
+  "LEFT": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 0,
+    "repeated_model_errors": 0,
+    "unique_failures_by_family": {
+      "cnn": 0,
+      "pose_set": 0,
+      "feature_set": 0,
+      "lstm": 0,
+      "bilstm": 0
+    }
+  },
+  "RIGHT": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 1,
+    "repeated_model_errors": 1,
+    "unique_failures_by_family": {
+      "cnn": 0,
+      "pose_set": 0,
+      "feature_set": 0,
+      "lstm": 0,
+      "bilstm": 1
+    }
+  },
+  "STOP": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 2,
+    "repeated_model_errors": 47,
+    "unique_failures_by_family": {
+      "cnn": 2,
+      "pose_set": 2,
+      "feature_set": 2,
+      "lstm": 2,
+      "bilstm": 2
+    }
+  },
+  "NO_COMMAND": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 5,
+    "repeated_model_errors": 26,
+    "unique_failures_by_family": {
+      "cnn": 1,
+      "pose_set": 1,
+      "feature_set": 1,
+      "lstm": 4,
+      "bilstm": 3
+    }
+  },
+  "UP": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 2,
+    "repeated_model_errors": 13,
+    "unique_failures_by_family": {
+      "cnn": 1,
+      "pose_set": 1,
+      "feature_set": 1,
+      "lstm": 0,
+      "bilstm": 2
+    }
+  },
+  "DOWN": {
+    "validation_clips": 6,
+    "unique_any_model_failures": 0,
+    "repeated_model_errors": 0,
+    "unique_failures_by_family": {
+      "cnn": 0,
+      "pose_set": 0,
+      "feature_set": 0,
+      "lstm": 0,
+      "bilstm": 0
+    }
+  }
+}

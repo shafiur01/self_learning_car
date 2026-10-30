@@ -1,0 +1,29 @@
+{
+  "prepared_date": "2026-10-30",
+  "scope": "Repository preparation; no new research experiment.",
+  "software_checks": {
+    "tests": 198,
+    "passed": true,
+    "clean_copy_excluded": "personal recordings, private runs/notes and detector weights"
+  },
+  "exported_records": {
+    "studies": 20,
+    "files": 634,
+    "bytes": 8671020,
+    "payloads_compared_with_originals": 594,
+    "numerical_values_preserved": true
+  },
+  "preservation": {
+    "original_private_artifact_files_unchanged": 5613,
+    "frozen_python_sources_unchanged": 32,
+    "project_index_empty": true,
+    "branch": "SRB-hand-detection"
+  },
+  "git_state_note": "At preparation time only: the user will stage/commit/push; the project branch/index were not changed by this work.",
+  "storage_note": "Ignored originals remain local. No off-device backup or external artifact upload was performed.",
+  "limitations": [
+    "Basic content-pattern checking does not prove absence of all sensitive information.",
+    "Some original training loaders require private archives and original path assumptions.",
+    "Three mocked-camera tests use a temporary test-only asset fixture; production guards are unchanged."
+  ]
+}

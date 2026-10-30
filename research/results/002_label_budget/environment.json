@@ -1,0 +1,31 @@
+{
+  "python": "3.14.7 (v3.14.7:823f0323ee6, Aug  5 2026, 07:07:01) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "torch": "2.14.0",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "device": "cpu",
+  "threads": 2,
+  "git_commit": "1aa67d04df9506d10c796568f4d450456d62ad54",
+  "git_status_at_start": " M .gitignore\n M README.md\n?? AGENTS.md\n?? gesture_commands/\n?? research/\n",
+  "source_sha256": {
+    "research/experiments/run.py": "6a5ba8db327ad4c48657faaeff0e9307d561b96a32b56fbbccb5626c54b42b9a",
+    "research/experiments/augment.py": "d3abbc6e33fd923598a84e03cd299b53ad757061f463c0cc0de3a112973a4a61",
+    "gesture_commands/data.py": "ae2459bc4adb4aab0a2dbf648a47755f87135a714abc278413c35c17784e35d4",
+    "gesture_commands/model.py": "c9c1123da61a225edde1a7f76f247e73ed13ef4cddaa1d2ccac2f3fa0e7ef24f",
+    "gesture_commands/train.py": "d00de3e196d9ac191cced5a19e71e5a6d347c1687664f09e9e8d31c44b65e18e",
+    "requirements.txt": "dba7a80ec97e25abbb6aac6a6169ce4ac84d96fe16979526eb35fe133fabdffc",
+    "gesture_commands/requirements.txt": "45c82df5ceb1a5f798eaedc8f7f0ea6f6b3c2d41af0410ae623ee98f18b743d1",
+    "research/PROTOCOL.md": "8e913ea8171e75a53f443ecbbdcc124decbe90e445e7e381440b40fb7785e839",
+    "research/experiments/label_budget.py": "01c035523d2a9f0b9f2ed2d8fa0b591f5f6636cbde059be9123b3d1bbddbb046",
+    "research/experiments/test_label_budget.py": "9ceed3dc1226bd2cbb1406d1ef7ebbba720c9fc801106edd7f6f4ca0746df1bc",
+    "research/LESSON_02.md": "41e754c5020870ed2214d2d408fd22fbb34a8bc3dc68bb605493dde880be0cd6"
+  },
+  "artifact_sha256": {
+    "config.json": "1fecff6e62a1945cfc6c5f1df665cd2479e7783908d04c7b8f3230b3d3d76977",
+    "manifest.json": "6983dd295504092ac898fa168adaeca4f7fe5a3e33349ebb09903b98df3959eb",
+    "selections.json": "981d7b1c232f1530f376dcd023927c8026374266216d70bf04229db74395f191",
+    "development_features.npz": "52e6ff4d5ab4273465c8dd9e9c742d1a793ab534b994cd4f157123c4c9ef8efe"
+  }
+}

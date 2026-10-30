@@ -1,0 +1,15 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "optimizer_steps": 560,
+  "validation_every_steps": 20,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "threads": 2,
+  "augmentation": "none"
+}

@@ -1,0 +1,117 @@
+{
+  "variants": {
+    "baseline": {
+      "original_label_accuracy_mean": 0.8583333333333334,
+      "original_label_macro_f1_mean": 0.861105561105561,
+      "prediction_flip_rate_mean": 0.0,
+      "mean_js_divergence": 0.0,
+      "original_label_recall": {
+        "FORWARD": 0.7333333333333333,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      }
+    },
+    "zero_wrist_xy": {
+      "original_label_accuracy_mean": 0.8583333333333334,
+      "original_label_macro_f1_mean": 0.861105561105561,
+      "prediction_flip_rate_mean": 0.0,
+      "mean_js_divergence": 0.00011214138066861778,
+      "original_label_recall": {
+        "FORWARD": 0.7333333333333333,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      }
+    },
+    "zero_size_change": {
+      "original_label_accuracy_mean": 0.8625,
+      "original_label_macro_f1_mean": 0.8654095904095904,
+      "prediction_flip_rate_mean": 0.004166666666666667,
+      "mean_js_divergence": 9.274217081838288e-05,
+      "original_label_recall": {
+        "FORWARD": 0.7666666666666667,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      }
+    },
+    "static_local_shape": {
+      "original_label_accuracy_mean": 0.8208333333333334,
+      "original_label_macro_f1_mean": 0.8088852813852814,
+      "prediction_flip_rate_mean": 0.07083333333333333,
+      "mean_js_divergence": 0.028393403440713883,
+      "original_label_recall": {
+        "FORWARD": 0.8,
+        "BACKWARD": 0.3666666666666666,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.8666666666666666,
+        "DOWN": 1.0
+      }
+    },
+    "static_shape_zero_trajectory": {
+      "original_label_accuracy_mean": 0.8291666666666666,
+      "original_label_macro_f1_mean": 0.8169209956709957,
+      "prediction_flip_rate_mean": 0.07083333333333333,
+      "mean_js_divergence": 0.02762594595551491,
+      "original_label_recall": {
+        "FORWARD": 0.8666666666666668,
+        "BACKWARD": 0.3666666666666666,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.8666666666666666,
+        "DOWN": 1.0
+      }
+    },
+    "shuffled_frames": {
+      "original_label_accuracy_mean": 0.8583333333333334,
+      "original_label_macro_f1_mean": 0.861105561105561,
+      "prediction_flip_rate_mean": 0.0,
+      "mean_js_divergence": 0.0001490074282628484,
+      "original_label_recall": {
+        "FORWARD": 0.7333333333333333,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      }
+    },
+    "reversed_raw": {
+      "original_label_accuracy_mean": 0.8625,
+      "original_label_macro_f1_mean": 0.8654095904095904,
+      "prediction_flip_rate_mean": 0.004166666666666667,
+      "mean_js_divergence": 0.00044988620211370287,
+      "original_label_recall": {
+        "FORWARD": 0.7666666666666667,
+        "BACKWARD": 0.7,
+        "LEFT": 1.0,
+        "RIGHT": 1.0,
+        "STOP": 0.6666666666666666,
+        "NO_COMMAND": 0.8666666666666668,
+        "UP": 0.9,
+        "DOWN": 1.0
+      }
+    }
+  },
+  "interpretation": "Exploratory fixed-weight sensitivity on inspected development validation. Perturbed clips may be OOD/change meaning; no new accuracy, causality, novelty, label-savings or robot-reliability claim."
+}

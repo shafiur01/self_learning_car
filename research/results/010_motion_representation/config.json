@@ -1,0 +1,33 @@
+{
+  "experiment_id": "010_motion_representation",
+  "training": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "optimizer_steps": 560,
+    "validation_every_steps": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "threads": 2,
+    "augmentation": "none"
+  },
+  "modes": [
+    "camera_pose",
+    "camera_motion",
+    "hand_pose",
+    "hand_motion"
+  ],
+  "prefix_deadlines_seconds": {
+    "p050": 0.5,
+    "p100": 1.0,
+    "p150": 1.5
+  },
+  "feature_version": 2,
+  "features": 146,
+  "parameters": 49276,
+  "source_study": "research/experiments/runs/temporal_comparison/20261014T011524632211Z"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment": "012_later_sessions",
+  "original_archive": "research/experiments/data/prospective_motion_011/analysis",
+  "finding": "research/findings/012_prospective_motion_sessions.md",
+  "scope": "Historical development/retrospective records; see finding for endpoint roles and limits.",
+  "transformations": [
+    "Local paths made portable; numerical values retained.",
+    "Allowed metadata/tables/charts/loss histories only; no recordings, weights or per-clip viewer data."
+  ],
+  "source_sha256": {
+    "summary.json": "59a1a3ead713066745ce9726dac84ad1c330aaf1ee5b837b06bc5084c66bade1",
+    "costs.json": "56f79df3eaaf50002c28d217b6dd583bd35f0c9cef2cfe917bff068198295b39",
+    "completion_verification.json": "d63bdaa67d2365e95bb4a2bec3f46033e7078aaba7b7dd272d98c56a7870c9d2",
+    "model_results.csv": "c01a166b5e8dee11dc5f51e6a2229f998c9ab95ee54830d56da2d9e0938ba9a2",
+    "per_class_results.csv": "9875d1011602b681d68f8efd3b1593b0f2c8675b49ae011e86fbd56ea2c610fd",
+    "up_style_posthoc.csv": "6a4c937f07dc789dd19cab862f3586310661bed6f6940606fd88a851990e0627",
+    "figure.png": "4b045105fe372606de619eed9eb746c758edebc7f5192a1b819d6b2849e8e042",
+    "figure.pdf": "b34d9fe4cfd4c4cfa3310041e783a0c5af56c7eb43eca7dd3a8a3c474c671313"
+  },
+  "private_reference_sha256": {},
+  "export_sha256": {
+    "summary.json": "59a1a3ead713066745ce9726dac84ad1c330aaf1ee5b837b06bc5084c66bade1",
+    "costs.json": "56f79df3eaaf50002c28d217b6dd583bd35f0c9cef2cfe917bff068198295b39",
+    "completion_verification.json": "d63bdaa67d2365e95bb4a2bec3f46033e7078aaba7b7dd272d98c56a7870c9d2",
+    "model_results.csv": "945fc82a4902b0f9f72307cdb1c769d26217ca2953a398fe8d8d57f3ad942713",
+    "per_class_results.csv": "a8407801de2e1b1036612c68c749498f7c21c728e235b43357cffeae0dcd577f",
+    "up_style_posthoc.csv": "e31c2d56ffdcb8e525344545fb2a45e495f5545ca9acd7612b7d4b4b9a8de11b",
+    "figure.png": "4b045105fe372606de619eed9eb746c758edebc7f5192a1b819d6b2849e8e042",
+    "figure.pdf": "b34d9fe4cfd4c4cfa3310041e783a0c5af56c7eb43eca7dd3a8a3c474c671313"
+  }
+}

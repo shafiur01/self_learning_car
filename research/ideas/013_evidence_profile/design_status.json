@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-16T01:08:57.319029+00:00",
+  "state": "proposal_ready_for_implementation_not_real_fit",
+  "novelty": "unestablished_bounded_primary_source_review",
+  "real_model_accuracy_results": null,
+  "new_personal_recordings_requested": 0,
+  "real_fits": 0,
+  "mathematical_checks_passed": 8,
+  "existing_fit_input_files_unchanged": 586,
+  "existing_prospective_recordings_unchanged": 96,
+  "frozen_models_and_sources_intact": 115,
+  "critical_pre_fit_items": [
+    "Sanitized label-access boundary and sampled row identities.",
+    "Exact matched-count/weight-mass and total-compute control rules.",
+    "Freeze implementation/config before real fitting."
+  ],
+  "source_artifact_sha256": {
+    "research/ideas/013_evidence_profile/README.md": "2eb6c6194c4843f42789058ecab0486e26391c2806d231fc4424e303bea8a30f",
+    "research/ideas/013_evidence_profile/EXPERIMENT_PLAN.md": "8deb0e488c3821258ced0c89f5ea279566ab2a762937b2e4c7778aef995d10d0",
+    "research/ideas/013_evidence_profile/ALGORITHM.md": "546167981fd2b0f06caeb5a4e0df7be2d88f654c26358242d76aa0f820b2571d",
+    "research/ideas/013_evidence_profile/feasibility.json": "c3a8cf134aac1c1b395e72dc8be0c582c0bf892929fc718408328a8860c0aa9e",
+    "research/LESSON_17.md": "53dc7f4f190596e832e75a5f7997ef16e214cb87b2b5418eacb0fddf571157a8",
+    "research/experiments/evidence_profile_demo.py": "b989702615b76bebbcd59eb23614b8b20859efd7d568176863b4d5a8f1fccbf6",
+    "research/notes/2026-10-15_algorithm_prior_art_agent.md": "367ab57839fcbcb4a91b7b336401cfc5df78c46a2e8f0aa6ee272ad439e8a173",
+    "research/notes/2026-10-15_fixed_data_protocol_agent.md": "5ebe276dde1a778f8cb503d367d883ef23864502203d592e007a62bac6019b4f",
+    "research/notes/2026-10-15_algorithm_design_agent.md": "5b48131f13c9f59cff1f81f7ad9c762704ef68b0bf79dc062ac5e6a10621e3c6"
+  },
+  "historical_hash_scope": "Original design snapshot before pilot; proposal files now link subsequent empirical outcome.",
+  "subsequent_pilot": {
+    "study": "research/experiments/runs/evidence_profile/20261016T030844123147Z",
+    "state": "complete_no_supported_improvement",
+    "finding": "research/findings/013_evidence_profile.md"
+  }
+}

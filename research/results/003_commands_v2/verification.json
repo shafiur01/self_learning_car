@@ -1,0 +1,15 @@
+{
+  "input_hashes_verified": true,
+  "archived_sources_verified": true,
+  "development_files_verified": 519,
+  "predictions_regenerated": 235,
+  "label_correction_verified": true,
+  "checkpoints_sha256": {
+    "seed_11/model.pt": "090adc1dcd624d5dca372fdca32ac52784ac9af3b3feda98688a5278d1ba426d",
+    "seed_22/model.pt": "f331f99d56196ef7fa14a19f4eb050b6d6fa7f484095af2da4bf0515109bf0d8",
+    "seed_33/model.pt": "0ef1f8108f74983560945014bc00c8eb3853e5f6838cfcdd906be0eb8144aff7",
+    "seed_44/model.pt": "df58e86cfb6a272dbec73cbbca432a9d4add51f64b4b38282fc016da7a775342",
+    "seed_55/model.pt": "0342a2c5ad998cd18b4eb756219483e06444cd838556a7581145888d5d47533d"
+  },
+  "note": "Software/artifact integrity only; no physical-robot or final-test validation."
+}
